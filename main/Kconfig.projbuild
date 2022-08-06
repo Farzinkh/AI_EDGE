@@ -1,162 +1,98 @@
-menu  "Application Configuration"
-menu "Camera Configuration"
+menu "CONFIG"                
+    menu "CAMERA & CLI CONFIG"
+        choice CLI_STATE
+            bool "Enable CLI"
+            default enable
+            help
+                enable cli otherwise camera will be enable.
+            config ENABLE_CLI
+                bool "Enable"
+            config DISABLE_CLI
+                bool "Disable"  
+        endchoice
+        choice XCLK_FREQ
+            bool "Frequency"
+            default 20MHz
+            help
+                frequency 10MHz or 20MHz.
 
-choice CAMERA_MODULE
-    bool "Select Camera Pinout"
-    default CAMERA_MODULE_WROVER_KIT
-    help
-        Select Camera Pinout.
+            config 20MHz
+                bool "20MHz"
+            config 15MHz
+                bool "15MHz"    
+            config 10MHz
+                bool "10MHz"
+        endchoice
 
-    config CAMERA_MODULE_WROVER_KIT
-        bool "WROVER-KIT With OV2640 Module"
-    config CAMERA_MODULE_ESP_EYE
-        bool "ESP-EYE DevKit"
-    config CAMERA_MODULE_ESP_S2_KALUGA
-        bool "ESP32-S2-Kaluga-1 V1.3"
-    config CAMERA_MODULE_ESP_S3_EYE
-        bool "ESP-S3-EYE DevKit"
-    config CAMERA_MODULE_ESP32_CAM_BOARD
-        bool "ESP32 Camera Development Board"
-    config CAMERA_MODULE_M5STACK_PSRAM
-        bool "M5Stack Camera With PSRAM"
-    config CAMERA_MODULE_M5STACK_WIDE
-        bool "M5Stack Camera F (Wide)"
-    config CAMERA_MODULE_AI_THINKER
-        bool "ESP32-CAM by AI-Thinker"
-    config CAMERA_MODULE_CUSTOM
-        bool "Custom Camera Pinout"
-endchoice
+        config XCLK_FREQ
+            int 
+            default 20000000 if 20MHz
+            default 15000000 if 15MHz
+            default 10000000 if 10MHz
+            
+        choice FRAMESIZE
+            bool "Resolution"
+            default 96x96
+            help
+                Do not use sizes above QVGA when not JPEG.
+            config 96x96
+                bool "96x96"
+            config QQVGA
+                bool "QQVGA 160x120" 
+            config 240x240
+                bool "240X240"              
+            config QVGA
+                bool "QVGA 320x240"
+            config CIF
+                bool "CIF 400x296"
+            config HVGA
+                bool "HVGA 480x320"
+            config VGA
+                bool "VGA 640x480"  
+            config SVGA
+                bool "SVGA 800x600"    
+            config HD
+                bool "HD 1280x720" 
+            config UXGA
+                bool "UXGA 1600x1200" 
+        endchoice
 
-config CAMERA_PIN_PWDN
-    depends on CAMERA_MODULE_CUSTOM
-    int "Power Down pin"
-    range -1 33
-    default -1
-    help
-        Select Power Down pin or -1 for unmanaged.
+        config FRAMESIZE
+            int 
+            default 0 if 96x96
+            default 1 if QQVGA
+            default 4 if 240X240
+            default 5 if QVGA
+            default 6 if CIF 
+            default 7 if HVGA
+            default 8 if VGA 
+            default 9 if SVGA
+            default 11 if HD 
+            default 13 if UXGA
+            
+        choice PIXFORMAT
+            bool "Image format"
+            default GRAYSCALE
+            help
+                image format to save.
 
-config CAMERA_PIN_RESET
-    depends on CAMERA_MODULE_CUSTOM
-    int "Reset pin"
-    range -1 33
-    default -1
-    help
-        Select Camera Reset pin or -1 for software reset.
+            config JPEG
+                bool "JPEG"
+            config GRAYSCALE
+                bool "GRAYSCALE"
+            config RAW
+                bool "RAW"
+            config RGB565
+                bool "RGB565"    
+        endchoice
 
-config CAMERA_PIN_XCLK
-    depends on CAMERA_MODULE_CUSTOM
-    int "XCLK pin"
-    range 0 33
-    default 21
-    help
-        Select Camera XCLK pin.
+        config PIXFORMAT
+            int 
+            default 3 if JPEG
+            default 2 if GRAYSCALE    
+            default 5 if RAW
+            default 0 if RGB565  
+            
 
-config CAMERA_PIN_SIOD
-    depends on CAMERA_MODULE_CUSTOM
-    int "SIOD pin"
-    range 0 33
-    default 26
-    help
-        Select Camera SIOD pin.
-
-config CAMERA_PIN_SIOC
-    depends on CAMERA_MODULE_CUSTOM
-    int "SIOC pin"
-    range 0 33
-    default 27
-    help
-        Select Camera SIOC pin.
-
-config CAMERA_PIN_VSYNC
-    depends on CAMERA_MODULE_CUSTOM
-    int "VSYNC pin"
-    range 0 39
-    default 25
-    help
-        Select Camera VSYNC pin.
-
-config CAMERA_PIN_HREF
-    depends on CAMERA_MODULE_CUSTOM
-    int "HREF pin"
-    range 0 39
-    default 23
-    help
-        Select Camera HREF pin.
-
-config CAMERA_PIN_PCLK
-    depends on CAMERA_MODULE_CUSTOM
-    int "PCLK pin"
-    range 0 39
-    default 25
-    help
-        Select Camera PCLK pin.
-
-config CAMERA_PIN_Y2
-    depends on CAMERA_MODULE_CUSTOM
-    int "Y2 pin"
-    range 0 39
-    default 4
-    help
-        Select Camera Y2 pin.
-
-config CAMERA_PIN_Y3
-    depends on CAMERA_MODULE_CUSTOM
-    int "Y3 pin"
-    range 0 39
-    default 5
-    help
-        Select Camera Y3 pin.
-
-config CAMERA_PIN_Y4
-    depends on CAMERA_MODULE_CUSTOM
-    int "Y4 pin"
-    range 0 39
-    default 18
-    help
-        Select Camera Y4 pin.
-
-config CAMERA_PIN_Y5
-    depends on CAMERA_MODULE_CUSTOM
-    int "Y5 pin"
-    range 0 39
-    default 19
-    help
-        Select Camera Y5 pin.
-
-config CAMERA_PIN_Y6
-    depends on CAMERA_MODULE_CUSTOM
-    int "Y6 pin"
-    range 0 39
-    default 36
-    help
-        Select Camera Y6 pin.
-
-config CAMERA_PIN_Y7
-    depends on CAMERA_MODULE_CUSTOM
-    int "Y7 pin"
-    range 0 39
-    default 39
-    help
-        Select Camera Y7 pin.
-
-config CAMERA_PIN_Y8
-    depends on CAMERA_MODULE_CUSTOM
-    int "Y8 pin"
-    range 0 39
-    default 34
-    help
-        Select Camera Y8 pin.
-
-config CAMERA_PIN_Y9
-    depends on CAMERA_MODULE_CUSTOM
-    int "Y9 pin"
-    range 0 39
-    default 35
-    help
-        Select Camera Y9 pin.
-endmenu
-
-menu "Display support"
-
-endmenu
+    endmenu
 endmenu
