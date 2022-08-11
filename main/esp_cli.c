@@ -14,23 +14,8 @@
 #include "sd_card.h"
 #include <dirent.h>
 
-#define IMAGE_COUNT 10
-static uint8_t *image_database[IMAGE_COUNT];
-
-
-extern const uint8_t image0_start[]   asm("_binary_image0_start");
-extern const uint8_t image1_start[]   asm("_binary_image1_start");
-extern const uint8_t image2_start[]   asm("_binary_image2_start");
-extern const uint8_t image3_start[]   asm("_binary_image3_start");
-extern const uint8_t image4_start[]   asm("_binary_image4_start");
-extern const uint8_t image5_start[]   asm("_binary_image5_start");
-extern const uint8_t image6_start[]   asm("_binary_image6_start");
-extern const uint8_t image7_start[]   asm("_binary_image7_start");
-extern const uint8_t image8_start[]   asm("_binary_image8_start");
-extern const uint8_t image9_start[]   asm("_binary_image9_start");
-
 static int stop;
-static const char *TAG = "[esp_cli]";
+static const char *TAG = "CLI";
 
 static int task_dump_cli_handler(int argc, char *argv[])
 {
@@ -73,20 +58,20 @@ static int cpu_dump_cli_handler(int argc, char *argv[])
 static int mem_dump_cli_handler(int argc, char *argv[])
 {
     /* Just to go to the next line */
+    const float MB=0.000000954;
     printf("\n");
-    printf("\tDescription\tInternal\tSPIRAM\n");
-    printf("Current Free Memory\t%d\t\t%d\n",
-           heap_caps_get_free_size(MALLOC_CAP_8BIT) - heap_caps_get_free_size(MALLOC_CAP_SPIRAM),
-           heap_caps_get_free_size(MALLOC_CAP_SPIRAM));
-    printf("Largest Free Block\t%d\t\t%d\n",
-           heap_caps_get_largest_free_block(MALLOC_CAP_8BIT | MALLOC_CAP_INTERNAL),
-           heap_caps_get_largest_free_block(MALLOC_CAP_SPIRAM));
-    printf("Min. Ever Free Size\t%d\t\t%d\n",
-           heap_caps_get_minimum_free_size(MALLOC_CAP_8BIT | MALLOC_CAP_INTERNAL),
-           heap_caps_get_minimum_free_size(MALLOC_CAP_SPIRAM));
+    printf("\tDescription\tInternal\t\tSPIRAM\n");
+    printf("Current Free Memory\t%.6f\t\t%.6f\n",
+           (heap_caps_get_free_size(MALLOC_CAP_8BIT) - heap_caps_get_free_size(MALLOC_CAP_SPIRAM))*MB,
+           heap_caps_get_free_size(MALLOC_CAP_SPIRAM)*MB);
+    printf("Largest Free Block\t%.6f\t\t%.6f\n",
+           heap_caps_get_largest_free_block(MALLOC_CAP_8BIT | MALLOC_CAP_INTERNAL)*MB,
+           heap_caps_get_largest_free_block(MALLOC_CAP_SPIRAM)*MB);
+    printf("Min. Ever Free Size\t%.6f\t\t%.6f\n",
+           heap_caps_get_minimum_free_size(MALLOC_CAP_8BIT | MALLOC_CAP_INTERNAL)*MB,
+           heap_caps_get_minimum_free_size(MALLOC_CAP_SPIRAM)*MB);
     return 0;
 }
-
 static int inference_benchmark_handler(int argc,char *argv[])
 {
     printf("\n");
@@ -128,31 +113,6 @@ static int inference_benchmark_handler(int argc,char *argv[])
     return 0;
 }
 
-static int inference_cli_handler(int argc, char *argv[])
-{
-    /* Just to go to the next line */
-    printf("\n");
-    if (argc != 2) {
-        printf("%s: Incorrect arguments\n", TAG);
-        return 0;
-    }
-    int image_number = atoi(argv[1]);
-
-    if((image_number < 0) || (image_number >= IMAGE_COUNT)) {
-        ESP_LOGE(TAG, "Please Enter a valid Number ( 0 - %d)", IMAGE_COUNT-1);
-        return -1;
-    }
-   // char file_name[30];
-   // sprintf(file_name, "image%d.raw", image_number);
-    uint32_t detect_time;
-    detect_time = esp_timer_get_time();
-    run_inference((void *)image_database[image_number]);
-    detect_time = (esp_timer_get_time() - detect_time)/1000;
-    ESP_LOGI(TAG,"Time required for the inference is %d ms", detect_time);
-
-    return 0;
-}
-
 static esp_console_cmd_t diag_cmds[] = {
     {
         .command = "mem-dump",
@@ -168,12 +128,6 @@ static esp_console_cmd_t diag_cmds[] = {
         .command = "cpu-dump",
         .help = "",
         .func = cpu_dump_cli_handler,
-    },
-    {
-        .command = "detect_image",
-        .help = "detect_image <image_number>"
-                "Note: image numbers ranging from 0 - 9 only are valid",
-        .func = inference_cli_handler,
     },
     {
         .command = "run_benchmark",
@@ -252,24 +206,8 @@ int esp_cli_register_cmds()
     return 0;
 }
 
-static void image_database_init()
-{
-    image_database[0] = (uint8_t *) image0_start;
-    image_database[1] = (uint8_t *) image1_start;
-    image_database[2] = (uint8_t *) image2_start;
-    image_database[3] = (uint8_t *) image3_start;
-    image_database[4] = (uint8_t *) image4_start;
-    image_database[5] = (uint8_t *) image5_start;
-    image_database[6] = (uint8_t *) image6_start;
-    image_database[7] = (uint8_t *) image8_start;
-    image_database[8] = (uint8_t *) image8_start;
-    image_database[9] = (uint8_t *) image9_start;
-
-}
-
 int esp_cli_init()
 {
-    image_database_init();
     static int cli_started;
     if (cli_started) {
         return 0;

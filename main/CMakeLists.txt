@@ -15,5 +15,5 @@ idf_component_register(
         "esp_cli.c"
         "sd_card.c"
 
-    PRIV_REQUIRES console tflite-lib esp32-camera static_images spi_flash sdmmc fatfs
+    PRIV_REQUIRES console tflite-lib esp32-camera spi_flash sdmmc fatfs
     INCLUDE_DIRS "." "include")
