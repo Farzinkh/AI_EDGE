@@ -11,6 +11,8 @@
 #include "esp_main.h"
 #include "esp_cli.h"
 #include "esp_timer.h"
+#include "sd_card.h"
+#include <dirent.h>
 
 #define IMAGE_COUNT 10
 static uint8_t *image_database[IMAGE_COUNT];
@@ -85,6 +87,47 @@ static int mem_dump_cli_handler(int argc, char *argv[])
     return 0;
 }
 
+static int inference_benchmark_handler(int argc,char *argv[])
+{
+    printf("\n");
+    ESP_LOGI(SDTAG, "============Running benchmark============");
+    DIR *d;
+    struct dirent *dir;
+    d = opendir(MOUNT_POINT);
+    if (d)
+    {
+        while ((dir = readdir(d)) != NULL)
+        {
+            if (!strcmp(dir->d_name,"TRASH-~1") || !strcmp(dir->d_name,"ANDROI~1"))
+            {
+                continue;
+            }
+            char address[]=MOUNT_POINT"/";
+            strcat(address,dir->d_name);
+            ESP_LOGI(SDTAG, "%s", address);
+            FILE *f = fopen(address, "rb");
+            if (f == NULL) {
+                ESP_LOGE(SDTAG, "Failed to open file for reading");
+                return NULL;
+            }
+            fseek(f,0,SEEK_END);
+            long fsize=ftell(f);
+            fseek(f,0,SEEK_SET);
+            char *buffer=calloc(1,fsize+1);
+            fread(buffer,fsize,1,f);
+            fclose(f);
+            uint32_t detect_time;
+            detect_time = esp_timer_get_time();
+            run_inference((void *) buffer);
+            free(buffer);
+            detect_time = (esp_timer_get_time() - detect_time)/1000;
+            ESP_LOGI(TAG,"Time required for the inference is %d ms", detect_time);
+        }
+        closedir(d);
+    }
+    return 0;
+}
+
 static int inference_cli_handler(int argc, char *argv[])
 {
     /* Just to go to the next line */
@@ -131,6 +174,11 @@ static esp_console_cmd_t diag_cmds[] = {
         .help = "detect_image <image_number>"
                 "Note: image numbers ranging from 0 - 9 only are valid",
         .func = inference_cli_handler,
+    },
+    {
+        .command = "run_benchmark",
+        .help = "detect all images from sdcard",
+        .func = inference_benchmark_handler,
     },
 };
 

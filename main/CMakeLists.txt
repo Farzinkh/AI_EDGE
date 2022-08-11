@@ -13,6 +13,7 @@ idf_component_register(
         "person_detect_model_data.cc"
         "app_camera_esp.c"
         "esp_cli.c"
+        "sd_card.c"
 
-    PRIV_REQUIRES console tflite-lib esp32-camera static_images spi_flash 
-    INCLUDE_DIRS "")
+    PRIV_REQUIRES console tflite-lib esp32-camera static_images spi_flash sdmmc fatfs
+    INCLUDE_DIRS "." "include")

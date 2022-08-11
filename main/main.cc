@@ -8,11 +8,15 @@
 
 #if CLI_ONLY_INFERENCE
 #include "esp_cli.h"
+#include "sd_card.h"
+sdmmc_card_t  *card;
+sdmmc_host_t host = SDSPI_HOST_DEFAULT();
 #endif
 
 void tf_main(void) {
   setup();
 #if CLI_ONLY_INFERENCE
+  mount_sdcard(&card,&host);
   esp_cli_init();
   esp_cli_register_cmds();
   vTaskDelay(portMAX_DELAY);
