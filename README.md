@@ -58,7 +58,7 @@ Monitor the serial output:
 idf.py --port /dev/ttyUSB0 monitor
 ```
 
-Use `Ctrl+]` to exit.
+Use `Ctrl+] or Ctrl+%` to exit.
 
 The previous two commands can be combined:
 ```
@@ -69,14 +69,19 @@ idf.py --port /dev/ttyUSB0 flash monitor
 
 Not all dev boards come with camera and you may wish to do inferencing on static images.
 This example hence, by default uses static inferencing.
-There are 10 [images](static_images/sample_images/README.md) embedded into the application.
+Copy embedded images from `put_my_content_on_sdcard` in sdcard after runing `embed_image.py`.
 
-  * To run an inferencing you need to type follwing on `idf.py monitor` window:
+  * To run an benchmark you need to type follwing on `idf.py monitor` window:
 
 ```
-detect_image <image_number>
+Ctrl+t + Ctrl+l
+
+Enter
+
+run_benchmark
+
+Ctrl+t + Ctrl+l
 ```
-where `<image_number>` is in [0, 9].
 
 The output is person and no_person score printed on the log screen.
 
@@ -85,16 +90,3 @@ The output is person and no_person score printed on the log screen.
   ```
   #define CLI_ONLY_INFERENCE 1
   ```
-
-### Using Display
-
-If you want to use display or your dev board supports it. (ESP-S3-EYE), you can enable it by disabling `CLI_ONLY_INFERENCE` and enabling following macro from `esp_main.h`
-```
-#define DISPLAY_SUPPORT 1
-```
-
-You will need to select appropriate drivers via menuconfig:
-
-`idf.py menuconfig` > `Component Config` > `LCD drivers`
-
-  * When display is enabled, you will see camera feed and `green` color strip. The strip color will change to `red` when a person is detected.
