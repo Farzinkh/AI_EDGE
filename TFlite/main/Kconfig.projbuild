@@ -1,0 +1,188 @@
+menu "CONFIG"                
+    menu "CAMERA & CLI CONFIG"
+        choice CLI_STATE
+            bool "Enable CLI"
+            default enable
+            help
+                enable cli otherwise camera will be enable.
+            config ENABLE_CLI
+                bool "Enable"
+            config DISABLE_CLI
+                bool "Disable"  
+        endchoice
+        choice XCLK_FREQ
+            bool "Frequency"
+            default 20MHz
+            help
+                frequency 10MHz or 20MHz.
+
+            config 20MHz
+                bool "20MHz"
+            config 15MHz
+                bool "15MHz"    
+            config 10MHz
+                bool "10MHz"
+        endchoice
+
+        config XCLK_FREQ
+            int 
+            default 20000000 if 20MHz
+            default 15000000 if 15MHz
+            default 10000000 if 10MHz
+            
+        choice FRAMESIZE
+            bool "Resolution"
+            default 96x96
+            help
+                Do not use sizes above QVGA when not JPEG.
+            config 96x96
+                bool "96x96"
+            config QQVGA
+                bool "QQVGA 160x120" 
+            config 240x240
+                bool "240X240"              
+            config QVGA
+                bool "QVGA 320x240"
+            config CIF
+                bool "CIF 400x296"
+            config HVGA
+                bool "HVGA 480x320"
+            config VGA
+                bool "VGA 640x480"  
+            config SVGA
+                bool "SVGA 800x600"    
+            config HD
+                bool "HD 1280x720" 
+            config UXGA
+                bool "UXGA 1600x1200" 
+        endchoice
+
+        config FRAMESIZE
+            int 
+            default 0 if 96x96
+            default 1 if QQVGA
+            default 4 if 240X240
+            default 5 if QVGA
+            default 6 if CIF 
+            default 7 if HVGA
+            default 8 if VGA 
+            default 9 if SVGA
+            default 11 if HD 
+            default 13 if UXGA
+            
+        choice PIXFORMAT
+            bool "Image format"
+            default GRAYSCALE
+            help
+                image format to save.
+
+            config JPEG
+                bool "JPEG"
+            config GRAYSCALE
+                bool "GRAYSCALE"
+            config RAW
+                bool "RAW"
+            config RGB565
+                bool "RGB565"    
+        endchoice
+
+        config PIXFORMAT
+            int 
+            default 3 if JPEG
+            default 2 if GRAYSCALE    
+            default 5 if RAW
+            default 0 if RGB565  
+            
+
+    endmenu
+    menu "SD Card menu"
+
+        config FORMAT_IF_MOUNT_FAILED
+            bool "Format the card if mount failed"
+            default n
+            help
+                If this config item is set, format_if_mount_failed will be set to true and the card will be formatted if
+                the mount has failed.
+                
+        choice MOSI
+            bool "MOSI"
+            default ESP32CAM_BORD_MOSI
+            help
+                MOSI OR DI OR CMD.
+    
+            config ESP32CAM_BORD_MOSI
+                bool "GPIO15"
+            config ESP32_BORD_MOSI
+                bool "GPIO23"
+            config ESP32_PCB_MOSI
+                bool "GPIO13"
+    
+        endchoice
+    
+        config MOSI
+            int
+            default 15 if ESP32CAM_BORD_MOSI
+            default 23 if ESP32_BORD_MOSI  
+            default 13 if ESP32_PCB_MOSI
+            
+        choice MISO
+            bool "MISO"
+            default ESP32CAM_BORD_MISO
+            help
+                MISO OR DO OR DATA0.
+    
+            config ESP32CAM_BORD_MISO
+                bool "GPIO2"
+            config ESP32_BORD_MISO
+                bool "GPIO19"
+            config ESP32_PCB_MISO
+                bool "GPIO12"    
+        endchoice
+        
+        config MISO
+            int
+            default 2 if ESP32CAM_BORD_MISO
+            default 19 if ESP32_BORD_MISO  
+            default 12 if ESP32_PCB_MISO 
+            
+        choice CLK
+            bool "CLK"
+            default ESP32CAM_BORD_CLK
+            help
+                CLK OR SCLK.
+    
+            config ESP32CAM_BORD_CLK
+                bool "GPIO14"
+            config ESP32_BORD_CLK
+                bool "GPIO18"
+            config ESP32_PCB_CLK
+                bool "GPIO14"    
+        endchoice
+            
+        config CLK
+            int
+            default 14 if ESP32CAM_BORD_CLK
+            default 18 if ESP32_BORD_CLK   
+            default 14 if ESP32_PCB_CLK
+        choice CS
+            bool "CS"
+            default ESP32CAM_BORD_CS
+            help
+                CS OR DATA3.
+    
+            config ESP32CAM_BORD_CS
+                bool "GPIO13"
+            config ESP32_BORD_CS
+                bool "GPIO5"
+            config ESP32_PCB_CS
+                bool "GPIO15"    
+        endchoice
+    
+        config CS
+            int
+            default 13 if ESP32CAM_BORD_CS
+            default 5 if ESP32_BORD_CS 
+            default 15 if ESP32_PCB_CS  
+            
+    endmenu
+endmenu
