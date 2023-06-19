@@ -4,6 +4,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
+void warm_up(void *ptr);
 extern int run_inference(void *ptr);
 #ifdef __cplusplus
 }

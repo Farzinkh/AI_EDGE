@@ -3,7 +3,7 @@ import onnx
 import onnxruntime as rt
 
 import itertools
-import re
+import cv2
 import os
 import sys
 import pickle
@@ -13,12 +13,13 @@ from tqdm import tqdm
 from preprocess import preprocess
 
 SoC="esp32"
-Format="int8"
+Format="int16"
 model_name="HANDRECOGNATION"
 model_path = 'handrecognition_model.onnx'
 pickle_test_data_path='Test.pkl'
 pickle_calibration_data_path='Calibration.pkl'
 class_names=['Palm','I','fist','fist_moved','thumb','index','ok','palm_moved','c','down']
+size=96*96
 
 system_type = platform.system()
 dlpath=os.environ['ESP_DL_PATH']
@@ -70,8 +71,8 @@ if __name__ == "__main__":
         (calib_images,calib_labels)= pickle.load(f)
 
     print("Original shape:",test_images.shape)
-    test_images=preprocess(test_images)
-    calib_images=preprocess(calib_images)
+    test_images=preprocess(test_images,size)
+    calib_images=preprocess(calib_images,size)
     print("Final shape:",test_images.shape)
 
     # Prepare the calibration dataset
@@ -100,11 +101,11 @@ if __name__ == "__main__":
     maxpols_info=[]
     reshape_info=[]
     conv_dense_info=[]
+    transpose_info=[]
     for node,info in itertools.zip_longest(model_proto.graph.node,model_proto.graph.value_info):
-        if node.op_type=="Transpose" or node.op_type=="Relu":
-            continue
-        else:
-            print('L{}:{} {}'.format(layer,node.op_type,node.name))
+        # if node.op_type=="Transpose":
+        #     continue
+        # else:
             if node.op_type=='Conv':
                 s=node.name.replace('/','_').lower()
                 conv_dense_info.append(s)
@@ -117,13 +118,20 @@ if __name__ == "__main__":
                 maxpols_info.append([node.attribute[0].ints,node.attribute[1].ints])
                 layers_name.append('MaxPool2D')
             elif node.op_type=='Reshape':
-                if layer==1:
-                    reshape_info.append(m.get_inputs()[0].shape[1]*m.get_inputs()[0].shape[2]*m.get_inputs()[0].shape[3])
+                if info.name.find("flatten")==-1:
+                    continue
+                    #reshape_info.append([info.type.tensor_type.shape.dim[1].dim_value,info.type.tensor_type.shape.dim[2].dim_value,info.type.tensor_type.shape.dim[3].dim_value])
                 else:
-                    reshape_info.append(info.type.tensor_type.shape.dim[1].dim_value)
+                    reshape_info.append([info.type.tensor_type.shape.dim[1].dim_value])
                 layers_name.append('Reshape')
             elif node.op_type=='Softmax':
-                layers_name.append('Softmax')    
+                layers_name.append('Softmax') 
+            elif node.op_type=="Relu":
+                layers_name.append("Relu")
+            elif node.op_type=="Transpose":
+                transpose_info.append([info.type.tensor_type.shape.dim[1].dim_value,info.type.tensor_type.shape.dim[2].dim_value,info.type.tensor_type.shape.dim[3].dim_value])
+                layers_name.append("Transpose")
+            print('L{}:{} {}'.format(layer,node.op_type,node.name))
             layer+=1
 
     batch_size = 100
@@ -147,7 +155,7 @@ if __name__ == "__main__":
 
     print('Creating {}_model.hpp'.format(model_name.lower()))
     s="#pragma once\n"
-    s=s+"#include \"dl_layer_model.hpp\"\n#include \"dl_layer_reshape.hpp\"\n#include \"dl_layer_conv2d.hpp\"\n#include \"dl_layer_max_pool2d.hpp\"\n#include \"dl_layer_softmax.hpp\"\n#include \"{}_coefficient.hpp\"\n#include <stdint.h>\n".format(model_name.lower())
+    s=s+"#include \"dl_layer_model.hpp\"\n#include \"dl_layer_relu.hpp\"\n#include \"dl_layer_reshape.hpp\"\n#include \"dl_layer_conv2d.hpp\"\n#include \"dl_layer_max_pool2d.hpp\"\n#include \"dl_layer_softmax.hpp\"\n#include \"dl_layer_transpose.hpp\"\n#include \"{}_coefficient.hpp\"\n#include <stdint.h>\n".format(model_name.lower())
     s=s+"\nusing namespace dl;\nusing namespace layer;\nusing namespace {}_coefficient;\n\n".format(model_name.lower())
     s=s+"class {} : public Model{}".format(model_name,Format_type)+'\n{\n'
     s=s+"private:\n"
@@ -157,28 +165,36 @@ if __name__ == "__main__":
             s=s+"\t{}{} l{};".format(v,Format_type,k+1)+'\n\n\t'
         else:
             s=s+"\t{}{} l{};".format(v,Format_type,k+1)+'\n'
-    count,count2,count3=0,0,0
+    count,count2,count3,count4=0,0,0,0
     for k,v in enumerate(layers_name):
         k=k+1
         if k==1:
             s=s+"{} () :\n\t\t\t\t".format(model_name)
         if v=='Reshape':
-            s=s+"l{}(Reshape{}({{1,1,{}}},\"l{}_reshape\")),".format(k,Format_type,reshape_info[count2],k)+'\n\t\t\t\t'
+            if k==1:
+                s=s+"l{}(Reshape{}({{{},{},{}}},\"l{}_reshape\")),".format(k,Format_type,reshape_info[count2][0],reshape_info[count2][1],reshape_info[count2][2],k)+'\n\t\t\t\t'               
+            else:
+                s=s+"l{}(Reshape{}({{1,1,{}}},\"l{}_reshape\")),".format(k,Format_type,reshape_info[count2][0],k)+'\n\t\t\t\t'
             count2+=1
         elif v=='Conv2D' and k==(len(layers_name)-1):
-            s=s+"l{}(Conv2D{}(<output_exponent>, get_{}_filter(), get_{}_bias(), NULL, PADDING_SAME_END, {{}}, 1, 1, \"l{}\")),".format(k,Format_type,conv_dense_info[count3],conv_dense_info[count3],k)+'\n\t\t\t\t' 
+            s=s+"l{}(Conv2D{}(<output_exponent>, get_{}_filter(), get_{}_bias(), NULL, PADDING_VALID, {{}}, 1, 1, \"l{}\")),".format(k,Format_type,conv_dense_info[count3],conv_dense_info[count3],k)+'\n\t\t\t\t' 
             count3+=1
         elif v=='Conv2D' and k==(len(layers_name)):
-            s=s+"l{}(Conv2D{}(<output_exponent>, get_{}_filter(), get_{}_bias(), NULL, PADDING_SAME_END, {{}}, 1, 1, \"l{}\")){{}}".format(k,Format_type,conv_dense_info[count3],conv_dense_info[count3],k)+'\n\t\t\t\t' 
+            s=s+"l{}(Conv2D{}(<output_exponent>, get_{}_filter(), get_{}_bias(), NULL, PADDING_VALID, {{}}, 1, 1, \"l{}\")){{}}".format(k,Format_type,conv_dense_info[count3],conv_dense_info[count3],k)+'\n\t\t\t\t' 
             count3+=1
         elif v=='Conv2D':    
-            s=s+"l{}(Conv2D{}(<output_exponent>, get_{}_filter(), get_{}_bias(), get_{}_activation(), PADDING_SAME_END, {{}}, 1, 1, \"l{}\")),".format(k,Format_type,conv_dense_info[count3],conv_dense_info[count3],conv_dense_info[count3],k)+'\n\t\t\t\t'
+            s=s+"l{}(Conv2D{}(<output_exponent>, get_{}_filter(), get_{}_bias(), get_{}_activation(), PADDING_VALID, {{}}, 1, 1, \"l{}\")),".format(k,Format_type,conv_dense_info[count3],conv_dense_info[count3],conv_dense_info[count3],k)+'\n\t\t\t\t'
             count3+=1
         elif v=="MaxPool2D":
             s=s+"l{}(MaxPool2D{}({{{},{}}},PADDING_VALID,{{}}, {}, {}, \"l{}\")),\n\t\t\t\t".format(k,Format_type,maxpols_info[count][1][1],maxpols_info[count][1][0],maxpols_info[count][0][0],maxpols_info[count][0][1],k)
             count+=1
+        elif v=="Relu":
+            s=s+"l{}(Relu{}(\"l{}_relu\")),\n\t\t\t\t".format(k,Format_type,k)
         elif v=="Softmax":
             s=s+"l{}(Softmax{}(<output_exponent>,\"l{}\")){{}}\n\t".format(k,Format_type,k)
+        elif v=="Transpose":
+            s=s+"l{}(Transpose{}({{{},{},{}}},\"l{}_transpose\")),\n\t\t\t\t".format(k,Format_type,transpose_info[count4][0],transpose_info[count4][1],transpose_info[count4][2],k)
+            count4+=1
         else:
             print('Unknown layer!')
 
@@ -187,11 +203,11 @@ if __name__ == "__main__":
         if i==0:
             continue
         elif i==1:
-            s=s+"this->l1.build(input);"+"\n\t\t"  
+            s=s+"this->l1.build(input,true);"+"\n\t\t"  
         elif i==layer-1:
-             s=s+"this->l{}.build(this->l{}.get_output());".format(i,i-1)+"\n\t}\n\t"            
+             s=s+"this->l{}.build(this->l{}.get_output(),true);".format(i,i-1)+"\n\t}\n\t"            
         else:    
-            s=s+"this->l{}.build(this->l{}.get_output());".format(i,i-1)+"\n\t\t"   
+            s=s+"this->l{}.build(this->l{}.get_output(),true);".format(i,i-1)+"\n\t\t"   
     s=s+"void call(Tensor{} &input)".format(Format_type)+'\n\t{\n\t\t'   
     for i in range(layer):
         if i==0:
@@ -220,16 +236,20 @@ if __name__ == "__main__":
     g=g+"#include \"dl_tool.hpp\"\n"
     g=g+"#include \"{}_model.hpp\"\n".format(model_name.lower())
     g=g+"#include \"esp_main.h\"\n\n"
-    g=g+"int input_height = {};\n".format(m.get_inputs()[0].shape[-2])
-    g=g+"int input_width = {};\n".format(m.get_inputs()[0].shape[-3])
-    g=g+"int input_channel = 1;\n"
+    g=g+"int input_height = {};\n".format(m.get_inputs()[0].shape[1])
+    g=g+"int input_width = {};\n".format(m.get_inputs()[0].shape[2])
+    g=g+"int input_channel = {};\n".format(m.get_inputs()[0].shape[3])
     g=g+"int input_exponent = <input_exponent>;\n"
     g=g+"int size=input_height*input_width*input_channel;\n"
     g=g+"static const char *TAG = \"INF\";\n\n"
     g=g+"#ifdef __cplusplus\n"
     g=g+"extern \"C\" {\n"
     g=g+"#endif\n\n"
+    g=g+"{} model;\n".format(model_name)
+    g=g+"bool warmed=false;\n\nvoid warm_up(void *image)\n{{\n\tTensor{} input;\n\tinput.set_element(({} *)image).set_exponent(input_exponent).set_shape({{input_height, input_width, input_channel}}).set_auto_free(false);\n\t".format(Format_type,format_type)
+    g=g+"dl::tool::Latency latency;\n\tfor(int i = 0; i < 5; i++)\n\t{\n\t\tlatency.start();\n\t\tmodel.forward(input);\n\t\tlatency.end();\n\t\tlatency.print(\"warming\", \"forward\");\n\t}\n}\n\n"
     g=g+"int run_inference(void *image)\n{\n\t"
+    g=g+"if(!warmed){\n\t\twarm_up(image);\n\t\twarmed=true;\n\t}\n\t"
     g=g+"#ifdef CONFIG_PREPROCESS\n\t"
     g=g+"int8_t *pointer_to_img;\n\tpointer_to_img = (int8_t *) image;\n\t"
     g=g+"{} *model_input = ({} *)dl::tool::malloc_aligned_prefer(size, sizeof({} *));\n\t".format(format_type,format_type,format_type)
@@ -242,7 +262,6 @@ if __name__ == "__main__":
     g=g+"Tensor{} input;\n\t".format(Format_type)
     g=g+"input.set_element(({} *)image).set_exponent(input_exponent).set_shape({{input_height, input_width, input_channel}}).set_auto_free(false);\n".format(format_type)
     g=g+"\t#endif\n\n\t"
-    g=g+"{} model;\n\t".format(model_name)
     g=g+"#ifdef CONFIG_INFERENCE_LOG\n\t"
     g=g+"dl::tool::Latency latency;\n\tlatency.start();\n\t"
     g=g+"#endif\n\t"
@@ -322,12 +341,14 @@ if __name__ == "__main__":
         os.makedirs(destination)
     count=0
     for img in tqdm(X):
-        img=preprocess(img)
+        #img=preprocess(img)
         if(Format=="int8"):
             img = np.array(img, dtype=np.uint8)
         else:
             img = np.array(img, dtype=np.uint16)
         img.tofile(destination+"/"+str(count)+'-'+str(Y[count]))
+        #cv2.imwrite(destination+"/"+str(count)+'-'+str(Y[count])+'.jpg',img)
         count=count+1
-
+        
+    img=np.fromfile(destination+"/"+str(count-1)+'-'+str(Y[count-1]), dtype=np.uint8)
     print("Final shape: {}\nPlace exponent values in inference.cpp and {}_model.hpp".format(img.shape,model_name.lower()))

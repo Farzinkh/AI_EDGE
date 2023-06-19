@@ -9,7 +9,12 @@ menu "Model config"
         bool "Show logs"
         default n
         help
-            show latency and model result log.  
+            show latency and model result log. 
+    config INSTANCE_NUMBER
+        int "Number of Instances to run benchmark"
+        default -1
+        help
+            -1 means all of datas and to set any limit simply just change it
 endmenu
 
 menu "SD Card menu"

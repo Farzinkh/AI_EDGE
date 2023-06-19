@@ -56,7 +56,7 @@ static int inference_benchmark_handler(int argc,char *argv[])
     DIR *d;
     int detect;
     int type;
-    int counter=2000;
+    int counter=CONFIG_INSTANCE_NUMBER;
     char text[300];
     struct dirent *dir;
     d = opendir(MOUNT_POINT);
@@ -86,7 +86,7 @@ static int inference_benchmark_handler(int argc,char *argv[])
             detect_time = esp_timer_get_time();
             detect=run_inference((void *) buffer);
             free(buffer);
-            type=dir->d_name[strlen(dir->d_name)-1]-'0';
+            type=dir->d_name[strlen(dir->d_name)-1]-'0'; // -1 if raw file -5 if .jpg
             detect_time = (esp_timer_get_time() - detect_time)/1000;
             if (detect==type)
             {
@@ -160,7 +160,6 @@ static void esp_cli_task(void *arg)
 
     esp_console_init(&console_config);
     esp_console_register_help_command();
-
     while (!stop) {
         uart_write_bytes(uart_num, "\n>> ", 4);
         memset(linebuf, 0, sizeof(linebuf));
@@ -220,7 +219,7 @@ int esp_cli_init()
 #define ESP_CLI_STACK_SIZE (4 * 1024)
     //StackType_t *task_stack = (StackType_t *) calloc(1, ESP_CLI_STACK_SIZE);
     //static StaticTask_t task_buf;
-    if(pdPASS != xTaskCreate(&esp_cli_task, "cli_task", ESP_CLI_STACK_SIZE, NULL, 4,NULL)) {
+    if(pdPASS != xTaskCreate(&esp_cli_task, "cli_task", ESP_CLI_STACK_SIZE, NULL, tskIDLE_PRIORITY,NULL)) {
         ESP_LOGE(TAG, "Couldn't create task");
         return -1;
     }

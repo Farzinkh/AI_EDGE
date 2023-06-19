@@ -2,6 +2,7 @@
 #
 # Main component of TF Micro project 'person_detection'.
 #
+set(include_dirs  ../../components ./include)
 
 idf_component_register(
     SRCS
@@ -16,4 +17,4 @@ idf_component_register(
         "sd_card.c"
 
     PRIV_REQUIRES console tflite-lib esp32-camera spi_flash sdmmc fatfs
-    INCLUDE_DIRS "." "include")
+    INCLUDE_DIRS ${include_dirs})
