@@ -1,0 +1,14 @@
+[model]
+model_name = "MNIST"
+model_path = "mnist_model_example.onnx"
+pickle_test_data_path= "Test.pkl"
+pickle_calibration_data_path=""
+class_names=['0','1','2','3','4','5','6','7','8','9']
+image_shape=[28,28]
+image_channels=1
+
+[deploy]
+SoC= "esp32"
+Format= "int8"
+
+
