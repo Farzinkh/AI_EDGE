@@ -92,9 +92,10 @@ if __name__ == "__main__":
 
     #Pre-process----------------------------
     print("Original shape:",test_images.shape)
-    #test_images=preprocess(test_images,size)
-    #calib_images=preprocess(calib_images,size)
-    print("Final shape:",test_images.shape)
+    if config['model']['preprocess_required']:
+        test_images=preprocess(test_images,size,config['model']['preprocess_list'])
+        calib_images=preprocess(calib_images,size,config['model']['preprocess_list'],val=True)
+        print("Final shape:",test_images.shape)
     #-----------------------------------------
 
 
@@ -110,7 +111,7 @@ if __name__ == "__main__":
 
 
     # collecting coefficients
-    exponents=input('Enter exponent values in order. dont consider reshape layer and seprate them with ",": ')
+    exponents=input('Enter exponent values in order. dont consider Reshape,Transpose,MaxPool layers and seprate them with ",": ')
     exponents=exponents.split(',')
 
     # Evaluate the performance

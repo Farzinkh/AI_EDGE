@@ -13,34 +13,26 @@ using namespace dl;
 using namespace layer;
 using namespace handrecognation_coefficient;
 
-class HANDRECOGNATION : public Model<int16_t>
+class HANDRECOGNATION : public Model<int8_t>
 {
 private:
-	Reshape<int16_t> l1;
-	Conv2D<int16_t> l2;
-	Relu<int16_t> l3;
-	MaxPool2D<int16_t> l4;
-	Transpose<int16_t> l5;
-	Reshape<int16_t> l6;
-	Conv2D<int16_t> l7;
-	Relu<int16_t> l8;
-	Conv2D<int16_t> l9;
+	Conv2D<int8_t> l1;
+	MaxPool2D<int8_t> l2;
+	Reshape<int8_t> l3;
+	Conv2D<int8_t> l4;
+	Conv2D<int8_t> l5;
 
 public:
-	Softmax<int16_t> l10;
+	Softmax<int8_t> l6;
 
 	HANDRECOGNATION () :
-				l1(Reshape<int16_t>({96,96,1},"l1_reshape")),
-				l2(Conv2D<int16_t>(-8, get_sequential_2_conv2d_2_biasadd_filter(), get_sequential_2_conv2d_2_biasadd_bias(), get_sequential_2_conv2d_2_biasadd_activation(), PADDING_VALID, {}, 1, 1, "l2")),
-				l3(Relu<int16_t>("l3_relu")),
-				l4(MaxPool2D<int16_t>({5,5},PADDING_VALID,{}, 5, 5, "l4")),
-				l5(Transpose<int16_t>({2,1,0},"l5_transpose")),
-				l6(Reshape<int16_t>({1,1,2592},"l6_reshape")),
-				l7(Conv2D<int16_t>(-9, get_fused_gemm_0_filter(), get_fused_gemm_0_bias(), get_fused_gemm_0_activation(), PADDING_VALID, {}, 1, 1, "l7")),
-				l8(Relu<int16_t>("l8_relu")),
-				l9(Conv2D<int16_t>(-9, get_fused_gemm_1_filter(), get_fused_gemm_1_bias(), NULL, PADDING_VALID, {}, 1, 1, "l9")),
-				l10(Softmax<int16_t>(-18,"l10")){}
-	void build(Tensor<int16_t> &input)
+				l1(Conv2D<int8_t>(1, get_statefulpartitionedcall_sequential_conv2d_biasadd_filter(), get_statefulpartitionedcall_sequential_conv2d_biasadd_bias(), get_statefulpartitionedcall_sequential_conv2d_biasadd_activation(), PADDING_VALID, {}, 1, 1, "l1")),
+				l2(MaxPool2D<int8_t>({5,5},PADDING_VALID,{}, 5, 5, "l2")),
+				l3(Reshape<int8_t>({1,1,2592},"l3_reshape")),
+				l4(Conv2D<int8_t>(1, get_fused_gemm_0_filter(), get_fused_gemm_0_bias(), get_fused_gemm_0_activation(), PADDING_VALID, {}, 1, 1, "l4")),
+				l5(Conv2D<int8_t>(0, get_fused_gemm_1_filter(), get_fused_gemm_1_bias(), NULL, PADDING_VALID, {}, 1, 1, "l5")),
+				l6(Softmax<int8_t>(-6,"l6")){}
+	void build(Tensor<int8_t> &input)
 	{
 		this->l1.build(input,true);
 		this->l2.build(this->l1.get_output(),true);
@@ -48,12 +40,8 @@ public:
 		this->l4.build(this->l3.get_output(),true);
 		this->l5.build(this->l4.get_output(),true);
 		this->l6.build(this->l5.get_output(),true);
-		this->l7.build(this->l6.get_output(),true);
-		this->l8.build(this->l7.get_output(),true);
-		this->l9.build(this->l8.get_output(),true);
-		this->l10.build(this->l9.get_output(),true);
 	}
-	void call(Tensor<int16_t> &input)
+	void call(Tensor<int8_t> &input)
 	{
 		this->l1.call(input);
 		input.free_element();
@@ -72,18 +60,6 @@ public:
 
 		this->l6.call(this->l5.get_output());
 		this->l5.get_output().free_element();
-
-		this->l7.call(this->l6.get_output());
-		this->l6.get_output().free_element();
-
-		this->l8.call(this->l7.get_output());
-		this->l7.get_output().free_element();
-
-		this->l9.call(this->l8.get_output());
-		this->l8.get_output().free_element();
-
-		this->l10.call(this->l9.get_output());
-		this->l9.get_output().free_element();
 	}
 
 };

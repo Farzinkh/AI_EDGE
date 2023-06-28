@@ -1,20 +1,18 @@
 # Add your functions here 
 
-process=['expand_dimention']
-
-def decrese_dimention(images,size):
+def decrese_dimention(images,size,val):
     return images.reshape((len(images),size))
 
-def expand_dimention(images,size):
-    if (len(images.shape)==3):
+def expand_dimention(images,size,val):
+    if not val:
         return images[:, :, :, None]
     else:
-        return images[:, :, None]
+        return images[:,:, :,None]
 
-def normalise_image(images,size):
+def normalise_image(images,size,val):
     return images / 255.0
 
-def preprocess(images,size):
+def preprocess(images,size,process,val=False):
     for f in process:
-        images=globals()[f](images,size)
+        images=globals()[f](images,size,val)
     return images

@@ -13,7 +13,7 @@
 int input_height = 28;
 int input_width = 28;
 int input_channel = 1;
-int input_exponent = 1;
+int input_exponent = -7;
 int size=input_height*input_width*input_channel;
 static const char *TAG = "INF";
 
@@ -26,8 +26,8 @@ bool warmed=false;
 
 void warm_up(void *image)
 {
-	Tensor<int8_t> input;
-	input.set_element((int8_t *)image).set_exponent(input_exponent).set_shape({input_height, input_width, input_channel}).set_auto_free(false);
+	Tensor<int16_t> input;
+	input.set_element((int16_t *)image).set_exponent(input_exponent).set_shape({input_height, input_width, input_channel}).set_auto_free(false);
 	dl::tool::Latency latency;
 	for(int i = 0; i < 5; i++)
 	{
@@ -47,16 +47,16 @@ int run_inference(void *image)
 	#ifdef CONFIG_PREPROCESS
 	int8_t *pointer_to_img;
 	pointer_to_img = (int8_t *) image;
-	int8_t *model_input = (int8_t *)dl::tool::malloc_aligned_prefer(size, sizeof(int8_t *));
+	int16_t *model_input = (int16_t *)dl::tool::malloc_aligned_prefer(size, sizeof(int16_t *));
 	for(int i=0 ;i<size; i++){
 		float normalized_input = pointer_to_img[i] / 255.0; //normalization
-		model_input[i] = (int8_t)DL_CLIP(normalized_input * (1 << -input_exponent), -128, 127);
+		model_input[i] = (int16_t)DL_CLIP(normalized_input * (1 << -input_exponent), -32768, 32767);
 	}
-	Tensor<int8_t> input;
-	input.set_element((int8_t *)model_input).set_exponent(input_exponent).set_shape({input_height, input_width, input_channel}).set_auto_free(false);
+	Tensor<int16_t> input;
+	input.set_element((int16_t *)model_input).set_exponent(input_exponent).set_shape({input_height, input_width, input_channel}).set_auto_free(false);
 	#else
-	Tensor<int8_t> input;
-	input.set_element((int8_t *)image).set_exponent(input_exponent).set_shape({input_height, input_width, input_channel}).set_auto_free(false);
+	Tensor<int16_t> input;
+	input.set_element((int16_t *)image).set_exponent(input_exponent).set_shape({input_height, input_width, input_channel}).set_auto_free(false);
 	#endif
 
 	#ifdef CONFIG_INFERENCE_LOG

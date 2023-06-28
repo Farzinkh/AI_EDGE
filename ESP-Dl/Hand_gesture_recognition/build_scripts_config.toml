@@ -1,14 +1,16 @@
 [model]
 model_name = "HANDRECOGNATION"
-model_path = "handrecognition_model.onnx"
+model_path = "handrecognition_model_int8.onnx"
 pickle_test_data_path= "Test.pkl"
 pickle_calibration_data_path="Calibration.pkl"
 class_names=['Palm','I','fist','fist_moved','thumb','index','ok','palm_moved','c','down']
 image_shape=[96,96]
 image_channels=1
+preprocess_required=true
+preprocess_list=['expand_dimention']
 
 [deploy]
 SoC= "esp32"
-Format= "int16"
+Format= "int8"
 
 

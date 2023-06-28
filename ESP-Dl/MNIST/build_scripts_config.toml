@@ -6,6 +6,8 @@ pickle_calibration_data_path=""
 class_names=['0','1','2','3','4','5','6','7','8','9']
 image_shape=[28,28]
 image_channels=1
+preprocess_required=false
+preprocess_list=[]
 
 [deploy]
 SoC= "esp32"
