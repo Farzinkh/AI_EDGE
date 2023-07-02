@@ -3,7 +3,6 @@ import onnx
 import onnxruntime as rt
 
 import itertools
-import cv2
 import os
 import sys
 import pickle
@@ -88,7 +87,7 @@ if __name__ == "__main__":
         with open(pickle_calibration_data_path, 'rb') as f:
             (calib_images,calib_labels)= pickle.load(f)
     except:
-        calib_images = test_images[0:5000:50]
+        calib_images = test_images[0:len(test_images):int(len(test_images)/100)]
 
     #Pre-process----------------------------
     print("Original shape:",test_images.shape)
@@ -135,6 +134,7 @@ if __name__ == "__main__":
         if node.op_type=="Transpose" or node.op_type=="Relu":
             continue
         else:
+            print('{} {}'.format(node.op_type,node.name))    
             if node.op_type=='Conv':
                 s=node.name.replace('/','_').lower()
                 conv_dense_info.append(s)
@@ -160,7 +160,7 @@ if __name__ == "__main__":
             elif node.op_type=="Transpose":
                 transpose_info.append([info.type.tensor_type.shape.dim[1].dim_value,info.type.tensor_type.shape.dim[2].dim_value,info.type.tensor_type.shape.dim[3].dim_value])
                 layers_name.append("Transpose")
-            print('L{}:{} {}'.format(layer,node.op_type,node.name))
+            print('L{}:{} {} ok'.format(layer,node.op_type,node.name))
             layer+=1
 
     batch_size = 100
