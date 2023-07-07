@@ -336,22 +336,18 @@ if __name__ == "__main__":
     src_path = args.project+"/inference.cpp"
     dst_path = args.project+"/main/inference.cpp"
     fix_path_move(src_path,dst_path)
-    src_path = path3+'/CMakeLists.txt'
-    dst_path = args.project+"/CMakeLists.txt"
-    fix_path_copy(src_path,dst_path)
-    src_path = path3+'/sdkconfig.defaults.esp32'
-    dst_path = args.project+"/sdkconfig.defaults.esp32"
-    fix_path_copy(src_path,dst_path)
-    src_path = path3+'/sdkconfig.defaults.esp32s2'
-    dst_path = args.project+"/sdkconfig.defaults.esp32s2"
-    fix_path_copy(src_path,dst_path)
-    src_path = path3+'/sdkconfig.defaults.esp32s3'
-    dst_path = args.project+"/sdkconfig.defaults.esp32s3"
-    fix_path_copy(src_path,dst_path)
-    
+
+    s="cmake_minimum_required(VERSION 3.5)\n\n"
+    s=s+"include($ENV{IDF_PATH}/tools/cmake/project.cmake)\n\n"
+    s=s+"set(EXTRA_COMPONENT_DIRS \"../../components\")\n\n"
+    s=s+"set(EXCLUDE_COMPONENTS esp32-camera tflite-lib esp-nn wifi_provisioning mqtt esp_wifi esp_websocket_client esp_http_server esp_https_server esp_http_client esp-tls tcp_transport tcpip_adapter json openssl esp_wifi esp_netif esp_https_ota lwip mbedtls mdns)\n\n"
+    s=s+"project({})".format(model_name)
+    with open(args.project+"/CMakeLists.txt", "w") as f:
+        f.write(s)
+
     s="idf_build_get_property(target IDF_TARGET)\n\n"
     s=s+"set(CMAKE_CXX_STANDARD 17)\nset(CMAKE_CXX_STANDARD_REQUIRED ON)\n\n"
-    s=s+"set(srcs  main.c ../model/{}_coefficient.cpp inference.cpp esp_cli.c sd_card.c)\n".format(model_name.lower())
+    s=s+"set(srcs  main.c ../model/{}_coefficient.cpp inference.cpp benchmark.c)\n".format(model_name.lower())
     s=s+"set(src_dirs  ../model)\n"
     s=s+"set(include_dirs  ../model ./include $ENV{ESP_DL_PATH}/include $ENV{ESP_DL_PATH}/include/tool $ENV{ESP_DL_PATH}/include/typedef $ENV{ESP_DL_PATH}/include/nn $ENV{ESP_DL_PATH}/include/layer $ENV{ESP_DL_PATH}/include/math)\n\n"
     s=s+"idf_component_register(SRCS ${srcs} SRC_DIRS ${src_dirs} INCLUDE_DIRS ${include_dirs}\n"

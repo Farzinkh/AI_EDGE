@@ -21,33 +21,19 @@
 #include "esp_spiffs.h"
 
 const char mount_point[] = MOUNT_POINT;
+sdmmc_card_t  *card;
 
 // Pin mapping
-#if CONFIG_IDF_TARGET_ESP32
 
 #define PIN_NUM_MISO CONFIG_MISO
 #define PIN_NUM_MOSI CONFIG_MOSI
 #define PIN_NUM_CLK  CONFIG_CLK
 #define PIN_NUM_CS   CONFIG_CS
 
-#elif CONFIG_IDF_TARGET_ESP32S2
-
-// adapted for internal test board ESP-32-S3-USB-OTG-Ev-BOARD_V1.0 (with ESP32-S2-MINI-1 module)
-#define PIN_NUM_MISO 37
-#define PIN_NUM_MOSI 35
-#define PIN_NUM_CLK  36
-#define PIN_NUM_CS   34
-
-#elif CONFIG_IDF_TARGET_ESP32C3
-#define PIN_NUM_MISO 6
-#define PIN_NUM_MOSI 4
-#define PIN_NUM_CLK  5
-#define PIN_NUM_CS   1
-
-#endif //CONFIG_IDF_TARGET_ESP32 || CONFIG_IDF_TARGET_ESP32S2
-
 #if CONFIG_IDF_TARGET_ESP32S2
 #define SPI_DMA_CHAN    host.slot
+#elif CONFIG_IDF_TARGET_ESP32S3
+#define SPI_DMA_CHAN    SPI_DMA_CH_AUTO
 #elif CONFIG_IDF_TARGET_ESP32C3
 #define SPI_DMA_CHAN    SPI_DMA_CH_AUTO
 #else
@@ -100,7 +86,7 @@ void write_in_file(const char * tag,const char * text,bool writetosdcard)
         }else{
             f = fopen(file, "w");
         }
-            if (f == NULL) {
+        if (f == NULL) {
         ESP_LOGE(FTAG, "Failed to open file for writing");
         return;
         }

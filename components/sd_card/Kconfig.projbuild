@@ -1,0 +1,106 @@
+menu "SD Card menu"
+
+    config FORMAT_IF_MOUNT_FAILED
+        bool "Format the card if mount failed"
+        default n
+        help
+            If this config item is set, format_if_mount_failed will be set to true and the card will be formatted if
+            the mount has failed.
+    config MOUNT_FLASH
+        bool "Mount Flash"
+        default y
+        help
+           If you want to use spiffs on flash turn this on and use your custom partision.csv.        
+    choice MOSI
+        bool "MOSI"
+        default ESP32CAM_BORD_MOSI
+        help
+            MOSI OR DI OR CMD.
+
+        config ESP32CAM_BORD_MOSI
+            bool "GPIO15"
+        config ESP32_BORD_MOSI
+            bool "GPIO23"
+        config ESP32_PCB_MOSI
+            bool "GPIO13"
+        config ESP32s3_MOSI
+            bool "GPIO35"
+
+    endchoice
+
+    config MOSI
+        int
+        default 15 if ESP32CAM_BORD_MOSI
+        default 23 if ESP32_BORD_MOSI  
+        default 13 if ESP32_PCB_MOSI
+        default 35 if ESP32s3_MOSI
+        
+    choice MISO
+        bool "MISO"
+        default ESP32CAM_BORD_MISO
+        help
+            MISO OR DO OR DATA0.
+
+        config ESP32CAM_BORD_MISO
+            bool "GPIO2"
+        config ESP32_BORD_MISO
+            bool "GPIO19"
+        config ESP32_PCB_MISO
+            bool "GPIO12"   
+        config ESP32s3_MISO
+            bool "GPIO37"   
+    endchoice
+    
+    config MISO
+        int
+        default 2 if ESP32CAM_BORD_MISO
+        default 19 if ESP32_BORD_MISO  
+        default 12 if ESP32_PCB_MISO 
+        default 37 if ESP32s3_MISO 
+        
+    choice CLK
+        bool "CLK"
+        default ESP32CAM_BORD_CLK
+        help
+            CLK OR SCLK.
+
+        config ESP32CAM_BORD_CLK
+            bool "GPIO14"
+        config ESP32_BORD_CLK
+            bool "GPIO18"
+        config ESP32_PCB_CLK
+            bool "GPIO14"   
+        config ESP32s3_CLK
+            bool "GPIO36"  
+    endchoice
+        
+    config CLK
+        int
+        default 14 if ESP32CAM_BORD_CLK
+        default 18 if ESP32_BORD_CLK   
+        default 14 if ESP32_PCB_CLK
+        default 36 if ESP32s3_CLK
+    choice CS
+        bool "CS"
+        default ESP32CAM_BORD_CS
+        help
+            CS OR DATA3.
+
+        config ESP32CAM_BORD_CS
+            bool "GPIO13"
+        config ESP32_BORD_CS
+            bool "GPIO5"
+        config ESP32_PCB_CS
+            bool "GPIO15"  
+        config ESP32s3_CS
+            bool "GPIO34"    
+    endchoice
+
+    config CS
+        int
+        default 13 if ESP32CAM_BORD_CS
+        default 5 if ESP32_BORD_CS 
+        default 15 if ESP32_PCB_CS  
+        default 34 if ESP32s3_CS 
+        
+endmenu

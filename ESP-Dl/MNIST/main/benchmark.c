@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include <esp_log.h>
 #include <esp_console.h>
@@ -9,10 +10,12 @@
 #include <driver/uart.h>
 
 #include "esp_main.h"
-#include "esp_cli.h"
+#include "benchmark.h"
 #include "esp_timer.h"
 #include "sd_card.h"
 #include <dirent.h>
+
+#include <sys/stat.h>
 
 static int stop;
 static const char *TAG = "CLI";
@@ -54,53 +57,110 @@ static int inference_benchmark_handler(int argc,char *argv[])
     printf("\n");
     ESP_LOGI(SDTAG, "============Running benchmark============");
     DIR *d;
-    int detect;
-    int type;
+    int detect=0;
+    int type=0;
     int counter=CONFIG_INSTANCE_NUMBER;
-    char text[300];
-    unsigned char buffer[784];
+    int verbose=100;
+    int v=verbose;
+    char partialtext[81];
+    //char text[sizeof(partialtext)*verbose];
+    char * text;
+    text= (char*)malloc(sizeof(partialtext)*(verbose+5));
+    memset(text,0,strlen(text));
+    int nStatus;
+    struct stat sFileStatus;
+    char* pBuffer="";
+    int  nBufferSize=0;
+    FILE* f=NULL;
+    bool bufferlocated=false;
+    const TickType_t xDelay = 10 / portTICK_PERIOD_MS;
+    memset(&sFileStatus, 0x0, sizeof(struct stat));
+    uint32_t read_image_time=0;
+    uint32_t detect_time=0;
+    uint32_t write_time=0;
+    char * address;
+    address= (char*)malloc(265);
+    //unsigned char buffer[784];
     struct dirent *dir;
+    if (remove(MOUNT_POINT"/REPORT.TXT") == 0) {
+        ESP_LOGI(SDTAG,"Previous Report file deleted successfully.");
+    } 
+    if (remove(FLASH_MOUNT_POINT"/report.txt") == 0) {
+        ESP_LOGI(FTAG,"Previous Report file deleted successfully.");
+    } 
     d = opendir(MOUNT_POINT);
     if (d)
     {
         while ((dir = readdir(d)) != NULL)
         {
-            if (!strcmp(dir->d_name,"TRASH-~1") || !strcmp(dir->d_name,"ANDROI~1") || !strcmp(dir->d_name,"REPORT.TXT"))
+            read_image_time = esp_timer_get_time();
+            if (!strcmp(dir->d_name,"TRASH-~1") || !strcmp(dir->d_name,"ANDROI~1") || !strcmp(dir->d_name,"SYSTEM~1") || !strcmp(dir->d_name,"REPORT.TXT"))
             {
                 continue;
             }
-            char address[]=MOUNT_POINT"/";
+            strcpy(address,MOUNT_POINT"/");
             strcat(address,dir->d_name);
             ESP_LOGI(SDTAG, "%s", address);
-            FILE *f = fopen(address, "rb");
-            if (f == NULL) {
+            // Status the file size.
+            if (0 != (nStatus = stat(address, &sFileStatus)))
+            {
+                ESP_LOGE(SDTAG,"stat() failed on file: '%s.  Error Code: %d\n",
+                        dir->d_name, nStatus);
+                continue;
+            }
+            else if(!bufferlocated){
+                if(0 == (pBuffer = (char*)malloc(nBufferSize = sFileStatus.st_size)))
+                {
+                    ESP_LOGE(SDTAG, "buffer allocation failed.\n");
+                    continue;
+                }
+                bufferlocated=true;
+            }
+            else if(0 == (f = fopen(address, "rb")))
+            {
                 ESP_LOGE(SDTAG, "Failed to open file for reading");
                 continue;
             }
-
-            fread(buffer,sizeof(buffer),1,f);
+            else if(nBufferSize != (nStatus = fread(pBuffer,1,nBufferSize,f)))
+            {
+                ESP_LOGE(SDTAG, "fread() failed to read size reported by stat() %d.\n",nBufferSize);
+                continue;
+            }
             fclose(f);
-
-            uint32_t detect_time;
+            read_image_time = (esp_timer_get_time() - read_image_time)/1000;
             detect_time = esp_timer_get_time();
-            detect=run_inference((void *) buffer);
-            //free(buffer);
-            type=dir->d_name[strlen(dir->d_name)-1]-'0'; // -1 if raw file -5 if .jpg
+            detect=run_inference((void *) pBuffer);
+            type=dir->d_name[strlen(dir->d_name)-5]-'0'; // -1 if raw file -5 if .jpg
             detect_time = (esp_timer_get_time() - detect_time)/1000;
+            write_time = esp_timer_get_time();
             if (detect==type)
             {
-                sprintf(text,"%s Inference Time is %u ms :: %d True",dir->d_name, detect_time,detect);
+                sprintf(partialtext,"%s Reading image delay is %hu ms Inference delay is %hu ms :: %d True",address,read_image_time, detect_time,detect);
                 
             } else {
-                sprintf(text,"%s Inference Time is %u ms :: %d False",dir->d_name, detect_time,detect);
+                sprintf(partialtext,"%s Reading image delay is %hu ms Inference delay is %hu ms :: %d False",address,read_image_time, detect_time,detect);
             }
-            write_in_file(TAG,text,false);
+            v-=1;
+            if (v==0){
+                strcat(text,partialtext);
+                write_in_file(TAG,text,false);
+                memset(text,0,strlen(text));
+                v=verbose;
+                write_time = (esp_timer_get_time() - write_time )/1000;
+                ESP_LOGI(SDTAG,"%hu ms %hu ms",read_image_time,write_time);
+            } else {
+                strcat(text,partialtext);
+                strcat(text,"\n");
+                ESP_LOGI(SDTAG,"%hu ms",read_image_time);
+            }
             if (counter==0){
                 break;
             } else {
                 counter -=1;
             }
+            vTaskDelay(xDelay);
         }
+        free(pBuffer);
         closedir(d);
     }
     const char *src = FLASH_MOUNT_POINT"/report.txt";
@@ -215,7 +275,7 @@ int esp_cli_init()
     if (cli_started) {
         return 0;
     }
-#define ESP_CLI_STACK_SIZE (4 * 1024)
+#define ESP_CLI_STACK_SIZE (12 * 1024)
     //StackType_t *task_stack = (StackType_t *) calloc(1, ESP_CLI_STACK_SIZE);
     //static StaticTask_t task_buf;
     if(pdPASS != xTaskCreate(&esp_cli_task, "cli_task", ESP_CLI_STACK_SIZE, NULL, tskIDLE_PRIORITY,NULL)) {

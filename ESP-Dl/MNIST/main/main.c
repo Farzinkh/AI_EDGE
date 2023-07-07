@@ -6,7 +6,7 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
-#include "esp_cli.h"
+#include "benchmark.h"
 #include "sd_card.h"
 
 
@@ -20,6 +20,6 @@ void inference_main(void) {
 
 void app_main(void)
 {
-	xTaskCreate((TaskFunction_t)&inference_main, "inference_main", 4 * 1024, NULL, 8, NULL);
+	xTaskCreate((TaskFunction_t)&inference_main, "inference_main", 5 * 1024, NULL, 8, NULL);
   vTaskDelete(NULL);
 }

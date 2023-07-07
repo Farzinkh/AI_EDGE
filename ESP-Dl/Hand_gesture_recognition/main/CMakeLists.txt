@@ -3,7 +3,7 @@ idf_build_get_property(target IDF_TARGET)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(srcs  main.c ../model/handrecognation_coefficient.cpp inference.cpp esp_cli.c sd_card.c)
+set(srcs  main.c ../model/handrecognation_coefficient.cpp inference.cpp benchmark.c)
 set(src_dirs  ../model)
 set(include_dirs  ../model ./include $ENV{ESP_DL_PATH}/include $ENV{ESP_DL_PATH}/include/tool $ENV{ESP_DL_PATH}/include/typedef $ENV{ESP_DL_PATH}/include/nn $ENV{ESP_DL_PATH}/include/layer $ENV{ESP_DL_PATH}/include/math)
 

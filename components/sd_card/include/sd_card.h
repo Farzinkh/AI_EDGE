@@ -15,7 +15,7 @@ typedef struct {
 
 static const char *SDTAG = "SD";
 static const char *FTAG = "Flash";
-sdmmc_card_t  *card;
+
 
 #define MOUNT_POINT "/sdcard" 
 #define FLASH_MOUNT_POINT "/spiffs"

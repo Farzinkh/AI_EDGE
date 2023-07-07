@@ -1,3 +1,72 @@
-https://www.kaggle.com/datasets/gti-upm/leapgestrecog
+# Deploy a Model Step by Step
 
-https://colab.research.google.com/drive/1v0z9TtTr9b73pfd51tNwvzFB0xPg1D6F?usp=sharing
+This tutorial shows how to deploy a model with the [my Toolkit](../tools/model_builder.py) and run benchmark using SD Card.
+
+Note: For a model quantized on other platforms:
+- If the quantization scheme (e.g. TFLite int8 model) is different from that of ESP-DL then the model cannot be deployed with ESP-DL.
+
+
+# Preparation
+
+# step 1: Train [Hand Gesture Recognition](https://www.kaggle.com/datasets/gti-upm/leapgestrecog) model
+
+<p align="center">
+    <img width="%" src="./logs/handrecognition_model_int8.onnx.png"> 
+</p>
+
+
+An example of how to train and convert your model to ONNX is [here](https://colab.research.google.com/drive/1v0z9TtTr9b73pfd51tNwvzFB0xPg1D6F?usp=sharing).
+
+
+## Step 1.1: Convert Your Model
+
+In order to be deployed, the trained floating-point model must be converted to an integer model, the format compatible with ESP-DL. Given that ESP-DL uses a different quantization scheme and element arrangements compared with other platforms, 
+
+## Step 1.2: Config project by [build_scripts_config.toml](./build_scripts_config.toml)
+
+To faciliate next steps a config file is provided which is required by model_builder script.
+
+## Step 1.3: Convert to ESP-DL Format and Quantize
+
+The calibrator in the quantization toolkit can quantize a floating-point model to an integer model which is compatible with ESP-DL. For post-training quantization, please prepare the calibration dataset (can be the subset of training dataset or validation dataset).
+
+Run the script with the following command in Tools directory:
+
+```python
+python model_builder.py -p <Hand Gesture Recognition project directory>
+```
+
+And you will see the following log which includes the quantized coefficients for the model's input and output. These coefficients will be used in later steps when defining the model so enter them in order from the begining layer until the last layer seprating by ',' for example:
+
+```python
+
+Quantized model info:
+model input name: input, exponent: -15
+Reshape layer name: sequential/flatten/Reshape, output_exponent: -15
+Gemm layer name: fused_gemm_0, output_exponent: -11
+Gemm layer name: fused_gemm_1, output_exponent: -11
+Gemm layer name: fused_gemm_2, output_exponent: -9
+```
+
+Now you will asked to enter `-15,-11,-11,-9` as desired exponents. note that you dont need to enter reshape layer exponent value.
+
+For more information about quantization toolkit API, please refer to [Quantization Toolkit API](https://github.com/espressif/esp-dl/blob/master/tools/quantization_tool/quantization_tool_api.md).
+
+# Step 2: Compile & Deploy project
+
+`idf.py set-target esp32s3` or `idf.py set-target esp32`
+
+`idf.py menuconfig` => for more configuration (optional).
+
+`idf.py build flash monitor`
+
+
+# Step 3: Run Your Model
+
+In terminal after ESP booted enter `run_benchmark` command or enter `help` to receive more information.
+
+
+# Results
+
+SoC  | description | delay| accuracy
+------------- | ------------- | ------------- | -------------
