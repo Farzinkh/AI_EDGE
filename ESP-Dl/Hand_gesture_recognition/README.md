@@ -68,6 +68,16 @@ In terminal after ESP booted enter `run_benchmark` command or enter `help` to re
 
 # Results
 
-SoC  | description | delay| accuracy
-------------- | ------------- | ------------- | -------------
-ESP32 |  INT8 | 540ms | 99.91
+<center>
+
+| SoC      | description         | delay  | accuracy |
+|----------|:-------------------:|:------:|---------:|
+| ESP32    | INT8 | 540ms   | 99.91    |
+
+</center>
+
+</center>
+
+<p align="center">
+    <img width="%" src="./logs/REPORT_1200_INT8.png"> 
+</p>
