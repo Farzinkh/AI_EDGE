@@ -70,3 +70,4 @@ In terminal after ESP booted enter `run_benchmark` command or enter `help` to re
 
 SoC  | description | delay| accuracy
 ------------- | ------------- | ------------- | -------------
+ESP32 |  INT8 | 540ms | 99.91

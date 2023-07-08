@@ -1,1201 +1,1200 @@
- 4:30:16 CLI: 0-8.BIN Inference Time is 3248 ms :: 8 False
- 4:30:29 CLI: 1-0.BIN Inference Time is 540 ms :: 0 False
- 4:30:32 CLI: 2-3.BIN Inference Time is 540 ms :: 3 False
- 4:30:33 CLI: 3-5.BIN Inference Time is 540 ms :: 5 False
- 4:30:34 CLI: 4-4.BIN Inference Time is 540 ms :: 4 False
- 4:30:35 CLI: 5-6.BIN Inference Time is 540 ms :: 6 False
- 4:30:36 CLI: 6-0.BIN Inference Time is 540 ms :: 0 False
- 4:30:37 CLI: 7-9.BIN Inference Time is 540 ms :: 9 False
- 4:30:40 CLI: 8-3.BIN Inference Time is 540 ms :: 3 False
- 4:30:42 CLI: 9-2.BIN Inference Time is 540 ms :: 2 False
- 4:30:43 CLI: 10-7.BIN Inference Time is 540 ms :: 7 False
- 4:30:44 CLI: 11-4.BIN Inference Time is 540 ms :: 4 False
- 4:30:45 CLI: 12-9.BIN Inference Time is 540 ms :: 9 False
- 4:30:46 CLI: 13-8.BIN Inference Time is 540 ms :: 8 False
- 4:30:47 CLI: 14-0.BIN Inference Time is 540 ms :: 0 False
- 4:30:50 CLI: 15-6.BIN Inference Time is 540 ms :: 6 False
- 4:30:51 CLI: 16-9.BIN Inference Time is 540 ms :: 9 False
- 4:30:52 CLI: 17-0.BIN Inference Time is 540 ms :: 0 False
- 4:30:54 CLI: 18-1.BIN Inference Time is 540 ms :: 1 False
- 4:30:55 CLI: 19-6.BIN Inference Time is 540 ms :: 6 False
- 4:30:56 CLI: 20-0.BIN Inference Time is 540 ms :: 0 False
- 4:30:57 CLI: 21-9.BIN Inference Time is 540 ms :: 9 False
- 4:31:00 CLI: 22-9.BIN Inference Time is 540 ms :: 9 False
- 4:31:01 CLI: 23-2.BIN Inference Time is 540 ms :: 2 False
- 4:31:02 CLI: 24-8.BIN Inference Time is 540 ms :: 8 False
- 4:31:03 CLI: 25-6.BIN Inference Time is 540 ms :: 6 False
- 4:31:05 CLI: 26-1.BIN Inference Time is 540 ms :: 1 False
- 4:31:06 CLI: 27-0.BIN Inference Time is 540 ms :: 0 False
- 4:31:09 CLI: 28-9.BIN Inference Time is 540 ms :: 9 False
- 4:31:10 CLI: 29-7.BIN Inference Time is 540 ms :: 7 False
- 4:31:11 CLI: 30-5.BIN Inference Time is 540 ms :: 5 False
- 4:31:12 CLI: 31-0.BIN Inference Time is 540 ms :: 0 False
- 4:31:14 CLI: 32-9.BIN Inference Time is 540 ms :: 9 False
- 4:31:15 CLI: 33-5.BIN Inference Time is 540 ms :: 5 False
- 4:31:16 CLI: 34-7.BIN Inference Time is 540 ms :: 7 False
- 4:31:19 CLI: 35-0.BIN Inference Time is 540 ms :: 0 False
- 4:31:20 CLI: 36-8.BIN Inference Time is 540 ms :: 8 False
- 4:31:21 CLI: 37-1.BIN Inference Time is 540 ms :: 1 False
- 4:31:22 CLI: 38-5.BIN Inference Time is 540 ms :: 5 False
- 4:31:24 CLI: 39-0.BIN Inference Time is 540 ms :: 0 False
- 4:31:25 CLI: 40-0.BIN Inference Time is 540 ms :: 0 False
- 4:31:26 CLI: 41-9.BIN Inference Time is 540 ms :: 9 False
- 4:31:29 CLI: 42-7.BIN Inference Time is 540 ms :: 7 False
- 4:31:31 CLI: 43-1.BIN Inference Time is 540 ms :: 1 False
- 4:31:32 CLI: 44-7.BIN Inference Time is 540 ms :: 7 False
- 4:31:33 CLI: 45-2.BIN Inference Time is 540 ms :: 2 False
- 4:31:34 CLI: 46-6.BIN Inference Time is 540 ms :: 6 False
- 4:31:35 CLI: 47-3.BIN Inference Time is 540 ms :: 3 False
- 4:31:39 CLI: 48-2.BIN Inference Time is 540 ms :: 2 False
- 4:31:40 CLI: 49-9.BIN Inference Time is 540 ms :: 9 False
- 4:31:41 CLI: 50-4.BIN Inference Time is 540 ms :: 4 False
- 4:31:42 CLI: 51-2.BIN Inference Time is 540 ms :: 2 False
- 4:31:43 CLI: 52-0.BIN Inference Time is 540 ms :: 0 False
- 4:31:44 CLI: 53-8.BIN Inference Time is 540 ms :: 8 False
- 4:31:45 CLI: 54-1.BIN Inference Time is 540 ms :: 1 False
- 4:31:49 CLI: 55-8.BIN Inference Time is 540 ms :: 8 False
- 4:31:50 CLI: 56-3.BIN Inference Time is 540 ms :: 3 False
- 4:31:51 CLI: 57-4.BIN Inference Time is 540 ms :: 4 False
- 4:31:52 CLI: 58-8.BIN Inference Time is 540 ms :: 8 False
- 4:31:53 CLI: 59-3.BIN Inference Time is 540 ms :: 3 False
- 4:31:54 CLI: 60-1.BIN Inference Time is 540 ms :: 1 False
- 4:31:55 CLI: 61-9.BIN Inference Time is 540 ms :: 9 False
- 4:31:59 CLI: 62-6.BIN Inference Time is 540 ms :: 6 False
- 4:32:00 CLI: 63-5.BIN Inference Time is 540 ms :: 5 False
- 4:32:01 CLI: 64-0.BIN Inference Time is 540 ms :: 0 False
- 4:32:02 CLI: 65-8.BIN Inference Time is 540 ms :: 8 False
- 4:32:04 CLI: 66-6.BIN Inference Time is 540 ms :: 6 False
- 4:32:05 CLI: 67-6.BIN Inference Time is 540 ms :: 6 False
- 4:32:06 CLI: 68-1.BIN Inference Time is 540 ms :: 1 False
- 4:32:09 CLI: 69-8.BIN Inference Time is 540 ms :: 8 False
- 4:32:11 CLI: 70-5.BIN Inference Time is 540 ms :: 5 False
- 4:32:12 CLI: 71-7.BIN Inference Time is 540 ms :: 7 False
- 4:32:13 CLI: 72-1.BIN Inference Time is 540 ms :: 1 False
- 4:32:14 CLI: 73-1.BIN Inference Time is 540 ms :: 1 False
- 4:32:15 CLI: 74-3.BIN Inference Time is 540 ms :: 3 False
- 4:32:19 CLI: 75-5.BIN Inference Time is 540 ms :: 5 False
- 4:32:20 CLI: 76-6.BIN Inference Time is 540 ms :: 6 False
- 4:32:21 CLI: 77-3.BIN Inference Time is 540 ms :: 3 False
- 4:32:22 CLI: 78-7.BIN Inference Time is 540 ms :: 7 False
- 4:32:23 CLI: 79-7.BIN Inference Time is 540 ms :: 7 False
- 4:32:24 CLI: 80-7.BIN Inference Time is 540 ms :: 7 False
- 4:32:26 CLI: 81-4.BIN Inference Time is 540 ms :: 4 False
- 4:32:29 CLI: 82-4.BIN Inference Time is 540 ms :: 4 False
- 4:32:30 CLI: 83-5.BIN Inference Time is 540 ms :: 5 False
- 4:32:32 CLI: 84-1.BIN Inference Time is 540 ms :: 1 False
- 4:32:33 CLI: 85-2.BIN Inference Time is 540 ms :: 2 False
- 4:32:34 CLI: 86-4.BIN Inference Time is 540 ms :: 4 False
- 4:32:35 CLI: 87-9.BIN Inference Time is 540 ms :: 9 False
- 4:32:36 CLI: 88-1.BIN Inference Time is 540 ms :: 1 False
- 4:32:40 CLI: 89-0.BIN Inference Time is 540 ms :: 0 False
- 4:32:41 CLI: 90-1.BIN Inference Time is 540 ms :: 1 False
- 4:32:42 CLI: 91-9.BIN Inference Time is 540 ms :: 9 False
- 4:32:43 CLI: 92-8.BIN Inference Time is 540 ms :: 8 False
- 4:32:45 CLI: 93-8.BIN Inference Time is 540 ms :: 8 False
- 4:32:46 CLI: 94-4.BIN Inference Time is 540 ms :: 4 False
- 4:32:49 CLI: 95-8.BIN Inference Time is 540 ms :: 8 False
- 4:32:51 CLI: 96-1.BIN Inference Time is 540 ms :: 1 False
- 4:32:52 CLI: 97-8.BIN Inference Time is 540 ms :: 8 False
- 4:32:53 CLI: 98-0.BIN Inference Time is 540 ms :: 0 False
- 4:32:54 CLI: 99-9.BIN Inference Time is 540 ms :: 9 False
- 4:32:55 CLI: 100-8.BIN Inference Time is 540 ms :: 8 False
- 4:32:56 CLI: 101-1.BIN Inference Time is 540 ms :: 1 False
- 4:33:00 CLI: 102-2.BIN Inference Time is 540 ms :: 2 False
- 4:33:01 CLI: 103-4.BIN Inference Time is 540 ms :: 4 False
- 4:33:02 CLI: 104-3.BIN Inference Time is 540 ms :: 3 False
- 4:33:04 CLI: 105-2.BIN Inference Time is 540 ms :: 2 False
- 4:33:05 CLI: 106-6.BIN Inference Time is 540 ms :: 6 False
- 4:33:06 CLI: 107-8.BIN Inference Time is 540 ms :: 8 False
- 4:33:07 CLI: 108-1.BIN Inference Time is 540 ms :: 1 False
- 4:33:11 CLI: 109-9.BIN Inference Time is 540 ms :: 9 False
- 4:33:12 CLI: 110-4.BIN Inference Time is 540 ms :: 4 False
- 4:33:13 CLI: 111-2.BIN Inference Time is 540 ms :: 2 False
- 4:33:14 CLI: 112-2.BIN Inference Time is 540 ms :: 2 False
- 4:33:16 CLI: 113-4.BIN Inference Time is 540 ms :: 4 False
- 4:33:17 CLI: 114-6.BIN Inference Time is 540 ms :: 6 False
- 4:33:18 CLI: 115-8.BIN Inference Time is 540 ms :: 8 False
- 4:33:22 CLI: 116-3.BIN Inference Time is 540 ms :: 3 False
- 4:33:23 CLI: 117-2.BIN Inference Time is 540 ms :: 2 False
- 4:33:24 CLI: 118-1.BIN Inference Time is 540 ms :: 1 False
- 4:33:25 CLI: 119-4.BIN Inference Time is 540 ms :: 4 False
- 4:33:26 CLI: 120-9.BIN Inference Time is 540 ms :: 9 False
- 4:33:28 CLI: 121-6.BIN Inference Time is 540 ms :: 6 False
- 4:33:31 CLI: 122-2.BIN Inference Time is 540 ms :: 2 False
- 4:33:33 CLI: 123-7.BIN Inference Time is 540 ms :: 7 False
- 4:33:34 CLI: 124-6.BIN Inference Time is 540 ms :: 6 False
- 4:33:35 CLI: 125-2.BIN Inference Time is 540 ms :: 2 False
- 4:33:36 CLI: 126-3.BIN Inference Time is 540 ms :: 3 False
- 4:33:37 CLI: 127-9.BIN Inference Time is 540 ms :: 9 False
- 4:33:39 CLI: 128-7.BIN Inference Time is 540 ms :: 7 False
- 4:33:42 CLI: 129-3.BIN Inference Time is 540 ms :: 3 False
- 4:33:44 CLI: 130-0.BIN Inference Time is 540 ms :: 0 False
- 4:33:45 CLI: 131-7.BIN Inference Time is 540 ms :: 7 False
- 4:33:46 CLI: 132-4.BIN Inference Time is 540 ms :: 4 False
- 4:33:47 CLI: 133-7.BIN Inference Time is 540 ms :: 7 False
- 4:33:48 CLI: 134-5.BIN Inference Time is 540 ms :: 5 False
- 4:33:50 CLI: 135-8.BIN Inference Time is 540 ms :: 8 False
- 4:33:53 CLI: 136-5.BIN Inference Time is 540 ms :: 5 False
- 4:33:55 CLI: 137-2.BIN Inference Time is 540 ms :: 2 False
- 4:33:56 CLI: 138-4.BIN Inference Time is 540 ms :: 4 False
- 4:33:57 CLI: 139-3.BIN Inference Time is 540 ms :: 3 False
- 4:33:58 CLI: 140-0.BIN Inference Time is 540 ms :: 0 False
- 4:34:00 CLI: 141-5.BIN Inference Time is 540 ms :: 5 False
- 4:34:03 CLI: 142-6.BIN Inference Time is 540 ms :: 6 False
- 4:34:05 CLI: 143-3.BIN Inference Time is 540 ms :: 3 False
- 4:34:06 CLI: 144-0.BIN Inference Time is 540 ms :: 0 False
- 4:34:07 CLI: 145-7.BIN Inference Time is 540 ms :: 7 False
- 4:34:08 CLI: 146-9.BIN Inference Time is 540 ms :: 9 False
- 4:34:09 CLI: 147-2.BIN Inference Time is 540 ms :: 2 False
- 4:34:11 CLI: 148-1.BIN Inference Time is 540 ms :: 1 False
- 4:34:15 CLI: 149-6.BIN Inference Time is 540 ms :: 6 False
- 4:34:16 CLI: 150-5.BIN Inference Time is 540 ms :: 5 False
- 4:34:17 CLI: 151-3.BIN Inference Time is 540 ms :: 3 False
- 4:34:18 CLI: 152-9.BIN Inference Time is 540 ms :: 9 False
- 4:34:20 CLI: 153-6.BIN Inference Time is 540 ms :: 6 False
- 4:34:21 CLI: 154-1.BIN Inference Time is 540 ms :: 1 False
- 4:34:22 CLI: 155-8.BIN Inference Time is 540 ms :: 8 False
- 4:34:26 CLI: 156-1.BIN Inference Time is 540 ms :: 1 False
- 4:34:27 CLI: 157-0.BIN Inference Time is 540 ms :: 0 False
- 4:34:28 CLI: 158-3.BIN Inference Time is 540 ms :: 3 False
- 4:34:30 CLI: 159-1.BIN Inference Time is 540 ms :: 1 False
- 4:34:31 CLI: 160-5.BIN Inference Time is 540 ms :: 5 False
- 4:34:32 CLI: 161-0.BIN Inference Time is 540 ms :: 0 False
- 4:34:36 CLI: 162-4.BIN Inference Time is 540 ms :: 4 False
- 4:34:37 CLI: 163-9.BIN Inference Time is 540 ms :: 9 False
- 4:34:38 CLI: 164-1.BIN Inference Time is 540 ms :: 1 False
- 4:34:40 CLI: 165-9.BIN Inference Time is 540 ms :: 9 False
- 4:34:41 CLI: 166-5.BIN Inference Time is 540 ms :: 5 False
- 4:34:42 CLI: 167-2.BIN Inference Time is 540 ms :: 2 False
- 4:34:43 CLI: 168-3.BIN Inference Time is 540 ms :: 3 False
- 4:34:47 CLI: 169-8.BIN Inference Time is 540 ms :: 8 False
- 4:34:48 CLI: 170-4.BIN Inference Time is 540 ms :: 4 False
- 4:34:50 CLI: 171-8.BIN Inference Time is 540 ms :: 8 False
- 4:34:51 CLI: 172-5.BIN Inference Time is 540 ms :: 5 False
- 4:34:52 CLI: 173-6.BIN Inference Time is 540 ms :: 6 False
- 4:34:54 CLI: 174-2.BIN Inference Time is 540 ms :: 2 False
- 4:34:55 CLI: 175-6.BIN Inference Time is 540 ms :: 6 False
- 4:34:59 CLI: 176-2.BIN Inference Time is 540 ms :: 2 False
- 4:35:00 CLI: 177-0.BIN Inference Time is 540 ms :: 0 False
- 4:35:01 CLI: 178-7.BIN Inference Time is 540 ms :: 7 False
- 4:35:02 CLI: 179-8.BIN Inference Time is 540 ms :: 8 False
- 4:35:04 CLI: 180-4.BIN Inference Time is 540 ms :: 4 False
- 4:35:05 CLI: 181-5.BIN Inference Time is 540 ms :: 5 False
- 4:35:06 CLI: 182-2.BIN Inference Time is 540 ms :: 2 False
- 4:35:10 CLI: 183-2.BIN Inference Time is 540 ms :: 2 False
- 4:35:11 CLI: 184-1.BIN Inference Time is 540 ms :: 1 False
- 4:35:13 CLI: 185-4.BIN Inference Time is 540 ms :: 4 False
- 4:35:14 CLI: 186-5.BIN Inference Time is 540 ms :: 5 False
- 4:35:15 CLI: 187-2.BIN Inference Time is 540 ms :: 2 False
- 4:35:16 CLI: 188-6.BIN Inference Time is 540 ms :: 6 False
- 4:35:20 CLI: 189-5.BIN Inference Time is 540 ms :: 5 False
- 4:35:22 CLI: 190-9.BIN Inference Time is 540 ms :: 9 False
- 4:35:23 CLI: 191-2.BIN Inference Time is 540 ms :: 2 False
- 4:35:24 CLI: 192-1.BIN Inference Time is 540 ms :: 1 False
- 4:35:25 CLI: 193-6.BIN Inference Time is 540 ms :: 6 False
- 4:35:27 CLI: 194-8.BIN Inference Time is 540 ms :: 8 False
- 4:35:28 CLI: 195-1.BIN Inference Time is 540 ms :: 1 False
- 4:35:32 CLI: 196-8.BIN Inference Time is 540 ms :: 8 False
- 4:35:33 CLI: 197-3.BIN Inference Time is 540 ms :: 3 False
- 4:35:35 CLI: 198-9.BIN Inference Time is 540 ms :: 9 False
- 4:35:36 CLI: 199-1.BIN Inference Time is 540 ms :: 1 False
- 4:35:37 CLI: 200-1.BIN Inference Time is 540 ms :: 1 False
- 4:35:41 CLI: 201-7.BIN Inference Time is 540 ms :: 7 False
- 4:35:43 CLI: 202-0.BIN Inference Time is 540 ms :: 0 False
- 4:35:44 CLI: 203-6.BIN Inference Time is 540 ms :: 6 False
- 4:35:45 CLI: 204-7.BIN Inference Time is 540 ms :: 7 False
- 4:35:47 CLI: 205-0.BIN Inference Time is 540 ms :: 0 False
- 4:35:48 CLI: 206-6.BIN Inference Time is 540 ms :: 6 False
- 4:35:49 CLI: 207-7.BIN Inference Time is 540 ms :: 7 False
- 4:35:53 CLI: 208-9.BIN Inference Time is 540 ms :: 9 False
- 4:35:54 CLI: 209-3.BIN Inference Time is 540 ms :: 3 False
- 4:35:56 CLI: 210-2.BIN Inference Time is 540 ms :: 2 False
- 4:35:57 CLI: 211-0.BIN Inference Time is 540 ms :: 0 False
- 4:35:58 CLI: 212-1.BIN Inference Time is 540 ms :: 1 False
- 4:36:00 CLI: 213-5.BIN Inference Time is 540 ms :: 5 False
- 4:36:01 CLI: 214-8.BIN Inference Time is 540 ms :: 8 False
- 4:36:05 CLI: 215-8.BIN Inference Time is 540 ms :: 8 False
- 4:36:06 CLI: 216-7.BIN Inference Time is 540 ms :: 7 False
- 4:36:08 CLI: 217-5.BIN Inference Time is 540 ms :: 5 False
- 4:36:09 CLI: 218-7.BIN Inference Time is 540 ms :: 7 False
- 4:36:10 CLI: 219-2.BIN Inference Time is 540 ms :: 2 False
- 4:36:12 CLI: 220-9.BIN Inference Time is 540 ms :: 9 False
- 4:36:15 CLI: 221-6.BIN Inference Time is 540 ms :: 6 False
- 4:36:17 CLI: 222-4.BIN Inference Time is 540 ms :: 4 False
- 4:36:18 CLI: 223-6.BIN Inference Time is 540 ms :: 6 False
- 4:36:19 CLI: 224-8.BIN Inference Time is 540 ms :: 8 False
- 4:36:21 CLI: 225-2.BIN Inference Time is 540 ms :: 2 False
- 4:36:22 CLI: 226-0.BIN Inference Time is 540 ms :: 0 False
- 4:36:23 CLI: 227-6.BIN Inference Time is 540 ms :: 6 False
- 4:36:27 CLI: 228-4.BIN Inference Time is 540 ms :: 4 False
- 4:36:29 CLI: 229-4.BIN Inference Time is 540 ms :: 4 False
- 4:36:30 CLI: 230-5.BIN Inference Time is 540 ms :: 5 False
- 4:36:31 CLI: 231-4.BIN Inference Time is 540 ms :: 4 False
- 4:36:33 CLI: 232-1.BIN Inference Time is 540 ms :: 1 False
- 4:36:34 CLI: 233-6.BIN Inference Time is 540 ms :: 6 False
- 4:36:36 CLI: 234-1.BIN Inference Time is 540 ms :: 1 False
- 4:36:39 CLI: 235-0.BIN Inference Time is 540 ms :: 0 False
- 4:36:41 CLI: 236-3.BIN Inference Time is 540 ms :: 3 False
- 4:36:42 CLI: 237-7.BIN Inference Time is 540 ms :: 7 False
- 4:36:43 CLI: 238-9.BIN Inference Time is 540 ms :: 9 False
- 4:36:45 CLI: 239-1.BIN Inference Time is 540 ms :: 1 False
- 4:36:46 CLI: 240-8.BIN Inference Time is 540 ms :: 8 False
- 4:36:48 CLI: 241-0.BIN Inference Time is 540 ms :: 0 False
- 4:36:51 CLI: 242-8.BIN Inference Time is 540 ms :: 8 False
- 4:36:53 CLI: 243-9.BIN Inference Time is 540 ms :: 9 False
- 4:36:54 CLI: 244-5.BIN Inference Time is 540 ms :: 5 False
- 4:36:56 CLI: 245-3.BIN Inference Time is 540 ms :: 3 False
- 4:36:57 CLI: 246-5.BIN Inference Time is 540 ms :: 5 False
- 4:36:58 CLI: 247-8.BIN Inference Time is 540 ms :: 8 False
- 4:37:02 CLI: 248-4.BIN Inference Time is 540 ms :: 4 False
- 4:37:04 CLI: 249-6.BIN Inference Time is 540 ms :: 6 False
- 4:37:05 CLI: 250-4.BIN Inference Time is 540 ms :: 4 False
- 4:37:06 CLI: 251-2.BIN Inference Time is 540 ms :: 2 False
- 4:37:08 CLI: 252-6.BIN Inference Time is 540 ms :: 6 False
- 4:37:09 CLI: 253-5.BIN Inference Time is 540 ms :: 5 False
- 4:37:11 CLI: 254-1.BIN Inference Time is 540 ms :: 1 False
- 4:37:14 CLI: 255-4.BIN Inference Time is 540 ms :: 4 False
- 4:37:16 CLI: 256-6.BIN Inference Time is 540 ms :: 6 False
- 4:37:17 CLI: 257-8.BIN Inference Time is 540 ms :: 8 False
- 4:37:19 CLI: 258-9.BIN Inference Time is 540 ms :: 9 False
- 4:37:20 CLI: 259-8.BIN Inference Time is 540 ms :: 8 False
- 4:37:21 CLI: 260-2.BIN Inference Time is 540 ms :: 2 False
- 4:37:23 CLI: 261-8.BIN Inference Time is 540 ms :: 8 False
- 4:37:27 CLI: 262-2.BIN Inference Time is 540 ms :: 2 False
- 4:37:28 CLI: 263-2.BIN Inference Time is 540 ms :: 2 False
- 4:37:30 CLI: 264-7.BIN Inference Time is 540 ms :: 7 False
- 4:37:31 CLI: 265-3.BIN Inference Time is 540 ms :: 3 False
- 4:37:32 CLI: 266-2.BIN Inference Time is 540 ms :: 2 False
- 4:37:34 CLI: 267-6.BIN Inference Time is 540 ms :: 6 False
- 4:37:38 CLI: 268-7.BIN Inference Time is 540 ms :: 7 False
- 4:37:39 CLI: 269-4.BIN Inference Time is 540 ms :: 4 False
- 4:37:41 CLI: 270-0.BIN Inference Time is 540 ms :: 0 False
- 4:37:42 CLI: 271-0.BIN Inference Time is 540 ms :: 0 False
- 4:37:43 CLI: 272-0.BIN Inference Time is 540 ms :: 0 False
- 4:37:45 CLI: 273-2.BIN Inference Time is 540 ms :: 2 False
- 4:37:46 CLI: 274-8.BIN Inference Time is 540 ms :: 8 False
- 4:37:50 CLI: 275-4.BIN Inference Time is 540 ms :: 4 False
- 4:37:52 CLI: 276-4.BIN Inference Time is 540 ms :: 4 False
- 4:37:53 CLI: 277-1.BIN Inference Time is 540 ms :: 1 False
- 4:37:54 CLI: 278-1.BIN Inference Time is 540 ms :: 1 False
- 4:37:56 CLI: 279-3.BIN Inference Time is 540 ms :: 3 False
- 4:37:57 CLI: 280-3.BIN Inference Time is 540 ms :: 3 False
- 4:37:59 CLI: 281-3.BIN Inference Time is 540 ms :: 3 False
- 4:38:03 CLI: 282-6.BIN Inference Time is 540 ms :: 6 False
- 4:38:04 CLI: 283-2.BIN Inference Time is 540 ms :: 2 False
- 4:38:06 CLI: 284-6.BIN Inference Time is 540 ms :: 6 False
- 4:38:07 CLI: 285-1.BIN Inference Time is 540 ms :: 1 False
- 4:38:08 CLI: 286-6.BIN Inference Time is 540 ms :: 6 False
- 4:38:10 CLI: 287-4.BIN Inference Time is 540 ms :: 4 False
- 4:38:14 CLI: 288-9.BIN Inference Time is 540 ms :: 9 False
- 4:38:15 CLI: 289-3.BIN Inference Time is 540 ms :: 3 False
- 4:38:17 CLI: 290-3.BIN Inference Time is 540 ms :: 3 False
- 4:38:18 CLI: 291-4.BIN Inference Time is 540 ms :: 4 False
- 4:38:20 CLI: 292-2.BIN Inference Time is 540 ms :: 2 False
- 4:38:21 CLI: 293-0.BIN Inference Time is 540 ms :: 0 False
- 4:38:22 CLI: 294-8.BIN Inference Time is 540 ms :: 8 False
- 4:38:26 CLI: 295-0.BIN Inference Time is 540 ms :: 0 False
- 4:38:28 CLI: 296-6.BIN Inference Time is 540 ms :: 6 False
- 4:38:29 CLI: 297-2.BIN Inference Time is 540 ms :: 2 False
- 4:38:31 CLI: 298-7.BIN Inference Time is 540 ms :: 7 False
- 4:38:32 CLI: 299-3.BIN Inference Time is 540 ms :: 3 False
- 4:38:34 CLI: 300-0.BIN Inference Time is 540 ms :: 0 False
- 4:38:35 CLI: 301-3.BIN Inference Time is 540 ms :: 3 False
- 4:38:39 CLI: 302-1.BIN Inference Time is 540 ms :: 1 False
- 4:38:40 CLI: 303-8.BIN Inference Time is 540 ms :: 8 False
- 4:38:42 CLI: 304-7.BIN Inference Time is 540 ms :: 7 False
- 4:38:43 CLI: 305-7.BIN Inference Time is 540 ms :: 7 False
- 4:38:45 CLI: 306-0.BIN Inference Time is 540 ms :: 0 False
- 4:38:46 CLI: 307-3.BIN Inference Time is 540 ms :: 3 False
- 4:38:48 CLI: 308-9.BIN Inference Time is 540 ms :: 9 False
- 4:38:52 CLI: 309-7.BIN Inference Time is 540 ms :: 7 False
- 4:38:53 CLI: 310-9.BIN Inference Time is 540 ms :: 9 False
- 4:38:55 CLI: 311-6.BIN Inference Time is 540 ms :: 6 False
- 4:38:56 CLI: 312-5.BIN Inference Time is 540 ms :: 5 False
- 4:38:58 CLI: 313-2.BIN Inference Time is 540 ms :: 2 False
- 4:38:59 CLI: 314-5.BIN Inference Time is 540 ms :: 5 False
- 4:39:03 CLI: 315-5.BIN Inference Time is 540 ms :: 5 False
- 4:39:05 CLI: 316-0.BIN Inference Time is 540 ms :: 0 False
- 4:39:06 CLI: 317-1.BIN Inference Time is 540 ms :: 1 False
- 4:39:07 CLI: 318-3.BIN Inference Time is 540 ms :: 3 False
- 4:39:09 CLI: 319-2.BIN Inference Time is 540 ms :: 2 False
- 4:39:10 CLI: 320-2.BIN Inference Time is 540 ms :: 2 False
- 4:39:12 CLI: 321-9.BIN Inference Time is 540 ms :: 9 False
- 4:39:16 CLI: 322-7.BIN Inference Time is 540 ms :: 7 False
- 4:39:17 CLI: 323-9.BIN Inference Time is 540 ms :: 9 False
- 4:39:19 CLI: 324-7.BIN Inference Time is 540 ms :: 7 False
- 4:39:20 CLI: 325-0.BIN Inference Time is 540 ms :: 0 False
- 4:39:22 CLI: 326-6.BIN Inference Time is 540 ms :: 6 False
- 4:39:23 CLI: 327-2.BIN Inference Time is 540 ms :: 2 False
- 4:39:25 CLI: 328-8.BIN Inference Time is 540 ms :: 8 False
- 4:39:29 CLI: 329-3.BIN Inference Time is 540 ms :: 3 False
- 4:39:30 CLI: 330-3.BIN Inference Time is 540 ms :: 3 False
- 4:39:32 CLI: 331-4.BIN Inference Time is 540 ms :: 4 False
- 4:39:33 CLI: 332-6.BIN Inference Time is 540 ms :: 6 False
- 4:39:35 CLI: 333-4.BIN Inference Time is 540 ms :: 4 False
- 4:39:36 CLI: 334-0.BIN Inference Time is 540 ms :: 0 False
- 4:39:40 CLI: 335-2.BIN Inference Time is 540 ms :: 2 False
- 4:39:42 CLI: 336-9.BIN Inference Time is 540 ms :: 9 False
- 4:39:44 CLI: 337-4.BIN Inference Time is 540 ms :: 4 False
- 4:39:45 CLI: 338-2.BIN Inference Time is 540 ms :: 2 False
- 4:39:47 CLI: 339-0.BIN Inference Time is 540 ms :: 0 False
- 4:39:48 CLI: 340-6.BIN Inference Time is 540 ms :: 6 False
- 4:39:50 CLI: 341-6.BIN Inference Time is 540 ms :: 6 False
- 4:39:54 CLI: 342-2.BIN Inference Time is 540 ms :: 2 False
- 4:39:55 CLI: 343-1.BIN Inference Time is 540 ms :: 1 False
- 4:39:57 CLI: 344-3.BIN Inference Time is 540 ms :: 3 False
- 4:39:58 CLI: 345-9.BIN Inference Time is 540 ms :: 9 False
- 4:40:00 CLI: 346-9.BIN Inference Time is 540 ms :: 9 False
- 4:40:01 CLI: 347-6.BIN Inference Time is 540 ms :: 6 False
- 4:40:03 CLI: 348-7.BIN Inference Time is 540 ms :: 7 False
- 4:40:07 CLI: 349-4.BIN Inference Time is 540 ms :: 4 False
- 4:40:08 CLI: 350-8.BIN Inference Time is 540 ms :: 8 False
- 4:40:10 CLI: 351-0.BIN Inference Time is 540 ms :: 0 False
- 4:40:11 CLI: 352-9.BIN Inference Time is 540 ms :: 9 False
- 4:40:13 CLI: 353-0.BIN Inference Time is 540 ms :: 0 False
- 4:40:14 CLI: 354-8.BIN Inference Time is 540 ms :: 8 False
- 4:40:18 CLI: 355-9.BIN Inference Time is 540 ms :: 9 False
- 4:40:20 CLI: 356-7.BIN Inference Time is 540 ms :: 7 False
- 4:40:21 CLI: 357-3.BIN Inference Time is 540 ms :: 3 False
- 4:40:23 CLI: 358-5.BIN Inference Time is 540 ms :: 5 False
- 4:40:25 CLI: 359-7.BIN Inference Time is 540 ms :: 7 False
- 4:40:26 CLI: 360-4.BIN Inference Time is 540 ms :: 4 False
- 4:40:28 CLI: 361-9.BIN Inference Time is 540 ms :: 9 False
- 4:40:32 CLI: 362-1.BIN Inference Time is 540 ms :: 1 False
- 4:40:33 CLI: 363-0.BIN Inference Time is 540 ms :: 0 False
- 4:40:35 CLI: 364-1.BIN Inference Time is 540 ms :: 1 False
- 4:40:36 CLI: 365-2.BIN Inference Time is 540 ms :: 2 False
- 4:40:38 CLI: 366-0.BIN Inference Time is 540 ms :: 0 False
- 4:40:39 CLI: 367-8.BIN Inference Time is 540 ms :: 8 False
- 4:40:41 CLI: 368-3.BIN Inference Time is 540 ms :: 3 False
- 4:40:45 CLI: 369-5.BIN Inference Time is 540 ms :: 5 False
- 4:40:47 CLI: 370-7.BIN Inference Time is 540 ms :: 7 False
- 4:40:48 CLI: 371-4.BIN Inference Time is 540 ms :: 4 False
- 4:40:50 CLI: 372-1.BIN Inference Time is 540 ms :: 1 False
- 4:40:51 CLI: 373-8.BIN Inference Time is 540 ms :: 8 False
- 4:40:53 CLI: 374-6.BIN Inference Time is 540 ms :: 6 False
- 4:40:54 CLI: 375-3.BIN Inference Time is 540 ms :: 3 False
- 4:40:58 CLI: 376-3.BIN Inference Time is 540 ms :: 3 False
- 4:41:00 CLI: 377-0.BIN Inference Time is 540 ms :: 0 False
- 4:41:01 CLI: 378-0.BIN Inference Time is 540 ms :: 0 False
- 4:41:03 CLI: 379-9.BIN Inference Time is 540 ms :: 9 False
- 4:41:05 CLI: 380-5.BIN Inference Time is 540 ms :: 5 False
- 4:41:06 CLI: 381-1.BIN Inference Time is 540 ms :: 1 False
- 4:41:10 CLI: 382-6.BIN Inference Time is 540 ms :: 6 False
- 4:41:12 CLI: 383-7.BIN Inference Time is 540 ms :: 7 False
- 4:41:13 CLI: 384-5.BIN Inference Time is 540 ms :: 5 False
- 4:41:15 CLI: 385-9.BIN Inference Time is 540 ms :: 9 False
- 4:41:17 CLI: 386-4.BIN Inference Time is 540 ms :: 4 False
- 4:41:18 CLI: 387-3.BIN Inference Time is 540 ms :: 3 False
- 4:41:20 CLI: 388-5.BIN Inference Time is 540 ms :: 5 False
- 4:41:24 CLI: 389-4.BIN Inference Time is 540 ms :: 4 False
- 4:41:25 CLI: 390-6.BIN Inference Time is 540 ms :: 6 False
- 4:41:27 CLI: 391-4.BIN Inference Time is 540 ms :: 4 False
- 4:41:29 CLI: 392-2.BIN Inference Time is 540 ms :: 2 False
- 4:41:30 CLI: 393-9.BIN Inference Time is 540 ms :: 9 False
- 4:41:32 CLI: 394-7.BIN Inference Time is 540 ms :: 7 False
- 4:41:33 CLI: 395-6.BIN Inference Time is 540 ms :: 6 False
- 4:41:38 CLI: 396-1.BIN Inference Time is 540 ms :: 1 False
- 4:41:39 CLI: 397-5.BIN Inference Time is 540 ms :: 5 False
- 4:41:41 CLI: 398-9.BIN Inference Time is 540 ms :: 9 False
- 4:41:42 CLI: 399-7.BIN Inference Time is 540 ms :: 7 False
- 4:41:44 CLI: 400-6.BIN Inference Time is 540 ms :: 6 False
- 4:41:45 CLI: 401-4.BIN Inference Time is 540 ms :: 4 False
- 4:41:50 CLI: 402-2.BIN Inference Time is 540 ms :: 2 False
- 4:41:51 CLI: 403-0.BIN Inference Time is 540 ms :: 0 False
- 4:41:53 CLI: 404-3.BIN Inference Time is 540 ms :: 3 False
- 4:41:54 CLI: 405-0.BIN Inference Time is 540 ms :: 0 False
- 4:41:56 CLI: 406-1.BIN Inference Time is 540 ms :: 1 False
- 4:41:58 CLI: 407-8.BIN Inference Time is 540 ms :: 8 False
- 4:41:59 CLI: 408-7.BIN Inference Time is 540 ms :: 7 False
- 4:42:03 CLI: 409-5.BIN Inference Time is 540 ms :: 5 False
- 4:42:05 CLI: 410-4.BIN Inference Time is 540 ms :: 4 False
- 4:42:07 CLI: 411-1.BIN Inference Time is 540 ms :: 1 False
- 4:42:08 CLI: 412-5.BIN Inference Time is 540 ms :: 5 False
- 4:42:10 CLI: 413-2.BIN Inference Time is 540 ms :: 2 False
- 4:42:11 CLI: 414-0.BIN Inference Time is 540 ms :: 0 False
- 4:42:13 CLI: 415-7.BIN Inference Time is 540 ms :: 7 False
- 4:42:17 CLI: 416-9.BIN Inference Time is 540 ms :: 9 False
- 4:42:19 CLI: 417-1.BIN Inference Time is 540 ms :: 1 False
- 4:42:20 CLI: 418-5.BIN Inference Time is 540 ms :: 5 False
- 4:42:22 CLI: 419-8.BIN Inference Time is 540 ms :: 8 False
- 4:42:24 CLI: 420-1.BIN Inference Time is 540 ms :: 1 False
- 4:42:25 CLI: 421-3.BIN Inference Time is 540 ms :: 3 False
- 4:42:29 CLI: 422-8.BIN Inference Time is 540 ms :: 8 False
- 4:42:31 CLI: 423-1.BIN Inference Time is 540 ms :: 1 False
- 4:42:33 CLI: 424-9.BIN Inference Time is 540 ms :: 9 False
- 4:42:34 CLI: 425-0.BIN Inference Time is 540 ms :: 0 False
- 4:42:36 CLI: 426-0.BIN Inference Time is 540 ms :: 0 False
- 4:42:37 CLI: 427-9.BIN Inference Time is 540 ms :: 9 False
- 4:42:39 CLI: 428-1.BIN Inference Time is 540 ms :: 1 False
- 4:42:43 CLI: 429-7.BIN Inference Time is 540 ms :: 7 False
- 4:42:45 CLI: 430-5.BIN Inference Time is 540 ms :: 5 False
- 4:42:47 CLI: 431-6.BIN Inference Time is 540 ms :: 6 False
- 4:42:48 CLI: 432-8.BIN Inference Time is 540 ms :: 8 False
- 4:42:50 CLI: 433-9.BIN Inference Time is 540 ms :: 9 False
- 4:42:54 CLI: 434-0.BIN Inference Time is 540 ms :: 0 False
- 4:43:01 CLI: 435-9.BIN Inference Time is 540 ms :: 9 False
- 4:43:05 CLI: 436-2.BIN Inference Time is 540 ms :: 2 False
- 4:43:09 CLI: 437-9.BIN Inference Time is 540 ms :: 9 False
- 4:43:13 CLI: 438-9.BIN Inference Time is 540 ms :: 9 False
- 4:43:17 CLI: 439-3.BIN Inference Time is 540 ms :: 3 False
- 4:43:21 CLI: 440-9.BIN Inference Time is 540 ms :: 9 False
- 4:43:25 CLI: 441-0.BIN Inference Time is 540 ms :: 0 False
- 4:43:32 CLI: 442-3.BIN Inference Time is 540 ms :: 3 False
- 4:43:36 CLI: 443-4.BIN Inference Time is 540 ms :: 4 False
- 4:43:40 CLI: 444-5.BIN Inference Time is 540 ms :: 5 False
- 4:43:44 CLI: 445-0.BIN Inference Time is 540 ms :: 0 False
- 4:43:48 CLI: 446-6.BIN Inference Time is 540 ms :: 6 False
- 4:43:53 CLI: 447-6.BIN Inference Time is 540 ms :: 6 False
- 4:43:59 CLI: 448-1.BIN Inference Time is 540 ms :: 1 False
- 4:44:03 CLI: 449-5.BIN Inference Time is 540 ms :: 5 False
- 4:44:07 CLI: 450-8.BIN Inference Time is 540 ms :: 8 False
- 4:44:12 CLI: 451-1.BIN Inference Time is 540 ms :: 1 False
- 4:44:16 CLI: 452-4.BIN Inference Time is 540 ms :: 4 False
- 4:44:20 CLI: 453-3.BIN Inference Time is 540 ms :: 3 False
- 4:44:24 CLI: 454-1.BIN Inference Time is 540 ms :: 1 False
- 4:44:31 CLI: 455-1.BIN Inference Time is 540 ms :: 1 False
- 4:44:35 CLI: 456-2.BIN Inference Time is 540 ms :: 2 False
- 4:44:39 CLI: 457-5.BIN Inference Time is 540 ms :: 5 False
- 4:44:43 CLI: 458-1.BIN Inference Time is 540 ms :: 1 False
- 4:44:47 CLI: 459-9.BIN Inference Time is 540 ms :: 9 False
- 4:44:51 CLI: 460-6.BIN Inference Time is 540 ms :: 6 False
- 4:44:56 CLI: 461-8.BIN Inference Time is 540 ms :: 8 False
- 4:45:02 CLI: 462-3.BIN Inference Time is 540 ms :: 3 False
- 4:45:06 CLI: 463-6.BIN Inference Time is 540 ms :: 6 False
- 4:45:11 CLI: 464-5.BIN Inference Time is 540 ms :: 5 False
- 4:45:15 CLI: 465-3.BIN Inference Time is 540 ms :: 3 False
- 4:45:19 CLI: 466-7.BIN Inference Time is 540 ms :: 7 False
- 4:45:23 CLI: 467-4.BIN Inference Time is 540 ms :: 4 False
- 4:45:30 CLI: 468-7.BIN Inference Time is 540 ms :: 7 False
- 4:45:34 CLI: 469-7.BIN Inference Time is 540 ms :: 7 False
- 4:45:38 CLI: 470-9.BIN Inference Time is 540 ms :: 9 False
- 4:45:42 CLI: 471-3.BIN Inference Time is 540 ms :: 3 False
- 4:45:46 CLI: 472-7.BIN Inference Time is 540 ms :: 7 False
- 4:45:50 CLI: 473-5.BIN Inference Time is 540 ms :: 5 False
- 4:45:55 CLI: 474-8.BIN Inference Time is 540 ms :: 8 False
- 4:46:01 CLI: 475-7.BIN Inference Time is 540 ms :: 7 False
- 4:46:06 CLI: 476-9.BIN Inference Time is 540 ms :: 9 False
- 4:46:10 CLI: 477-4.BIN Inference Time is 540 ms :: 4 False
- 4:46:14 CLI: 478-0.BIN Inference Time is 540 ms :: 0 False
- 4:46:18 CLI: 479-8.BIN Inference Time is 540 ms :: 8 False
- 4:46:22 CLI: 480-0.BIN Inference Time is 540 ms :: 0 False
- 4:46:26 CLI: 481-2.BIN Inference Time is 540 ms :: 2 False
- 4:46:33 CLI: 482-8.BIN Inference Time is 540 ms :: 8 False
- 4:46:37 CLI: 483-8.BIN Inference Time is 540 ms :: 8 False
- 4:46:41 CLI: 484-2.BIN Inference Time is 540 ms :: 2 False
- 4:46:46 CLI: 485-5.BIN Inference Time is 540 ms :: 5 False
- 4:46:50 CLI: 486-3.BIN Inference Time is 540 ms :: 3 False
- 4:46:54 CLI: 487-5.BIN Inference Time is 540 ms :: 5 False
- 4:46:58 CLI: 488-0.BIN Inference Time is 540 ms :: 0 False
- 4:47:05 CLI: 489-5.BIN Inference Time is 540 ms :: 5 False
- 4:47:09 CLI: 490-1.BIN Inference Time is 540 ms :: 1 False
- 4:47:13 CLI: 491-2.BIN Inference Time is 540 ms :: 2 False
- 4:47:17 CLI: 492-1.BIN Inference Time is 540 ms :: 1 False
- 4:47:22 CLI: 493-5.BIN Inference Time is 540 ms :: 5 False
- 4:47:26 CLI: 494-4.BIN Inference Time is 540 ms :: 4 False
- 4:47:33 CLI: 495-5.BIN Inference Time is 540 ms :: 5 False
- 4:47:37 CLI: 496-9.BIN Inference Time is 540 ms :: 9 False
- 4:47:41 CLI: 497-2.BIN Inference Time is 540 ms :: 2 False
- 4:47:45 CLI: 498-5.BIN Inference Time is 540 ms :: 5 False
- 4:47:49 CLI: 499-3.BIN Inference Time is 540 ms :: 3 False
- 4:47:54 CLI: 500-9.BIN Inference Time is 540 ms :: 9 False
- 4:47:58 CLI: 501-6.BIN Inference Time is 540 ms :: 6 False
- 4:48:04 CLI: 502-2.BIN Inference Time is 540 ms :: 2 False
- 4:48:09 CLI: 503-9.BIN Inference Time is 540 ms :: 9 False
- 4:48:13 CLI: 504-7.BIN Inference Time is 540 ms :: 7 False
- 4:48:17 CLI: 505-5.BIN Inference Time is 540 ms :: 5 False
- 4:48:21 CLI: 506-7.BIN Inference Time is 540 ms :: 7 False
- 4:48:25 CLI: 507-8.BIN Inference Time is 540 ms :: 8 False
- 4:48:30 CLI: 508-5.BIN Inference Time is 540 ms :: 5 False
- 4:48:36 CLI: 509-9.BIN Inference Time is 540 ms :: 9 False
- 4:48:41 CLI: 510-8.BIN Inference Time is 540 ms :: 8 False
- 4:48:45 CLI: 511-3.BIN Inference Time is 540 ms :: 3 False
- 4:48:49 CLI: 512-7.BIN Inference Time is 540 ms :: 7 False
- 4:48:53 CLI: 513-5.BIN Inference Time is 540 ms :: 5 False
- 4:48:58 CLI: 514-4.BIN Inference Time is 540 ms :: 4 False
- 4:49:04 CLI: 515-6.BIN Inference Time is 540 ms :: 6 False
- 4:49:08 CLI: 516-8.BIN Inference Time is 540 ms :: 8 False
- 4:49:13 CLI: 517-2.BIN Inference Time is 540 ms :: 2 False
- 4:49:17 CLI: 518-1.BIN Inference Time is 540 ms :: 1 False
- 4:49:21 CLI: 519-6.BIN Inference Time is 540 ms :: 6 False
- 4:49:25 CLI: 520-3.BIN Inference Time is 540 ms :: 3 False
- 4:49:30 CLI: 521-6.BIN Inference Time is 540 ms :: 6 False
- 4:49:36 CLI: 522-7.BIN Inference Time is 540 ms :: 7 False
- 4:49:41 CLI: 523-1.BIN Inference Time is 540 ms :: 0 False
- 4:49:45 CLI: 524-5.BIN Inference Time is 540 ms :: 5 False
- 4:49:49 CLI: 525-5.BIN Inference Time is 540 ms :: 5 False
- 4:49:53 CLI: 526-7.BIN Inference Time is 540 ms :: 7 False
- 4:49:58 CLI: 527-5.BIN Inference Time is 540 ms :: 5 False
- 4:50:02 CLI: 528-9.BIN Inference Time is 540 ms :: 9 False
- 4:50:09 CLI: 529-6.BIN Inference Time is 540 ms :: 6 False
- 4:50:13 CLI: 530-1.BIN Inference Time is 540 ms :: 1 False
- 4:50:17 CLI: 531-5.BIN Inference Time is 540 ms :: 5 False
- 4:50:21 CLI: 532-8.BIN Inference Time is 540 ms :: 8 False
- 4:50:26 CLI: 533-0.BIN Inference Time is 540 ms :: 0 False
- 4:50:30 CLI: 534-9.BIN Inference Time is 540 ms :: 9 False
- 4:50:37 CLI: 535-4.BIN Inference Time is 540 ms :: 4 False
- 4:50:41 CLI: 536-0.BIN Inference Time is 540 ms :: 0 False
- 4:50:45 CLI: 537-5.BIN Inference Time is 540 ms :: 5 False
- 4:50:49 CLI: 538-1.BIN Inference Time is 540 ms :: 1 False
- 4:50:54 CLI: 539-7.BIN Inference Time is 540 ms :: 7 False
- 4:50:58 CLI: 540-3.BIN Inference Time is 540 ms :: 3 False
- 4:51:02 CLI: 541-7.BIN Inference Time is 540 ms :: 7 False
- 4:51:09 CLI: 542-0.BIN Inference Time is 540 ms :: 0 False
- 4:51:13 CLI: 543-9.BIN Inference Time is 540 ms :: 9 False
- 4:51:18 CLI: 544-7.BIN Inference Time is 540 ms :: 7 False
- 4:51:22 CLI: 545-6.BIN Inference Time is 540 ms :: 6 False
- 4:51:26 CLI: 546-8.BIN Inference Time is 540 ms :: 8 False
- 4:51:30 CLI: 547-4.BIN Inference Time is 540 ms :: 4 False
- 4:51:35 CLI: 548-7.BIN Inference Time is 540 ms :: 7 False
- 4:51:41 CLI: 549-7.BIN Inference Time is 540 ms :: 7 False
- 4:51:46 CLI: 550-9.BIN Inference Time is 540 ms :: 9 False
- 4:51:50 CLI: 551-2.BIN Inference Time is 540 ms :: 2 False
- 4:51:54 CLI: 552-1.BIN Inference Time is 540 ms :: 1 False
- 4:51:59 CLI: 553-0.BIN Inference Time is 540 ms :: 0 False
- 4:52:03 CLI: 554-5.BIN Inference Time is 540 ms :: 5 False
- 4:52:07 CLI: 555-0.BIN Inference Time is 540 ms :: 0 False
- 4:52:14 CLI: 556-0.BIN Inference Time is 540 ms :: 0 False
- 4:52:18 CLI: 557-5.BIN Inference Time is 540 ms :: 5 False
- 4:52:22 CLI: 558-9.BIN Inference Time is 540 ms :: 9 False
- 4:52:27 CLI: 559-8.BIN Inference Time is 540 ms :: 8 False
- 4:52:31 CLI: 560-8.BIN Inference Time is 540 ms :: 8 False
- 4:52:35 CLI: 561-8.BIN Inference Time is 540 ms :: 8 False
- 4:52:42 CLI: 562-7.BIN Inference Time is 540 ms :: 7 False
- 4:52:46 CLI: 563-2.BIN Inference Time is 540 ms :: 2 False
- 4:52:51 CLI: 564-1.BIN Inference Time is 540 ms :: 1 False
- 4:52:55 CLI: 565-4.BIN Inference Time is 540 ms :: 4 False
- 4:52:59 CLI: 566-4.BIN Inference Time is 540 ms :: 4 False
- 4:53:04 CLI: 567-6.BIN Inference Time is 540 ms :: 6 False
- 4:53:08 CLI: 568-4.BIN Inference Time is 540 ms :: 4 False
- 4:53:15 CLI: 569-9.BIN Inference Time is 540 ms :: 9 False
- 4:53:19 CLI: 570-2.BIN Inference Time is 540 ms :: 2 False
- 4:53:23 CLI: 571-7.BIN Inference Time is 540 ms :: 7 False
- 4:53:28 CLI: 572-6.BIN Inference Time is 540 ms :: 6 False
- 4:53:32 CLI: 573-8.BIN Inference Time is 540 ms :: 8 False
- 4:53:36 CLI: 574-1.BIN Inference Time is 540 ms :: 1 False
- 4:53:41 CLI: 575-6.BIN Inference Time is 540 ms :: 6 False
- 4:53:47 CLI: 576-4.BIN Inference Time is 540 ms :: 4 False
- 4:53:52 CLI: 577-7.BIN Inference Time is 540 ms :: 7 False
- 4:53:56 CLI: 578-7.BIN Inference Time is 540 ms :: 7 False
- 4:54:00 CLI: 579-7.BIN Inference Time is 540 ms :: 7 False
- 4:54:05 CLI: 580-5.BIN Inference Time is 540 ms :: 5 False
- 4:54:09 CLI: 581-0.BIN Inference Time is 540 ms :: 0 False
- 4:54:16 CLI: 582-8.BIN Inference Time is 540 ms :: 8 False
- 4:54:20 CLI: 583-5.BIN Inference Time is 540 ms :: 5 False
- 4:54:25 CLI: 584-4.BIN Inference Time is 540 ms :: 4 False
- 4:54:29 CLI: 585-1.BIN Inference Time is 540 ms :: 1 False
- 4:54:33 CLI: 586-7.BIN Inference Time is 540 ms :: 7 False
- 4:54:37 CLI: 587-9.BIN Inference Time is 540 ms :: 9 False
- 4:54:42 CLI: 588-1.BIN Inference Time is 540 ms :: 1 False
- 4:54:49 CLI: 589-0.BIN Inference Time is 540 ms :: 0 False
- 4:54:53 CLI: 590-5.BIN Inference Time is 540 ms :: 5 False
- 4:54:57 CLI: 591-2.BIN Inference Time is 540 ms :: 2 False
- 4:55:02 CLI: 592-5.BIN Inference Time is 540 ms :: 5 False
- 4:55:06 CLI: 593-8.BIN Inference Time is 540 ms :: 8 False
- 4:55:10 CLI: 594-3.BIN Inference Time is 540 ms :: 3 False
- 4:55:15 CLI: 595-5.BIN Inference Time is 540 ms :: 5 False
- 4:55:22 CLI: 596-7.BIN Inference Time is 540 ms :: 7 False
- 4:55:26 CLI: 597-3.BIN Inference Time is 540 ms :: 3 False
- 4:55:30 CLI: 598-7.BIN Inference Time is 540 ms :: 7 False
- 4:55:35 CLI: 599-0.BIN Inference Time is 540 ms :: 0 False
- 4:55:39 CLI: 600-4.BIN Inference Time is 540 ms :: 4 False
- 4:55:43 CLI: 601-3.BIN Inference Time is 540 ms :: 3 False
- 4:55:50 CLI: 602-8.BIN Inference Time is 540 ms :: 8 False
- 4:55:54 CLI: 603-4.BIN Inference Time is 540 ms :: 4 False
- 4:55:59 CLI: 604-9.BIN Inference Time is 540 ms :: 9 False
- 4:56:03 CLI: 605-6.BIN Inference Time is 540 ms :: 6 False
- 4:56:08 CLI: 606-7.BIN Inference Time is 540 ms :: 7 False
- 4:56:12 CLI: 607-7.BIN Inference Time is 540 ms :: 7 False
- 4:56:16 CLI: 608-7.BIN Inference Time is 540 ms :: 7 False
- 4:56:23 CLI: 609-8.BIN Inference Time is 540 ms :: 8 False
- 4:56:27 CLI: 610-6.BIN Inference Time is 540 ms :: 6 False
- 4:56:32 CLI: 611-4.BIN Inference Time is 540 ms :: 4 False
- 4:56:36 CLI: 612-7.BIN Inference Time is 540 ms :: 7 False
- 4:56:41 CLI: 613-6.BIN Inference Time is 540 ms :: 6 False
- 4:56:45 CLI: 614-2.BIN Inference Time is 540 ms :: 2 False
- 4:56:49 CLI: 615-5.BIN Inference Time is 540 ms :: 5 False
- 4:56:56 CLI: 616-3.BIN Inference Time is 540 ms :: 3 False
- 4:57:01 CLI: 617-5.BIN Inference Time is 540 ms :: 5 False
- 4:57:05 CLI: 618-2.BIN Inference Time is 540 ms :: 2 False
- 4:57:09 CLI: 619-6.BIN Inference Time is 540 ms :: 6 False
- 4:57:14 CLI: 620-7.BIN Inference Time is 540 ms :: 7 False
- 4:57:18 CLI: 621-3.BIN Inference Time is 540 ms :: 3 False
- 4:57:25 CLI: 622-0.BIN Inference Time is 540 ms :: 0 False
- 4:57:29 CLI: 623-0.BIN Inference Time is 540 ms :: 0 False
- 4:57:34 CLI: 624-1.BIN Inference Time is 540 ms :: 1 False
- 4:57:38 CLI: 625-3.BIN Inference Time is 540 ms :: 3 False
- 4:57:42 CLI: 626-4.BIN Inference Time is 540 ms :: 4 False
- 4:57:47 CLI: 627-4.BIN Inference Time is 540 ms :: 4 False
- 4:57:51 CLI: 628-8.BIN Inference Time is 540 ms :: 8 False
- 4:57:58 CLI: 629-1.BIN Inference Time is 540 ms :: 1 False
- 4:58:02 CLI: 630-8.BIN Inference Time is 540 ms :: 8 False
- 4:58:07 CLI: 631-7.BIN Inference Time is 540 ms :: 7 False
- 4:58:11 CLI: 632-3.BIN Inference Time is 540 ms :: 3 False
- 4:58:16 CLI: 633-3.BIN Inference Time is 540 ms :: 3 False
- 4:58:20 CLI: 634-6.BIN Inference Time is 540 ms :: 6 False
- 4:58:24 CLI: 635-7.BIN Inference Time is 540 ms :: 7 False
- 4:58:31 CLI: 636-7.BIN Inference Time is 540 ms :: 7 False
- 4:58:36 CLI: 637-5.BIN Inference Time is 540 ms :: 5 False
- 4:58:40 CLI: 638-2.BIN Inference Time is 540 ms :: 2 False
- 4:58:44 CLI: 639-4.BIN Inference Time is 540 ms :: 4 False
- 4:58:49 CLI: 640-9.BIN Inference Time is 540 ms :: 9 False
- 4:58:53 CLI: 641-8.BIN Inference Time is 540 ms :: 8 False
- 4:58:58 CLI: 642-0.BIN Inference Time is 540 ms :: 0 False
- 4:59:05 CLI: 643-3.BIN Inference Time is 540 ms :: 3 False
- 4:59:09 CLI: 644-3.BIN Inference Time is 540 ms :: 3 False
- 4:59:13 CLI: 645-4.BIN Inference Time is 540 ms :: 4 False
- 4:59:18 CLI: 646-2.BIN Inference Time is 540 ms :: 2 False
- 4:59:22 CLI: 647-5.BIN Inference Time is 540 ms :: 5 False
- 4:59:27 CLI: 648-7.BIN Inference Time is 540 ms :: 7 False
- 4:59:34 CLI: 649-7.BIN Inference Time is 540 ms :: 7 False
- 4:59:38 CLI: 650-2.BIN Inference Time is 540 ms :: 2 False
- 4:59:42 CLI: 651-3.BIN Inference Time is 540 ms :: 3 False
- 4:59:47 CLI: 652-3.BIN Inference Time is 540 ms :: 3 False
- 4:59:51 CLI: 653-5.BIN Inference Time is 540 ms :: 5 False
- 4:59:56 CLI: 654-9.BIN Inference Time is 540 ms :: 9 False
- 5:00:00 CLI: 655-8.BIN Inference Time is 540 ms :: 8 False
- 5:00:07 CLI: 656-5.BIN Inference Time is 540 ms :: 5 False
- 5:00:12 CLI: 657-5.BIN Inference Time is 540 ms :: 5 False
- 5:00:16 CLI: 658-6.BIN Inference Time is 540 ms :: 6 False
- 5:00:20 CLI: 659-5.BIN Inference Time is 540 ms :: 5 False
- 5:00:25 CLI: 660-3.BIN Inference Time is 540 ms :: 3 False
- 5:00:29 CLI: 661-0.BIN Inference Time is 540 ms :: 0 False
- 5:00:34 CLI: 662-0.BIN Inference Time is 540 ms :: 0 False
- 5:00:41 CLI: 663-8.BIN Inference Time is 540 ms :: 8 False
- 5:00:45 CLI: 664-5.BIN Inference Time is 540 ms :: 5 False
- 5:00:50 CLI: 665-1.BIN Inference Time is 540 ms :: 1 False
- 5:00:54 CLI: 666-2.BIN Inference Time is 540 ms :: 2 False
- 5:00:58 CLI: 667-2.BIN Inference Time is 540 ms :: 2 False
- 5:01:03 CLI: 668-8.BIN Inference Time is 540 ms :: 8 False
- 5:01:10 CLI: 669-0.BIN Inference Time is 540 ms :: 0 False
- 5:01:14 CLI: 670-6.BIN Inference Time is 540 ms :: 6 False
- 5:01:19 CLI: 671-6.BIN Inference Time is 540 ms :: 6 False
- 5:01:23 CLI: 672-1.BIN Inference Time is 540 ms :: 1 False
- 5:01:28 CLI: 673-5.BIN Inference Time is 540 ms :: 5 False
- 5:01:32 CLI: 674-4.BIN Inference Time is 540 ms :: 4 False
- 5:01:36 CLI: 675-6.BIN Inference Time is 540 ms :: 6 False
- 5:01:43 CLI: 676-0.BIN Inference Time is 540 ms :: 0 False
- 5:01:48 CLI: 677-3.BIN Inference Time is 540 ms :: 3 False
- 5:01:52 CLI: 678-0.BIN Inference Time is 540 ms :: 0 False
- 5:01:57 CLI: 679-3.BIN Inference Time is 540 ms :: 3 False
- 5:02:01 CLI: 680-1.BIN Inference Time is 540 ms :: 1 False
- 5:02:06 CLI: 681-8.BIN Inference Time is 540 ms :: 8 False
- 5:02:10 CLI: 682-5.BIN Inference Time is 540 ms :: 5 False
- 5:02:17 CLI: 683-7.BIN Inference Time is 540 ms :: 7 False
- 5:02:22 CLI: 684-8.BIN Inference Time is 540 ms :: 8 False
- 5:02:26 CLI: 685-4.BIN Inference Time is 540 ms :: 4 False
- 5:02:31 CLI: 686-3.BIN Inference Time is 540 ms :: 3 False
- 5:02:35 CLI: 687-1.BIN Inference Time is 540 ms :: 1 False
- 5:02:40 CLI: 688-8.BIN Inference Time is 540 ms :: 8 False
- 5:02:47 CLI: 689-2.BIN Inference Time is 540 ms :: 2 False
- 5:02:51 CLI: 690-3.BIN Inference Time is 540 ms :: 3 False
- 5:02:55 CLI: 691-2.BIN Inference Time is 540 ms :: 2 False
- 5:03:00 CLI: 692-6.BIN Inference Time is 540 ms :: 6 False
- 5:03:04 CLI: 693-1.BIN Inference Time is 540 ms :: 1 False
- 5:03:09 CLI: 694-2.BIN Inference Time is 540 ms :: 2 False
- 5:03:13 CLI: 695-9.BIN Inference Time is 540 ms :: 9 False
- 5:03:20 CLI: 696-0.BIN Inference Time is 540 ms :: 0 False
- 5:03:25 CLI: 697-2.BIN Inference Time is 540 ms :: 2 False
- 5:03:29 CLI: 698-1.BIN Inference Time is 540 ms :: 1 False
- 5:03:34 CLI: 699-0.BIN Inference Time is 540 ms :: 0 False
- 5:03:38 CLI: 700-2.BIN Inference Time is 540 ms :: 2 False
- 5:03:43 CLI: 701-3.BIN Inference Time is 540 ms :: 3 False
- 5:03:47 CLI: 702-2.BIN Inference Time is 540 ms :: 2 False
- 5:03:54 CLI: 703-9.BIN Inference Time is 540 ms :: 9 False
- 5:03:59 CLI: 704-2.BIN Inference Time is 540 ms :: 2 False
- 5:04:03 CLI: 705-9.BIN Inference Time is 540 ms :: 9 False
- 5:04:08 CLI: 706-7.BIN Inference Time is 540 ms :: 7 False
- 5:04:12 CLI: 707-5.BIN Inference Time is 540 ms :: 5 False
- 5:04:17 CLI: 708-8.BIN Inference Time is 540 ms :: 8 False
- 5:04:21 CLI: 709-0.BIN Inference Time is 540 ms :: 0 False
- 5:04:28 CLI: 710-7.BIN Inference Time is 540 ms :: 7 False
- 5:04:33 CLI: 711-6.BIN Inference Time is 540 ms :: 6 False
- 5:04:37 CLI: 712-1.BIN Inference Time is 540 ms :: 1 False
- 5:04:42 CLI: 713-5.BIN Inference Time is 540 ms :: 5 False
- 5:04:46 CLI: 714-4.BIN Inference Time is 540 ms :: 4 False
- 5:04:51 CLI: 715-0.BIN Inference Time is 540 ms :: 0 False
- 5:04:58 CLI: 716-1.BIN Inference Time is 540 ms :: 1 False
- 5:05:02 CLI: 717-8.BIN Inference Time is 540 ms :: 8 False
- 5:05:07 CLI: 718-3.BIN Inference Time is 540 ms :: 3 False
- 5:05:11 CLI: 719-9.BIN Inference Time is 540 ms :: 9 False
- 5:05:16 CLI: 720-4.BIN Inference Time is 540 ms :: 4 False
- 5:05:20 CLI: 721-6.BIN Inference Time is 540 ms :: 6 False
- 5:05:25 CLI: 722-6.BIN Inference Time is 540 ms :: 6 False
- 5:05:32 CLI: 723-0.BIN Inference Time is 540 ms :: 0 False
- 5:05:36 CLI: 724-7.BIN Inference Time is 540 ms :: 7 False
- 5:05:41 CLI: 725-9.BIN Inference Time is 540 ms :: 9 False
- 5:05:45 CLI: 726-9.BIN Inference Time is 540 ms :: 9 False
- 5:05:50 CLI: 727-9.BIN Inference Time is 540 ms :: 9 False
- 5:05:55 CLI: 728-4.BIN Inference Time is 540 ms :: 4 False
- 5:05:59 CLI: 729-8.BIN Inference Time is 540 ms :: 8 False
- 5:06:06 CLI: 730-8.BIN Inference Time is 540 ms :: 8 False
- 5:06:11 CLI: 731-5.BIN Inference Time is 540 ms :: 5 False
- 5:06:15 CLI: 732-3.BIN Inference Time is 540 ms :: 3 False
- 5:06:20 CLI: 733-4.BIN Inference Time is 540 ms :: 4 False
- 5:06:24 CLI: 734-4.BIN Inference Time is 540 ms :: 4 False
- 5:06:29 CLI: 735-9.BIN Inference Time is 540 ms :: 9 False
- 5:06:36 CLI: 736-3.BIN Inference Time is 540 ms :: 3 False
- 5:06:40 CLI: 737-3.BIN Inference Time is 540 ms :: 3 False
- 5:06:45 CLI: 738-3.BIN Inference Time is 540 ms :: 3 False
- 5:06:49 CLI: 739-5.BIN Inference Time is 540 ms :: 5 False
- 5:06:54 CLI: 740-7.BIN Inference Time is 540 ms :: 7 False
- 5:06:58 CLI: 741-8.BIN Inference Time is 540 ms :: 8 False
- 5:07:03 CLI: 742-4.BIN Inference Time is 540 ms :: 4 False
- 5:07:10 CLI: 743-8.BIN Inference Time is 540 ms :: 8 False
- 5:07:15 CLI: 744-7.BIN Inference Time is 540 ms :: 7 False
- 5:07:19 CLI: 745-8.BIN Inference Time is 540 ms :: 8 False
- 5:07:24 CLI: 746-2.BIN Inference Time is 540 ms :: 2 False
- 5:07:28 CLI: 747-4.BIN Inference Time is 540 ms :: 4 False
- 5:07:33 CLI: 748-1.BIN Inference Time is 540 ms :: 1 False
- 5:07:37 CLI: 749-3.BIN Inference Time is 540 ms :: 3 False
- 5:07:44 CLI: 750-3.BIN Inference Time is 540 ms :: 3 False
- 5:07:49 CLI: 751-1.BIN Inference Time is 540 ms :: 1 False
- 5:07:54 CLI: 752-2.BIN Inference Time is 540 ms :: 2 False
- 5:07:58 CLI: 753-8.BIN Inference Time is 540 ms :: 8 False
- 5:08:03 CLI: 754-3.BIN Inference Time is 540 ms :: 3 False
- 5:08:07 CLI: 755-8.BIN Inference Time is 540 ms :: 8 False
- 5:08:14 CLI: 756-8.BIN Inference Time is 540 ms :: 8 False
- 5:08:19 CLI: 757-2.BIN Inference Time is 540 ms :: 2 False
- 5:08:23 CLI: 758-9.BIN Inference Time is 540 ms :: 9 False
- 5:08:28 CLI: 759-5.BIN Inference Time is 540 ms :: 5 False
- 5:08:33 CLI: 760-3.BIN Inference Time is 540 ms :: 3 False
- 5:08:37 CLI: 761-5.BIN Inference Time is 540 ms :: 5 False
- 5:08:42 CLI: 762-1.BIN Inference Time is 540 ms :: 1 False
- 5:08:49 CLI: 763-2.BIN Inference Time is 540 ms :: 2 False
- 5:08:53 CLI: 764-4.BIN Inference Time is 540 ms :: 4 False
- 5:08:58 CLI: 765-5.BIN Inference Time is 540 ms :: 5 False
- 5:09:02 CLI: 766-5.BIN Inference Time is 540 ms :: 5 False
- 5:09:07 CLI: 767-8.BIN Inference Time is 540 ms :: 8 False
- 5:09:12 CLI: 768-8.BIN Inference Time is 540 ms :: 8 False
- 5:09:16 CLI: 769-6.BIN Inference Time is 540 ms :: 6 False
- 5:09:23 CLI: 770-6.BIN Inference Time is 540 ms :: 6 False
- 5:09:28 CLI: 771-2.BIN Inference Time is 540 ms :: 2 False
- 5:09:33 CLI: 772-5.BIN Inference Time is 540 ms :: 5 False
- 5:09:37 CLI: 773-3.BIN Inference Time is 540 ms :: 3 False
- 5:09:42 CLI: 774-6.BIN Inference Time is 540 ms :: 6 False
- 5:09:46 CLI: 775-5.BIN Inference Time is 540 ms :: 5 False
- 5:09:51 CLI: 776-3.BIN Inference Time is 540 ms :: 3 False
- 5:09:58 CLI: 777-7.BIN Inference Time is 540 ms :: 7 False
- 5:10:03 CLI: 778-6.BIN Inference Time is 540 ms :: 6 False
- 5:10:07 CLI: 779-3.BIN Inference Time is 540 ms :: 3 False
- 5:10:12 CLI: 780-1.BIN Inference Time is 540 ms :: 1 False
- 5:10:16 CLI: 781-6.BIN Inference Time is 540 ms :: 6 False
- 5:10:21 CLI: 782-3.BIN Inference Time is 540 ms :: 3 False
- 5:10:28 CLI: 783-5.BIN Inference Time is 540 ms :: 5 False
- 5:10:33 CLI: 784-6.BIN Inference Time is 540 ms :: 6 False
- 5:10:37 CLI: 785-0.BIN Inference Time is 540 ms :: 0 False
- 5:10:42 CLI: 786-4.BIN Inference Time is 540 ms :: 4 False
- 5:10:47 CLI: 787-7.BIN Inference Time is 540 ms :: 7 False
- 5:10:51 CLI: 788-9.BIN Inference Time is 540 ms :: 9 False
- 5:10:56 CLI: 789-5.BIN Inference Time is 540 ms :: 5 False
- 5:11:03 CLI: 790-9.BIN Inference Time is 540 ms :: 9 False
- 5:11:08 CLI: 791-5.BIN Inference Time is 540 ms :: 5 False
- 5:11:12 CLI: 792-7.BIN Inference Time is 540 ms :: 7 False
- 5:11:17 CLI: 793-5.BIN Inference Time is 540 ms :: 5 False
- 5:11:21 CLI: 794-6.BIN Inference Time is 540 ms :: 6 False
- 5:11:26 CLI: 795-7.BIN Inference Time is 540 ms :: 7 False
- 5:11:31 CLI: 796-6.BIN Inference Time is 540 ms :: 6 False
- 5:11:38 CLI: 797-8.BIN Inference Time is 540 ms :: 8 False
- 5:11:42 CLI: 798-7.BIN Inference Time is 540 ms :: 7 False
- 5:11:47 CLI: 799-0.BIN Inference Time is 540 ms :: 0 False
- 5:11:52 CLI: 800-5.BIN Inference Time is 540 ms :: 5 False
- 5:11:56 CLI: 801-1.BIN Inference Time is 540 ms :: 1 False
- 5:12:01 CLI: 802-2.BIN Inference Time is 540 ms :: 2 False
- 5:12:08 CLI: 803-6.BIN Inference Time is 540 ms :: 6 False
- 5:12:13 CLI: 804-5.BIN Inference Time is 540 ms :: 5 False
- 5:12:17 CLI: 805-4.BIN Inference Time is 540 ms :: 4 False
- 5:12:22 CLI: 806-4.BIN Inference Time is 540 ms :: 4 False
- 5:12:27 CLI: 807-6.BIN Inference Time is 540 ms :: 6 False
- 5:12:31 CLI: 808-1.BIN Inference Time is 540 ms :: 1 False
- 5:12:36 CLI: 809-8.BIN Inference Time is 540 ms :: 8 False
- 5:12:43 CLI: 810-6.BIN Inference Time is 540 ms :: 6 False
- 5:12:48 CLI: 811-0.BIN Inference Time is 540 ms :: 0 False
- 5:12:52 CLI: 812-4.BIN Inference Time is 540 ms :: 4 False
- 5:12:57 CLI: 813-6.BIN Inference Time is 540 ms :: 6 False
- 5:13:02 CLI: 814-1.BIN Inference Time is 540 ms :: 1 False
- 5:13:06 CLI: 815-9.BIN Inference Time is 540 ms :: 9 False
- 5:13:11 CLI: 816-6.BIN Inference Time is 540 ms :: 6 False
- 5:13:18 CLI: 817-4.BIN Inference Time is 540 ms :: 4 False
- 5:13:23 CLI: 818-5.BIN Inference Time is 540 ms :: 5 False
- 5:13:27 CLI: 819-1.BIN Inference Time is 540 ms :: 1 False
- 5:13:32 CLI: 820-2.BIN Inference Time is 540 ms :: 2 False
- 5:13:37 CLI: 821-6.BIN Inference Time is 540 ms :: 6 False
- 5:13:41 CLI: 822-1.BIN Inference Time is 540 ms :: 1 False
- 5:13:49 CLI: 823-8.BIN Inference Time is 540 ms :: 8 False
- 5:13:53 CLI: 824-6.BIN Inference Time is 540 ms :: 6 False
- 5:13:58 CLI: 825-7.BIN Inference Time is 540 ms :: 7 False
- 5:14:03 CLI: 826-0.BIN Inference Time is 540 ms :: 0 False
- 5:14:07 CLI: 827-2.BIN Inference Time is 540 ms :: 2 False
- 5:14:12 CLI: 828-6.BIN Inference Time is 540 ms :: 6 False
- 5:14:16 CLI: 829-4.BIN Inference Time is 540 ms :: 4 False
- 5:14:24 CLI: 830-9.BIN Inference Time is 540 ms :: 9 False
- 5:14:28 CLI: 831-3.BIN Inference Time is 540 ms :: 3 False
- 5:14:33 CLI: 832-4.BIN Inference Time is 540 ms :: 4 False
- 5:14:38 CLI: 833-6.BIN Inference Time is 540 ms :: 6 False
- 5:14:42 CLI: 834-2.BIN Inference Time is 540 ms :: 2 False
- 5:14:47 CLI: 835-1.BIN Inference Time is 540 ms :: 1 False
- 5:14:52 CLI: 836-3.BIN Inference Time is 540 ms :: 3 False
- 5:14:59 CLI: 837-3.BIN Inference Time is 540 ms :: 3 False
- 5:15:04 CLI: 838-1.BIN Inference Time is 540 ms :: 1 False
- 5:15:08 CLI: 839-9.BIN Inference Time is 540 ms :: 9 False
- 5:15:13 CLI: 840-5.BIN Inference Time is 540 ms :: 5 False
- 5:15:18 CLI: 841-4.BIN Inference Time is 540 ms :: 4 False
- 5:15:22 CLI: 842-1.BIN Inference Time is 540 ms :: 1 False
- 5:15:27 CLI: 843-3.BIN Inference Time is 540 ms :: 3 False
- 5:15:34 CLI: 844-6.BIN Inference Time is 540 ms :: 6 False
- 5:15:39 CLI: 845-6.BIN Inference Time is 540 ms :: 6 False
- 5:15:44 CLI: 846-8.BIN Inference Time is 540 ms :: 8 False
- 5:15:48 CLI: 847-7.BIN Inference Time is 540 ms :: 7 False
- 5:15:53 CLI: 848-2.BIN Inference Time is 540 ms :: 2 False
- 5:15:58 CLI: 849-7.BIN Inference Time is 540 ms :: 7 False
- 5:16:05 CLI: 850-4.BIN Inference Time is 540 ms :: 4 False
- 5:16:10 CLI: 851-9.BIN Inference Time is 540 ms :: 9 False
- 5:16:14 CLI: 852-7.BIN Inference Time is 540 ms :: 7 False
- 5:16:19 CLI: 853-3.BIN Inference Time is 540 ms :: 3 False
- 5:16:24 CLI: 854-1.BIN Inference Time is 540 ms :: 1 False
- 5:16:28 CLI: 855-5.BIN Inference Time is 540 ms :: 5 False
- 5:16:33 CLI: 856-1.BIN Inference Time is 540 ms :: 1 False
- 5:16:40 CLI: 857-4.BIN Inference Time is 540 ms :: 4 False
- 5:16:45 CLI: 858-8.BIN Inference Time is 540 ms :: 8 False
- 5:16:50 CLI: 859-1.BIN Inference Time is 540 ms :: 1 False
- 5:16:55 CLI: 860-8.BIN Inference Time is 540 ms :: 8 False
- 5:16:59 CLI: 861-0.BIN Inference Time is 540 ms :: 0 False
- 5:17:04 CLI: 862-3.BIN Inference Time is 540 ms :: 3 False
- 5:17:09 CLI: 863-8.BIN Inference Time is 540 ms :: 8 False
- 5:17:16 CLI: 864-8.BIN Inference Time is 540 ms :: 8 False
- 5:17:21 CLI: 865-5.BIN Inference Time is 540 ms :: 5 False
- 5:17:25 CLI: 866-0.BIN Inference Time is 540 ms :: 0 False
- 5:17:30 CLI: 867-8.BIN Inference Time is 540 ms :: 8 False
- 5:17:35 CLI: 868-3.BIN Inference Time is 540 ms :: 3 False
- 5:17:39 CLI: 869-2.BIN Inference Time is 540 ms :: 2 False
- 5:17:47 CLI: 870-2.BIN Inference Time is 540 ms :: 2 False
- 5:17:51 CLI: 871-4.BIN Inference Time is 540 ms :: 4 False
- 5:17:56 CLI: 872-2.BIN Inference Time is 540 ms :: 2 False
- 5:18:01 CLI: 873-9.BIN Inference Time is 540 ms :: 9 False
- 5:18:06 CLI: 874-7.BIN Inference Time is 540 ms :: 7 False
- 5:18:10 CLI: 875-2.BIN Inference Time is 540 ms :: 2 False
- 5:18:15 CLI: 876-7.BIN Inference Time is 540 ms :: 7 False
- 5:18:22 CLI: 877-6.BIN Inference Time is 540 ms :: 6 False
- 5:18:27 CLI: 878-3.BIN Inference Time is 540 ms :: 3 False
- 5:18:32 CLI: 879-9.BIN Inference Time is 540 ms :: 9 False
- 5:18:37 CLI: 880-6.BIN Inference Time is 540 ms :: 6 False
- 5:18:41 CLI: 881-3.BIN Inference Time is 540 ms :: 3 False
- 5:18:46 CLI: 882-6.BIN Inference Time is 540 ms :: 6 False
- 5:18:51 CLI: 883-6.BIN Inference Time is 540 ms :: 6 False
- 5:18:58 CLI: 884-7.BIN Inference Time is 540 ms :: 7 False
- 5:19:03 CLI: 885-5.BIN Inference Time is 540 ms :: 5 False
- 5:19:08 CLI: 886-9.BIN Inference Time is 540 ms :: 9 False
- 5:19:12 CLI: 887-7.BIN Inference Time is 540 ms :: 7 False
- 5:19:17 CLI: 888-9.BIN Inference Time is 540 ms :: 9 False
- 5:19:22 CLI: 889-6.BIN Inference Time is 540 ms :: 6 False
- 5:19:29 CLI: 890-9.BIN Inference Time is 540 ms :: 9 False
- 5:19:34 CLI: 891-4.BIN Inference Time is 540 ms :: 4 False
- 5:19:39 CLI: 892-7.BIN Inference Time is 540 ms :: 7 False
- 5:19:43 CLI: 893-2.BIN Inference Time is 540 ms :: 2 False
- 5:19:48 CLI: 894-4.BIN Inference Time is 540 ms :: 4 False
- 5:19:53 CLI: 895-2.BIN Inference Time is 540 ms :: 2 False
- 5:19:58 CLI: 896-0.BIN Inference Time is 540 ms :: 0 False
- 5:20:05 CLI: 897-3.BIN Inference Time is 540 ms :: 3 False
- 5:20:10 CLI: 898-4.BIN Inference Time is 540 ms :: 4 False
- 5:20:14 CLI: 899-2.BIN Inference Time is 540 ms :: 2 False
- 5:20:19 CLI: 900-1.BIN Inference Time is 540 ms :: 1 False
- 5:20:24 CLI: 901-7.BIN Inference Time is 540 ms :: 7 False
- 5:20:29 CLI: 902-7.BIN Inference Time is 540 ms :: 7 False
- 5:20:34 CLI: 903-7.BIN Inference Time is 540 ms :: 7 False
- 5:20:41 CLI: 904-3.BIN Inference Time is 540 ms :: 3 False
- 5:20:46 CLI: 905-6.BIN Inference Time is 540 ms :: 6 False
- 5:20:50 CLI: 906-7.BIN Inference Time is 540 ms :: 7 False
- 5:20:55 CLI: 907-7.BIN Inference Time is 540 ms :: 7 False
- 5:21:00 CLI: 908-4.BIN Inference Time is 540 ms :: 4 False
- 5:21:05 CLI: 909-2.BIN Inference Time is 540 ms :: 2 False
- 5:21:09 CLI: 910-0.BIN Inference Time is 540 ms :: 0 False
- 5:21:17 CLI: 911-2.BIN Inference Time is 540 ms :: 2 False
- 5:21:22 CLI: 912-0.BIN Inference Time is 540 ms :: 0 False
- 5:21:26 CLI: 913-8.BIN Inference Time is 540 ms :: 8 False
- 5:21:31 CLI: 914-8.BIN Inference Time is 540 ms :: 8 False
- 5:21:36 CLI: 915-1.BIN Inference Time is 540 ms :: 1 False
- 5:21:41 CLI: 916-7.BIN Inference Time is 540 ms :: 7 False
- 5:21:48 CLI: 917-8.BIN Inference Time is 540 ms :: 8 False
- 5:21:53 CLI: 918-5.BIN Inference Time is 540 ms :: 5 False
- 5:21:58 CLI: 919-3.BIN Inference Time is 540 ms :: 3 False
- 5:22:02 CLI: 920-9.BIN Inference Time is 540 ms :: 9 False
- 5:22:07 CLI: 921-9.BIN Inference Time is 540 ms :: 9 False
- 5:22:12 CLI: 922-3.BIN Inference Time is 540 ms :: 3 False
- 5:22:17 CLI: 923-3.BIN Inference Time is 540 ms :: 3 False
- 5:22:24 CLI: 924-4.BIN Inference Time is 540 ms :: 4 False
- 5:22:29 CLI: 925-4.BIN Inference Time is 540 ms :: 4 False
- 5:22:34 CLI: 926-4.BIN Inference Time is 540 ms :: 4 False
- 5:22:39 CLI: 927-4.BIN Inference Time is 540 ms :: 4 False
- 5:22:43 CLI: 928-3.BIN Inference Time is 540 ms :: 3 False
- 5:22:48 CLI: 929-5.BIN Inference Time is 540 ms :: 5 False
- 5:22:53 CLI: 930-4.BIN Inference Time is 540 ms :: 4 False
- 5:23:00 CLI: 931-9.BIN Inference Time is 540 ms :: 9 False
- 5:23:05 CLI: 932-7.BIN Inference Time is 540 ms :: 7 False
- 5:23:10 CLI: 933-3.BIN Inference Time is 540 ms :: 3 False
- 5:23:15 CLI: 934-2.BIN Inference Time is 540 ms :: 2 False
- 5:23:20 CLI: 935-6.BIN Inference Time is 540 ms :: 6 False
- 5:23:24 CLI: 936-3.BIN Inference Time is 540 ms :: 3 False
- 5:23:32 CLI: 937-1.BIN Inference Time is 540 ms :: 1 False
- 5:23:36 CLI: 938-1.BIN Inference Time is 540 ms :: 1 False
- 5:23:41 CLI: 939-6.BIN Inference Time is 540 ms :: 6 False
- 5:23:46 CLI: 940-0.BIN Inference Time is 540 ms :: 0 False
- 5:23:51 CLI: 941-4.BIN Inference Time is 540 ms :: 4 False
- 5:23:56 CLI: 942-1.BIN Inference Time is 540 ms :: 1 False
- 5:24:01 CLI: 943-4.BIN Inference Time is 540 ms :: 4 False
- 5:24:08 CLI: 944-5.BIN Inference Time is 540 ms :: 5 False
- 5:24:13 CLI: 945-4.BIN Inference Time is 540 ms :: 4 False
- 5:24:18 CLI: 946-2.BIN Inference Time is 540 ms :: 2 False
- 5:24:22 CLI: 947-3.BIN Inference Time is 540 ms :: 3 False
- 5:24:27 CLI: 948-7.BIN Inference Time is 540 ms :: 7 False
- 5:24:32 CLI: 949-6.BIN Inference Time is 540 ms :: 6 False
- 5:24:37 CLI: 950-3.BIN Inference Time is 540 ms :: 3 False
- 5:24:44 CLI: 951-9.BIN Inference Time is 540 ms :: 9 False
- 5:24:49 CLI: 952-8.BIN Inference Time is 540 ms :: 8 False
- 5:24:55 CLI: 953-1.BIN Inference Time is 540 ms :: 1 False
- 5:25:00 CLI: 954-8.BIN Inference Time is 540 ms :: 8 False
- 5:25:05 CLI: 955-8.BIN Inference Time is 540 ms :: 8 False
- 5:25:09 CLI: 956-3.BIN Inference Time is 540 ms :: 3 False
- 5:25:17 CLI: 957-2.BIN Inference Time is 540 ms :: 2 False
- 5:25:22 CLI: 958-4.BIN Inference Time is 540 ms :: 4 False
- 5:25:26 CLI: 959-6.BIN Inference Time is 540 ms :: 6 False
- 5:25:31 CLI: 960-5.BIN Inference Time is 540 ms :: 5 False
- 5:25:36 CLI: 961-2.BIN Inference Time is 540 ms :: 2 False
- 5:25:41 CLI: 962-3.BIN Inference Time is 540 ms :: 3 False
- 5:25:48 CLI: 963-1.BIN Inference Time is 540 ms :: 1 False
- 5:25:53 CLI: 964-4.BIN Inference Time is 540 ms :: 4 False
- 5:25:58 CLI: 965-1.BIN Inference Time is 540 ms :: 1 False
- 5:26:03 CLI: 966-7.BIN Inference Time is 540 ms :: 7 False
- 5:26:08 CLI: 967-8.BIN Inference Time is 540 ms :: 8 False
- 5:26:13 CLI: 968-2.BIN Inference Time is 540 ms :: 2 False
- 5:26:18 CLI: 969-9.BIN Inference Time is 540 ms :: 9 False
- 5:26:25 CLI: 970-4.BIN Inference Time is 540 ms :: 4 False
- 5:26:30 CLI: 971-8.BIN Inference Time is 540 ms :: 8 False
- 5:26:35 CLI: 972-1.BIN Inference Time is 540 ms :: 1 False
- 5:26:40 CLI: 973-2.BIN Inference Time is 540 ms :: 2 False
- 5:26:45 CLI: 974-0.BIN Inference Time is 540 ms :: 0 False
- 5:26:49 CLI: 975-9.BIN Inference Time is 540 ms :: 9 False
- 5:26:54 CLI: 976-7.BIN Inference Time is 540 ms :: 7 False
- 5:27:02 CLI: 977-9.BIN Inference Time is 540 ms :: 9 False
- 5:27:07 CLI: 978-2.BIN Inference Time is 540 ms :: 2 False
- 5:27:11 CLI: 979-2.BIN Inference Time is 540 ms :: 2 False
- 5:27:16 CLI: 980-8.BIN Inference Time is 540 ms :: 8 False
- 5:27:21 CLI: 981-8.BIN Inference Time is 540 ms :: 8 False
- 5:27:26 CLI: 982-9.BIN Inference Time is 540 ms :: 9 False
- 5:27:34 CLI: 983-5.BIN Inference Time is 540 ms :: 5 False
- 5:27:38 CLI: 984-7.BIN Inference Time is 540 ms :: 7 False
- 5:27:43 CLI: 985-0.BIN Inference Time is 540 ms :: 0 False
- 5:27:48 CLI: 986-5.BIN Inference Time is 540 ms :: 5 False
- 5:27:53 CLI: 987-2.BIN Inference Time is 540 ms :: 2 False
- 5:27:58 CLI: 988-3.BIN Inference Time is 540 ms :: 3 False
- 5:28:03 CLI: 989-7.BIN Inference Time is 540 ms :: 7 False
- 5:28:10 CLI: 990-0.BIN Inference Time is 540 ms :: 0 False
- 5:28:15 CLI: 991-1.BIN Inference Time is 540 ms :: 1 False
- 5:28:20 CLI: 992-1.BIN Inference Time is 540 ms :: 1 False
- 5:28:25 CLI: 993-8.BIN Inference Time is 540 ms :: 8 False
- 5:28:30 CLI: 994-1.BIN Inference Time is 540 ms :: 1 False
- 5:28:35 CLI: 995-9.BIN Inference Time is 540 ms :: 9 False
- 5:28:40 CLI: 996-3.BIN Inference Time is 540 ms :: 3 False
- 5:28:47 CLI: 997-2.BIN Inference Time is 540 ms :: 2 False
- 5:28:52 CLI: 998-8.BIN Inference Time is 540 ms :: 8 False
- 5:28:57 CLI: 999-8.BIN Inference Time is 540 ms :: 8 False
- 5:29:02 CLI: 1000-9.BIN Inference Time is 540 ms :: 9 False
- 5:29:07 CLI: 1001-8.BIN Inference Time is 540 ms :: 8 False
- 5:29:12 CLI: 1002-9.BIN Inference Time is 540 ms :: 9 False
- 5:29:19 CLI: 1003-5.BIN Inference Time is 540 ms :: 5 False
- 5:29:24 CLI: 1004-9.BIN Inference Time is 540 ms :: 9 False
- 5:29:29 CLI: 1005-4.BIN Inference Time is 540 ms :: 4 False
- 5:29:34 CLI: 1006-7.BIN Inference Time is 540 ms :: 7 False
- 5:29:39 CLI: 1007-4.BIN Inference Time is 540 ms :: 4 False
- 5:29:44 CLI: 1008-2.BIN Inference Time is 540 ms :: 2 False
- 5:29:49 CLI: 1009-4.BIN Inference Time is 540 ms :: 4 False
- 5:29:56 CLI: 1010-6.BIN Inference Time is 540 ms :: 6 False
- 5:30:01 CLI: 1011-8.BIN Inference Time is 540 ms :: 8 False
- 5:30:06 CLI: 1012-3.BIN Inference Time is 540 ms :: 3 False
- 5:30:11 CLI: 1013-6.BIN Inference Time is 540 ms :: 6 False
- 5:30:16 CLI: 1014-3.BIN Inference Time is 540 ms :: 3 False
- 5:30:21 CLI: 1015-0.BIN Inference Time is 540 ms :: 0 False
- 5:30:26 CLI: 1016-5.BIN Inference Time is 540 ms :: 5 False
- 5:30:33 CLI: 1017-8.BIN Inference Time is 540 ms :: 8 False
- 5:30:38 CLI: 1018-3.BIN Inference Time is 540 ms :: 3 False
- 5:30:43 CLI: 1019-0.BIN Inference Time is 540 ms :: 0 False
- 5:30:48 CLI: 1020-4.BIN Inference Time is 540 ms :: 4 False
- 5:30:53 CLI: 1021-4.BIN Inference Time is 540 ms :: 4 False
- 5:30:58 CLI: 1022-0.BIN Inference Time is 540 ms :: 0 False
- 5:31:03 CLI: 1023-4.BIN Inference Time is 540 ms :: 4 False
- 5:31:10 CLI: 1024-1.BIN Inference Time is 540 ms :: 1 False
- 5:31:15 CLI: 1025-2.BIN Inference Time is 540 ms :: 2 False
- 5:31:20 CLI: 1026-5.BIN Inference Time is 540 ms :: 5 False
- 5:31:25 CLI: 1027-9.BIN Inference Time is 540 ms :: 9 False
- 5:31:30 CLI: 1028-1.BIN Inference Time is 540 ms :: 1 False
- 5:31:35 CLI: 1029-5.BIN Inference Time is 540 ms :: 5 False
- 5:31:43 CLI: 1030-0.BIN Inference Time is 540 ms :: 0 False
- 5:31:48 CLI: 1031-4.BIN Inference Time is 540 ms :: 4 False
- 5:31:53 CLI: 1032-0.BIN Inference Time is 540 ms :: 0 False
- 5:31:58 CLI: 1033-9.BIN Inference Time is 540 ms :: 9 False
- 5:32:03 CLI: 1034-7.BIN Inference Time is 540 ms :: 7 False
- 5:32:08 CLI: 1035-1.BIN Inference Time is 540 ms :: 1 False
- 5:32:13 CLI: 1036-5.BIN Inference Time is 540 ms :: 5 False
- 5:32:20 CLI: 1037-2.BIN Inference Time is 540 ms :: 2 False
- 5:32:25 CLI: 1038-2.BIN Inference Time is 540 ms :: 2 False
- 5:32:30 CLI: 1039-1.BIN Inference Time is 540 ms :: 1 False
- 5:32:35 CLI: 1040-0.BIN Inference Time is 540 ms :: 0 False
- 5:32:40 CLI: 1041-9.BIN Inference Time is 540 ms :: 9 False
- 5:32:45 CLI: 1042-4.BIN Inference Time is 540 ms :: 4 False
- 5:32:50 CLI: 1043-4.BIN Inference Time is 540 ms :: 4 False
- 5:32:57 CLI: 1044-6.BIN Inference Time is 540 ms :: 6 False
- 5:33:02 CLI: 1045-9.BIN Inference Time is 540 ms :: 9 False
- 5:33:07 CLI: 1046-7.BIN Inference Time is 540 ms :: 7 False
- 5:33:12 CLI: 1047-3.BIN Inference Time is 540 ms :: 3 False
- 5:33:17 CLI: 1048-9.BIN Inference Time is 540 ms :: 9 False
- 5:33:22 CLI: 1049-2.BIN Inference Time is 540 ms :: 2 False
- 5:33:30 CLI: 1050-6.BIN Inference Time is 540 ms :: 6 False
- 5:33:35 CLI: 1051-6.BIN Inference Time is 540 ms :: 6 False
- 5:33:40 CLI: 1052-6.BIN Inference Time is 540 ms :: 6 False
- 5:33:45 CLI: 1053-2.BIN Inference Time is 540 ms :: 2 False
- 5:33:50 CLI: 1054-5.BIN Inference Time is 540 ms :: 5 False
- 5:33:55 CLI: 1055-4.BIN Inference Time is 540 ms :: 4 False
- 5:34:00 CLI: 1056-0.BIN Inference Time is 540 ms :: 0 False
- 5:34:07 CLI: 1057-4.BIN Inference Time is 540 ms :: 4 False
- 5:34:12 CLI: 1058-6.BIN Inference Time is 540 ms :: 6 False
- 5:34:17 CLI: 1059-7.BIN Inference Time is 540 ms :: 7 False
- 5:34:22 CLI: 1060-1.BIN Inference Time is 540 ms :: 1 False
- 5:34:27 CLI: 1061-1.BIN Inference Time is 540 ms :: 1 False
- 5:34:32 CLI: 1062-8.BIN Inference Time is 540 ms :: 8 False
- 5:34:37 CLI: 1063-3.BIN Inference Time is 540 ms :: 3 False
- 5:34:45 CLI: 1064-8.BIN Inference Time is 540 ms :: 8 False
- 5:34:50 CLI: 1065-3.BIN Inference Time is 540 ms :: 3 False
- 5:34:55 CLI: 1066-0.BIN Inference Time is 540 ms :: 0 False
- 5:35:00 CLI: 1067-2.BIN Inference Time is 540 ms :: 2 False
- 5:35:05 CLI: 1068-4.BIN Inference Time is 540 ms :: 4 False
- 5:35:10 CLI: 1069-0.BIN Inference Time is 540 ms :: 0 False
- 5:35:17 CLI: 1070-2.BIN Inference Time is 540 ms :: 2 False
- 5:35:22 CLI: 1071-3.BIN Inference Time is 540 ms :: 3 False
- 5:35:27 CLI: 1072-8.BIN Inference Time is 540 ms :: 8 False
- 5:35:32 CLI: 1073-5.BIN Inference Time is 540 ms :: 5 False
- 5:35:37 CLI: 1074-6.BIN Inference Time is 540 ms :: 6 False
- 5:35:42 CLI: 1075-5.BIN Inference Time is 540 ms :: 5 False
- 5:35:48 CLI: 1076-5.BIN Inference Time is 540 ms :: 5 False
- 5:35:55 CLI: 1077-6.BIN Inference Time is 540 ms :: 6 False
- 5:36:00 CLI: 1078-9.BIN Inference Time is 540 ms :: 9 False
- 5:36:05 CLI: 1079-3.BIN Inference Time is 540 ms :: 3 False
- 5:36:10 CLI: 1080-4.BIN Inference Time is 540 ms :: 4 False
- 5:36:15 CLI: 1081-6.BIN Inference Time is 540 ms :: 6 False
- 5:36:20 CLI: 1082-1.BIN Inference Time is 540 ms :: 1 False
- 5:36:28 CLI: 1083-1.BIN Inference Time is 540 ms :: 1 False
- 5:36:33 CLI: 1084-7.BIN Inference Time is 540 ms :: 7 False
- 5:36:38 CLI: 1085-1.BIN Inference Time is 540 ms :: 1 False
- 5:36:43 CLI: 1086-4.BIN Inference Time is 540 ms :: 4 False
- 5:36:48 CLI: 1087-8.BIN Inference Time is 540 ms :: 8 False
- 5:36:53 CLI: 1088-9.BIN Inference Time is 540 ms :: 9 False
- 5:36:58 CLI: 1089-9.BIN Inference Time is 540 ms :: 9 False
- 5:37:06 CLI: 1090-9.BIN Inference Time is 540 ms :: 9 False
- 5:37:11 CLI: 1091-1.BIN Inference Time is 540 ms :: 1 False
- 5:37:16 CLI: 1092-4.BIN Inference Time is 540 ms :: 4 False
- 5:37:21 CLI: 1093-9.BIN Inference Time is 540 ms :: 9 False
- 5:37:26 CLI: 1094-9.BIN Inference Time is 540 ms :: 9 False
- 5:37:31 CLI: 1095-8.BIN Inference Time is 540 ms :: 8 False
- 5:37:36 CLI: 1096-1.BIN Inference Time is 540 ms :: 1 False
- 5:37:44 CLI: 1097-2.BIN Inference Time is 540 ms :: 2 False
- 5:37:49 CLI: 1098-3.BIN Inference Time is 540 ms :: 3 False
- 5:37:54 CLI: 1099-9.BIN Inference Time is 540 ms :: 9 False
- 5:37:59 CLI: 1100-0.BIN Inference Time is 540 ms :: 0 False
- 5:38:04 CLI: 1101-1.BIN Inference Time is 540 ms :: 1 False
- 5:38:09 CLI: 1102-9.BIN Inference Time is 540 ms :: 9 False
- 5:38:17 CLI: 1103-9.BIN Inference Time is 540 ms :: 9 False
- 5:38:22 CLI: 1104-4.BIN Inference Time is 540 ms :: 4 False
- 5:38:27 CLI: 1105-7.BIN Inference Time is 540 ms :: 7 False
- 5:38:32 CLI: 1106-1.BIN Inference Time is 540 ms :: 1 False
- 5:38:37 CLI: 1107-7.BIN Inference Time is 540 ms :: 7 False
- 5:38:42 CLI: 1108-1.BIN Inference Time is 540 ms :: 1 False
- 5:38:47 CLI: 1109-1.BIN Inference Time is 540 ms :: 1 False
- 5:38:55 CLI: 1110-9.BIN Inference Time is 540 ms :: 9 False
- 5:39:00 CLI: 1111-5.BIN Inference Time is 540 ms :: 5 False
- 5:39:05 CLI: 1112-3.BIN Inference Time is 540 ms :: 3 False
- 5:39:10 CLI: 1113-1.BIN Inference Time is 540 ms :: 1 False
- 5:39:15 CLI: 1114-6.BIN Inference Time is 540 ms :: 6 False
- 5:39:20 CLI: 1115-8.BIN Inference Time is 540 ms :: 8 False
- 5:39:25 CLI: 1116-2.BIN Inference Time is 540 ms :: 2 False
- 5:39:33 CLI: 1117-4.BIN Inference Time is 540 ms :: 4 False
- 5:39:38 CLI: 1118-2.BIN Inference Time is 540 ms :: 2 False
- 5:39:43 CLI: 1119-7.BIN Inference Time is 540 ms :: 7 False
- 5:39:48 CLI: 1120-3.BIN Inference Time is 540 ms :: 3 False
- 5:39:53 CLI: 1121-2.BIN Inference Time is 540 ms :: 2 False
- 5:39:58 CLI: 1122-7.BIN Inference Time is 540 ms :: 7 False
- 5:40:06 CLI: 1123-4.BIN Inference Time is 540 ms :: 4 False
- 5:40:11 CLI: 1124-4.BIN Inference Time is 540 ms :: 4 False
- 5:40:16 CLI: 1125-5.BIN Inference Time is 540 ms :: 5 False
- 5:40:21 CLI: 1126-7.BIN Inference Time is 540 ms :: 7 False
- 5:40:26 CLI: 1127-8.BIN Inference Time is 540 ms :: 8 False
- 5:40:32 CLI: 1128-6.BIN Inference Time is 540 ms :: 6 False
- 5:40:37 CLI: 1129-6.BIN Inference Time is 540 ms :: 6 False
- 5:40:44 CLI: 1130-5.BIN Inference Time is 540 ms :: 5 False
- 5:40:49 CLI: 1131-8.BIN Inference Time is 540 ms :: 8 False
- 5:40:55 CLI: 1132-9.BIN Inference Time is 540 ms :: 9 False
- 5:41:00 CLI: 1133-9.BIN Inference Time is 540 ms :: 9 False
- 5:41:05 CLI: 1134-8.BIN Inference Time is 540 ms :: 8 False
- 5:41:10 CLI: 1135-1.BIN Inference Time is 540 ms :: 1 False
- 5:41:15 CLI: 1136-5.BIN Inference Time is 540 ms :: 5 False
- 5:41:23 CLI: 1137-0.BIN Inference Time is 540 ms :: 0 False
- 5:41:28 CLI: 1138-5.BIN Inference Time is 540 ms :: 5 False
- 5:41:33 CLI: 1139-9.BIN Inference Time is 540 ms :: 9 False
- 5:41:38 CLI: 1140-0.BIN Inference Time is 4295508 ms :: 0 False
- 5:41:43 CLI: 1141-3.BIN Inference Time is 4295508 ms :: 3 False
- 5:41:48 CLI: 1142-8.BIN Inference Time is 4295508 ms :: 8 False
- 5:41:56 CLI: 1143-2.BIN Inference Time is 4295508 ms :: 2 False
- 5:42:01 CLI: 1144-8.BIN Inference Time is 4295508 ms :: 8 False
- 5:42:06 CLI: 1145-9.BIN Inference Time is 4295508 ms :: 9 False
- 5:42:11 CLI: 1146-8.BIN Inference Time is 4295508 ms :: 8 False
- 5:42:16 CLI: 1147-2.BIN Inference Time is 4295508 ms :: 2 False
- 5:42:22 CLI: 1148-9.BIN Inference Time is 4295508 ms :: 9 False
- 5:42:27 CLI: 1149-1.BIN Inference Time is 4295508 ms :: 1 False
- 5:42:34 CLI: 1150-5.BIN Inference Time is 4295508 ms :: 5 False
- 5:42:39 CLI: 1151-5.BIN Inference Time is 4295508 ms :: 5 False
- 5:42:45 CLI: 1152-9.BIN Inference Time is 4295508 ms :: 9 False
- 5:42:50 CLI: 1153-7.BIN Inference Time is 4295508 ms :: 7 False
- 5:42:55 CLI: 1154-8.BIN Inference Time is 4295508 ms :: 8 False
- 5:43:00 CLI: 1155-1.BIN Inference Time is 4295508 ms :: 1 False
- 5:43:05 CLI: 1156-7.BIN Inference Time is 4295508 ms :: 7 False
- 5:43:13 CLI: 1157-4.BIN Inference Time is 4295508 ms :: 4 False
- 5:43:18 CLI: 1158-6.BIN Inference Time is 4295508 ms :: 6 False
- 5:43:23 CLI: 1159-6.BIN Inference Time is 4295508 ms :: 6 False
- 5:43:28 CLI: 1160-5.BIN Inference Time is 4295508 ms :: 5 False
- 5:43:34 CLI: 1161-8.BIN Inference Time is 4295508 ms :: 8 False
- 5:43:39 CLI: 1162-9.BIN Inference Time is 4295508 ms :: 9 False
- 5:43:46 CLI: 1163-6.BIN Inference Time is 4295508 ms :: 6 False
- 5:43:51 CLI: 1164-7.BIN Inference Time is 4295508 ms :: 7 False
- 5:43:57 CLI: 1165-8.BIN Inference Time is 4295508 ms :: 8 False
- 5:44:02 CLI: 1166-5.BIN Inference Time is 4295508 ms :: 5 False
- 5:44:07 CLI: 1167-0.BIN Inference Time is 4295508 ms :: 0 False
- 5:44:12 CLI: 1168-0.BIN Inference Time is 4295508 ms :: 0 False
- 5:44:17 CLI: 1169-2.BIN Inference Time is 4295508 ms :: 2 False
- 5:44:25 CLI: 1170-9.BIN Inference Time is 4295508 ms :: 9 False
- 5:44:30 CLI: 1171-0.BIN Inference Time is 4295508 ms :: 0 False
- 5:44:35 CLI: 1172-9.BIN Inference Time is 4295508 ms :: 9 False
- 5:44:41 CLI: 1173-2.BIN Inference Time is 4295508 ms :: 2 False
- 5:44:46 CLI: 1174-8.BIN Inference Time is 4295508 ms :: 8 False
- 5:44:51 CLI: 1175-5.BIN Inference Time is 4295508 ms :: 5 False
- 5:44:56 CLI: 1176-3.BIN Inference Time is 4295508 ms :: 3 False
- 5:45:04 CLI: 1177-5.BIN Inference Time is 4295508 ms :: 5 False
- 5:45:09 CLI: 1178-4.BIN Inference Time is 4295508 ms :: 4 False
- 5:45:14 CLI: 1179-9.BIN Inference Time is 4295508 ms :: 9 False
- 5:45:19 CLI: 1180-0.BIN Inference Time is 4295508 ms :: 0 False
- 5:45:24 CLI: 1181-8.BIN Inference Time is 4295508 ms :: 8 False
- 5:45:30 CLI: 1182-5.BIN Inference Time is 4295508 ms :: 5 False
- 5:45:37 CLI: 1183-1.BIN Inference Time is 4295508 ms :: 1 False
- 5:45:43 CLI: 1184-0.BIN Inference Time is 4295508 ms :: 0 False
- 5:45:48 CLI: 1185-5.BIN Inference Time is 4295508 ms :: 5 False
- 5:45:53 CLI: 1186-4.BIN Inference Time is 4295508 ms :: 4 False
- 5:45:58 CLI: 1187-9.BIN Inference Time is 4295508 ms :: 9 False
- 5:46:03 CLI: 1188-3.BIN Inference Time is 4295508 ms :: 3 False
- 5:46:08 CLI: 1189-7.BIN Inference Time is 4295508 ms :: 7 False
- 5:46:16 CLI: 1190-6.BIN Inference Time is 4295508 ms :: 6 False
- 5:46:21 CLI: 1191-4.BIN Inference Time is 4295508 ms :: 4 False
- 5:46:27 CLI: 1192-1.BIN Inference Time is 4295508 ms :: 1 False
- 5:46:32 CLI: 1193-0.BIN Inference Time is 4295508 ms :: 0 False
- 5:46:37 CLI: 1194-2.BIN Inference Time is 4295508 ms :: 2 False
- 5:46:42 CLI: 1195-2.BIN Inference Time is 4295508 ms :: 2 False
- 5:46:47 CLI: 1196-2.BIN Inference Time is 4295508 ms :: 2 False
- 5:46:55 CLI: 1197-8.BIN Inference Time is 4295508 ms :: 8 False
- 5:47:00 CLI: 1198-9.BIN Inference Time is 4295508 ms :: 9 False
- 5:47:06 CLI: 1199-0.BIN Inference Time is 4295508 ms :: 0 False
- 5:47:11 CLI: 1200-8.BIN Inference Time is 4295508 ms :: 8 False
+ 4:31:46 CLI: /sdcard/0-8.BIN Reading image delay is 190 ms Inference delay is 3248 ms :: 8 True
+/sdcard/1-0.BIN Reading image delay is 190 ms Inference delay is 540 ms :: 0 True
+/sdcard/2-3.BIN Reading image delay is 190 ms Inference delay is 540 ms :: 3 True
+/sdcard/3-5.BIN Reading image delay is 190 ms Inference delay is 540 ms :: 5 True
+/sdcard/4-4.BIN Reading image delay is 190 ms Inference delay is 540 ms :: 4 True
+/sdcard/5-6.BIN Reading image delay is 190 ms Inference delay is 540 ms :: 6 True
+/sdcard/6-0.BIN Reading image delay is 190 ms Inference delay is 540 ms :: 0 True
+/sdcard/7-9.BIN Reading image delay is 230 ms Inference delay is 540 ms :: 9 True
+/sdcard/8-3.BIN Reading image delay is 230 ms Inference delay is 540 ms :: 3 True
+/sdcard/9-2.BIN Reading image delay is 230 ms Inference delay is 540 ms :: 2 True
+/sdcard/10-7.BIN Reading image delay is 230 ms Inference delay is 540 ms :: 7 True
+/sdcard/11-4.BIN Reading image delay is 230 ms Inference delay is 540 ms :: 4 True
+/sdcard/12-9.BIN Reading image delay is 230 ms Inference delay is 540 ms :: 9 True
+/sdcard/13-8.BIN Reading image delay is 230 ms Inference delay is 540 ms :: 8 True
+/sdcard/14-0.BIN Reading image delay is 230 ms Inference delay is 540 ms :: 0 True
+/sdcard/15-6.BIN Reading image delay is 250 ms Inference delay is 540 ms :: 6 True
+/sdcard/16-9.BIN Reading image delay is 250 ms Inference delay is 540 ms :: 9 True
+/sdcard/17-0.BIN Reading image delay is 250 ms Inference delay is 540 ms :: 0 True
+/sdcard/18-1.BIN Reading image delay is 250 ms Inference delay is 540 ms :: 1 True
+/sdcard/19-6.BIN Reading image delay is 250 ms Inference delay is 540 ms :: 6 True
+/sdcard/20-0.BIN Reading image delay is 250 ms Inference delay is 540 ms :: 0 True
+/sdcard/21-9.BIN Reading image delay is 250 ms Inference delay is 540 ms :: 9 True
+/sdcard/22-9.BIN Reading image delay is 250 ms Inference delay is 540 ms :: 9 True
+/sdcard/23-2.BIN Reading image delay is 270 ms Inference delay is 540 ms :: 2 True
+/sdcard/24-8.BIN Reading image delay is 270 ms Inference delay is 540 ms :: 8 True
+/sdcard/25-6.BIN Reading image delay is 270 ms Inference delay is 540 ms :: 6 True
+/sdcard/26-1.BIN Reading image delay is 270 ms Inference delay is 540 ms :: 1 True
+/sdcard/27-0.BIN Reading image delay is 270 ms Inference delay is 540 ms :: 0 True
+/sdcard/28-9.BIN Reading image delay is 270 ms Inference delay is 540 ms :: 9 True
+/sdcard/29-7.BIN Reading image delay is 270 ms Inference delay is 540 ms :: 7 True
+/sdcard/30-5.BIN Reading image delay is 270 ms Inference delay is 540 ms :: 5 True
+/sdcard/31-0.BIN Reading image delay is 290 ms Inference delay is 540 ms :: 0 True
+/sdcard/32-9.BIN Reading image delay is 290 ms Inference delay is 540 ms :: 9 True
+/sdcard/33-5.BIN Reading image delay is 290 ms Inference delay is 540 ms :: 5 True
+/sdcard/34-7.BIN Reading image delay is 290 ms Inference delay is 540 ms :: 7 True
+/sdcard/35-0.BIN Reading image delay is 290 ms Inference delay is 540 ms :: 0 True
+/sdcard/36-8.BIN Reading image delay is 290 ms Inference delay is 540 ms :: 8 True
+/sdcard/37-1.BIN Reading image delay is 290 ms Inference delay is 540 ms :: 1 True
+/sdcard/38-5.BIN Reading image delay is 290 ms Inference delay is 540 ms :: 5 True
+/sdcard/39-0.BIN Reading image delay is 310 ms Inference delay is 540 ms :: 0 True
+/sdcard/40-0.BIN Reading image delay is 310 ms Inference delay is 540 ms :: 0 True
+/sdcard/41-9.BIN Reading image delay is 310 ms Inference delay is 540 ms :: 9 True
+/sdcard/42-7.BIN Reading image delay is 310 ms Inference delay is 540 ms :: 7 True
+/sdcard/43-1.BIN Reading image delay is 310 ms Inference delay is 540 ms :: 1 True
+/sdcard/44-7.BIN Reading image delay is 310 ms Inference delay is 540 ms :: 7 True
+/sdcard/45-2.BIN Reading image delay is 310 ms Inference delay is 540 ms :: 2 True
+/sdcard/46-6.BIN Reading image delay is 310 ms Inference delay is 540 ms :: 6 True
+/sdcard/47-3.BIN Reading image delay is 330 ms Inference delay is 540 ms :: 3 True
+/sdcard/48-2.BIN Reading image delay is 340 ms Inference delay is 540 ms :: 2 True
+/sdcard/49-9.BIN Reading image delay is 330 ms Inference delay is 540 ms :: 9 True
+/sdcard/50-4.BIN Reading image delay is 330 ms Inference delay is 540 ms :: 4 True
+/sdcard/51-2.BIN Reading image delay is 330 ms Inference delay is 540 ms :: 2 True
+/sdcard/52-0.BIN Reading image delay is 330 ms Inference delay is 540 ms :: 0 True
+/sdcard/53-8.BIN Reading image delay is 330 ms Inference delay is 540 ms :: 8 True
+/sdcard/54-1.BIN Reading image delay is 330 ms Inference delay is 540 ms :: 1 True
+/sdcard/55-8.BIN Reading image delay is 350 ms Inference delay is 540 ms :: 8 True
+/sdcard/56-3.BIN Reading image delay is 350 ms Inference delay is 540 ms :: 3 True
+/sdcard/57-4.BIN Reading image delay is 350 ms Inference delay is 540 ms :: 4 True
+/sdcard/58-8.BIN Reading image delay is 350 ms Inference delay is 540 ms :: 8 True
+/sdcard/59-3.BIN Reading image delay is 350 ms Inference delay is 540 ms :: 3 True
+/sdcard/60-1.BIN Reading image delay is 350 ms Inference delay is 540 ms :: 1 True
+/sdcard/61-9.BIN Reading image delay is 350 ms Inference delay is 540 ms :: 9 True
+/sdcard/62-6.BIN Reading image delay is 350 ms Inference delay is 540 ms :: 6 True
+/sdcard/63-5.BIN Reading image delay is 390 ms Inference delay is 540 ms :: 5 True
+/sdcard/64-0.BIN Reading image delay is 390 ms Inference delay is 540 ms :: 0 True
+/sdcard/65-8.BIN Reading image delay is 390 ms Inference delay is 540 ms :: 8 True
+/sdcard/66-6.BIN Reading image delay is 390 ms Inference delay is 540 ms :: 6 True
+/sdcard/67-6.BIN Reading image delay is 390 ms Inference delay is 540 ms :: 6 True
+/sdcard/68-1.BIN Reading image delay is 390 ms Inference delay is 540 ms :: 1 True
+/sdcard/69-8.BIN Reading image delay is 390 ms Inference delay is 540 ms :: 8 True
+/sdcard/70-5.BIN Reading image delay is 390 ms Inference delay is 540 ms :: 5 True
+/sdcard/71-7.BIN Reading image delay is 410 ms Inference delay is 540 ms :: 7 True
+/sdcard/72-1.BIN Reading image delay is 410 ms Inference delay is 540 ms :: 1 True
+/sdcard/73-1.BIN Reading image delay is 410 ms Inference delay is 540 ms :: 1 True
+/sdcard/74-3.BIN Reading image delay is 410 ms Inference delay is 540 ms :: 3 True
+/sdcard/75-5.BIN Reading image delay is 410 ms Inference delay is 540 ms :: 5 True
+/sdcard/76-6.BIN Reading image delay is 410 ms Inference delay is 540 ms :: 6 True
+/sdcard/77-3.BIN Reading image delay is 410 ms Inference delay is 540 ms :: 3 True
+/sdcard/78-7.BIN Reading image delay is 410 ms Inference delay is 540 ms :: 7 True
+/sdcard/79-7.BIN Reading image delay is 430 ms Inference delay is 540 ms :: 7 True
+/sdcard/80-7.BIN Reading image delay is 430 ms Inference delay is 540 ms :: 7 True
+/sdcard/81-4.BIN Reading image delay is 430 ms Inference delay is 540 ms :: 4 True
+/sdcard/82-4.BIN Reading image delay is 430 ms Inference delay is 540 ms :: 4 True
+/sdcard/83-5.BIN Reading image delay is 430 ms Inference delay is 540 ms :: 5 True
+/sdcard/84-1.BIN Reading image delay is 430 ms Inference delay is 540 ms :: 1 True
+/sdcard/85-2.BIN Reading image delay is 430 ms Inference delay is 540 ms :: 2 True
+/sdcard/86-4.BIN Reading image delay is 430 ms Inference delay is 540 ms :: 4 True
+/sdcard/87-9.BIN Reading image delay is 450 ms Inference delay is 540 ms :: 9 True
+/sdcard/88-1.BIN Reading image delay is 450 ms Inference delay is 540 ms :: 1 True
+/sdcard/89-0.BIN Reading image delay is 450 ms Inference delay is 540 ms :: 0 True
+/sdcard/90-1.BIN Reading image delay is 450 ms Inference delay is 540 ms :: 1 True
+/sdcard/91-9.BIN Reading image delay is 450 ms Inference delay is 540 ms :: 9 True
+/sdcard/92-8.BIN Reading image delay is 450 ms Inference delay is 540 ms :: 8 True
+/sdcard/93-8.BIN Reading image delay is 450 ms Inference delay is 540 ms :: 8 True
+/sdcard/94-4.BIN Reading image delay is 450 ms Inference delay is 540 ms :: 4 True
+/sdcard/95-8.BIN Reading image delay is 470 ms Inference delay is 540 ms :: 8 True
+/sdcard/96-1.BIN Reading image delay is 470 ms Inference delay is 540 ms :: 1 True
+/sdcard/97-8.BIN Reading image delay is 470 ms Inference delay is 540 ms :: 8 True
+/sdcard/98-0.BIN Reading image delay is 470 ms Inference delay is 540 ms :: 0 True
+/sdcard/99-9.BIN Reading image delay is 470 ms Inference delay is 540 ms :: 9 True
+ 4:34:00 CLI: /sdcard/100-8.BIN Reading image delay is 470 ms Inference delay is 540 ms :: 8 True
+/sdcard/101-1.BIN Reading image delay is 470 ms Inference delay is 540 ms :: 1 True
+/sdcard/102-2.BIN Reading image delay is 470 ms Inference delay is 540 ms :: 2 True
+/sdcard/103-4.BIN Reading image delay is 490 ms Inference delay is 540 ms :: 4 True
+/sdcard/104-3.BIN Reading image delay is 490 ms Inference delay is 540 ms :: 3 True
+/sdcard/105-2.BIN Reading image delay is 490 ms Inference delay is 540 ms :: 2 True
+/sdcard/106-6.BIN Reading image delay is 490 ms Inference delay is 540 ms :: 6 True
+/sdcard/107-8.BIN Reading image delay is 490 ms Inference delay is 540 ms :: 8 True
+/sdcard/108-1.BIN Reading image delay is 490 ms Inference delay is 540 ms :: 1 True
+/sdcard/109-9.BIN Reading image delay is 490 ms Inference delay is 540 ms :: 9 True
+/sdcard/110-4.BIN Reading image delay is 490 ms Inference delay is 540 ms :: 4 True
+/sdcard/111-2.BIN Reading image delay is 510 ms Inference delay is 540 ms :: 2 True
+/sdcard/112-2.BIN Reading image delay is 510 ms Inference delay is 540 ms :: 2 True
+/sdcard/113-4.BIN Reading image delay is 510 ms Inference delay is 540 ms :: 4 True
+/sdcard/114-6.BIN Reading image delay is 510 ms Inference delay is 540 ms :: 6 True
+/sdcard/115-8.BIN Reading image delay is 510 ms Inference delay is 540 ms :: 8 True
+/sdcard/116-3.BIN Reading image delay is 510 ms Inference delay is 540 ms :: 3 True
+/sdcard/117-2.BIN Reading image delay is 510 ms Inference delay is 540 ms :: 2 True
+/sdcard/118-1.BIN Reading image delay is 510 ms Inference delay is 540 ms :: 1 True
+/sdcard/119-4.BIN Reading image delay is 530 ms Inference delay is 540 ms :: 4 True
+/sdcard/120-9.BIN Reading image delay is 530 ms Inference delay is 540 ms :: 9 True
+/sdcard/121-6.BIN Reading image delay is 530 ms Inference delay is 540 ms :: 6 True
+/sdcard/122-2.BIN Reading image delay is 530 ms Inference delay is 540 ms :: 2 True
+/sdcard/123-7.BIN Reading image delay is 530 ms Inference delay is 540 ms :: 7 True
+/sdcard/124-6.BIN Reading image delay is 530 ms Inference delay is 540 ms :: 6 True
+/sdcard/125-2.BIN Reading image delay is 530 ms Inference delay is 540 ms :: 2 True
+/sdcard/126-3.BIN Reading image delay is 530 ms Inference delay is 540 ms :: 3 True
+/sdcard/127-9.BIN Reading image delay is 570 ms Inference delay is 540 ms :: 9 True
+/sdcard/128-7.BIN Reading image delay is 570 ms Inference delay is 540 ms :: 7 True
+/sdcard/129-3.BIN Reading image delay is 570 ms Inference delay is 540 ms :: 3 True
+/sdcard/130-0.BIN Reading image delay is 570 ms Inference delay is 540 ms :: 0 True
+/sdcard/131-7.BIN Reading image delay is 570 ms Inference delay is 540 ms :: 7 True
+/sdcard/132-4.BIN Reading image delay is 570 ms Inference delay is 540 ms :: 4 True
+/sdcard/133-7.BIN Reading image delay is 570 ms Inference delay is 540 ms :: 7 True
+/sdcard/134-5.BIN Reading image delay is 570 ms Inference delay is 540 ms :: 5 True
+/sdcard/135-8.BIN Reading image delay is 590 ms Inference delay is 540 ms :: 8 True
+/sdcard/136-5.BIN Reading image delay is 590 ms Inference delay is 540 ms :: 5 True
+/sdcard/137-2.BIN Reading image delay is 590 ms Inference delay is 540 ms :: 2 True
+/sdcard/138-4.BIN Reading image delay is 590 ms Inference delay is 540 ms :: 4 True
+/sdcard/139-3.BIN Reading image delay is 590 ms Inference delay is 540 ms :: 3 True
+/sdcard/140-0.BIN Reading image delay is 590 ms Inference delay is 540 ms :: 0 True
+/sdcard/141-5.BIN Reading image delay is 590 ms Inference delay is 540 ms :: 5 True
+/sdcard/142-6.BIN Reading image delay is 590 ms Inference delay is 540 ms :: 6 True
+/sdcard/143-3.BIN Reading image delay is 610 ms Inference delay is 540 ms :: 3 True
+/sdcard/144-0.BIN Reading image delay is 610 ms Inference delay is 540 ms :: 0 True
+/sdcard/145-7.BIN Reading image delay is 610 ms Inference delay is 540 ms :: 7 True
+/sdcard/146-9.BIN Reading image delay is 610 ms Inference delay is 540 ms :: 9 True
+/sdcard/147-2.BIN Reading image delay is 610 ms Inference delay is 540 ms :: 2 True
+/sdcard/148-1.BIN Reading image delay is 610 ms Inference delay is 540 ms :: 1 True
+/sdcard/149-6.BIN Reading image delay is 610 ms Inference delay is 540 ms :: 6 True
+/sdcard/150-5.BIN Reading image delay is 610 ms Inference delay is 540 ms :: 5 True
+/sdcard/151-3.BIN Reading image delay is 630 ms Inference delay is 540 ms :: 3 True
+/sdcard/152-9.BIN Reading image delay is 630 ms Inference delay is 540 ms :: 9 True
+/sdcard/153-6.BIN Reading image delay is 630 ms Inference delay is 540 ms :: 6 True
+/sdcard/154-1.BIN Reading image delay is 630 ms Inference delay is 540 ms :: 1 True
+/sdcard/155-8.BIN Reading image delay is 630 ms Inference delay is 540 ms :: 8 True
+/sdcard/156-1.BIN Reading image delay is 630 ms Inference delay is 540 ms :: 1 True
+/sdcard/157-0.BIN Reading image delay is 630 ms Inference delay is 540 ms :: 0 True
+/sdcard/158-3.BIN Reading image delay is 630 ms Inference delay is 540 ms :: 3 True
+/sdcard/159-1.BIN Reading image delay is 650 ms Inference delay is 540 ms :: 1 True
+/sdcard/160-5.BIN Reading image delay is 650 ms Inference delay is 540 ms :: 5 True
+/sdcard/161-0.BIN Reading image delay is 650 ms Inference delay is 540 ms :: 0 True
+/sdcard/162-4.BIN Reading image delay is 650 ms Inference delay is 540 ms :: 4 True
+/sdcard/163-9.BIN Reading image delay is 650 ms Inference delay is 540 ms :: 9 True
+/sdcard/164-1.BIN Reading image delay is 650 ms Inference delay is 540 ms :: 1 True
+/sdcard/165-9.BIN Reading image delay is 650 ms Inference delay is 540 ms :: 9 True
+/sdcard/166-5.BIN Reading image delay is 650 ms Inference delay is 540 ms :: 5 True
+/sdcard/167-2.BIN Reading image delay is 670 ms Inference delay is 540 ms :: 2 True
+/sdcard/168-3.BIN Reading image delay is 670 ms Inference delay is 540 ms :: 3 True
+/sdcard/169-8.BIN Reading image delay is 670 ms Inference delay is 540 ms :: 8 True
+/sdcard/170-4.BIN Reading image delay is 670 ms Inference delay is 540 ms :: 4 True
+/sdcard/171-8.BIN Reading image delay is 670 ms Inference delay is 540 ms :: 8 True
+/sdcard/172-5.BIN Reading image delay is 670 ms Inference delay is 540 ms :: 5 True
+/sdcard/173-6.BIN Reading image delay is 670 ms Inference delay is 540 ms :: 6 True
+/sdcard/174-2.BIN Reading image delay is 670 ms Inference delay is 540 ms :: 2 True
+/sdcard/175-6.BIN Reading image delay is 690 ms Inference delay is 540 ms :: 6 True
+/sdcard/176-2.BIN Reading image delay is 700 ms Inference delay is 540 ms :: 2 True
+/sdcard/177-0.BIN Reading image delay is 690 ms Inference delay is 540 ms :: 0 True
+/sdcard/178-7.BIN Reading image delay is 690 ms Inference delay is 540 ms :: 7 True
+/sdcard/179-8.BIN Reading image delay is 690 ms Inference delay is 540 ms :: 8 True
+/sdcard/180-4.BIN Reading image delay is 690 ms Inference delay is 540 ms :: 4 True
+/sdcard/181-5.BIN Reading image delay is 690 ms Inference delay is 540 ms :: 5 True
+/sdcard/182-2.BIN Reading image delay is 690 ms Inference delay is 540 ms :: 2 True
+/sdcard/183-2.BIN Reading image delay is 710 ms Inference delay is 540 ms :: 2 True
+/sdcard/184-1.BIN Reading image delay is 710 ms Inference delay is 540 ms :: 1 True
+/sdcard/185-4.BIN Reading image delay is 710 ms Inference delay is 540 ms :: 4 True
+/sdcard/186-5.BIN Reading image delay is 710 ms Inference delay is 540 ms :: 5 True
+/sdcard/187-2.BIN Reading image delay is 710 ms Inference delay is 540 ms :: 2 True
+/sdcard/188-6.BIN Reading image delay is 710 ms Inference delay is 540 ms :: 6 True
+/sdcard/189-5.BIN Reading image delay is 710 ms Inference delay is 540 ms :: 5 True
+/sdcard/190-9.BIN Reading image delay is 710 ms Inference delay is 540 ms :: 9 True
+/sdcard/191-2.BIN Reading image delay is 750 ms Inference delay is 540 ms :: 2 True
+/sdcard/192-1.BIN Reading image delay is 750 ms Inference delay is 540 ms :: 1 True
+/sdcard/193-6.BIN Reading image delay is 750 ms Inference delay is 540 ms :: 6 True
+/sdcard/194-8.BIN Reading image delay is 750 ms Inference delay is 540 ms :: 8 True
+/sdcard/195-1.BIN Reading image delay is 750 ms Inference delay is 540 ms :: 1 True
+/sdcard/196-8.BIN Reading image delay is 750 ms Inference delay is 540 ms :: 8 True
+/sdcard/197-3.BIN Reading image delay is 750 ms Inference delay is 540 ms :: 3 True
+/sdcard/198-9.BIN Reading image delay is 750 ms Inference delay is 540 ms :: 9 True
+/sdcard/199-1.BIN Reading image delay is 770 ms Inference delay is 540 ms :: 1 True
+ 4:36:38 CLI: /sdcard/200-1.BIN Reading image delay is 770 ms Inference delay is 540 ms :: 1 True
+/sdcard/201-7.BIN Reading image delay is 770 ms Inference delay is 540 ms :: 7 True
+/sdcard/202-0.BIN Reading image delay is 770 ms Inference delay is 540 ms :: 0 True
+/sdcard/203-6.BIN Reading image delay is 770 ms Inference delay is 540 ms :: 6 True
+/sdcard/204-7.BIN Reading image delay is 770 ms Inference delay is 540 ms :: 7 True
+/sdcard/205-0.BIN Reading image delay is 770 ms Inference delay is 540 ms :: 0 True
+/sdcard/206-6.BIN Reading image delay is 770 ms Inference delay is 540 ms :: 6 True
+/sdcard/207-7.BIN Reading image delay is 790 ms Inference delay is 540 ms :: 7 True
+/sdcard/208-9.BIN Reading image delay is 790 ms Inference delay is 540 ms :: 9 True
+/sdcard/209-3.BIN Reading image delay is 790 ms Inference delay is 540 ms :: 3 True
+/sdcard/210-2.BIN Reading image delay is 790 ms Inference delay is 540 ms :: 2 True
+/sdcard/211-0.BIN Reading image delay is 790 ms Inference delay is 540 ms :: 0 True
+/sdcard/212-1.BIN Reading image delay is 790 ms Inference delay is 540 ms :: 1 True
+/sdcard/213-5.BIN Reading image delay is 790 ms Inference delay is 540 ms :: 5 True
+/sdcard/214-8.BIN Reading image delay is 790 ms Inference delay is 540 ms :: 8 True
+/sdcard/215-8.BIN Reading image delay is 810 ms Inference delay is 540 ms :: 8 True
+/sdcard/216-7.BIN Reading image delay is 810 ms Inference delay is 540 ms :: 7 True
+/sdcard/217-5.BIN Reading image delay is 810 ms Inference delay is 540 ms :: 5 True
+/sdcard/218-7.BIN Reading image delay is 810 ms Inference delay is 540 ms :: 7 True
+/sdcard/219-2.BIN Reading image delay is 810 ms Inference delay is 540 ms :: 2 True
+/sdcard/220-9.BIN Reading image delay is 810 ms Inference delay is 540 ms :: 9 True
+/sdcard/221-6.BIN Reading image delay is 810 ms Inference delay is 540 ms :: 6 True
+/sdcard/222-4.BIN Reading image delay is 810 ms Inference delay is 540 ms :: 4 True
+/sdcard/223-6.BIN Reading image delay is 830 ms Inference delay is 540 ms :: 6 True
+/sdcard/224-8.BIN Reading image delay is 830 ms Inference delay is 540 ms :: 8 True
+/sdcard/225-2.BIN Reading image delay is 830 ms Inference delay is 540 ms :: 2 True
+/sdcard/226-0.BIN Reading image delay is 830 ms Inference delay is 540 ms :: 0 True
+/sdcard/227-6.BIN Reading image delay is 830 ms Inference delay is 540 ms :: 6 True
+/sdcard/228-4.BIN Reading image delay is 830 ms Inference delay is 540 ms :: 4 True
+/sdcard/229-4.BIN Reading image delay is 830 ms Inference delay is 540 ms :: 4 True
+/sdcard/230-5.BIN Reading image delay is 830 ms Inference delay is 540 ms :: 5 True
+/sdcard/231-4.BIN Reading image delay is 850 ms Inference delay is 540 ms :: 4 True
+/sdcard/232-1.BIN Reading image delay is 850 ms Inference delay is 540 ms :: 1 True
+/sdcard/233-6.BIN Reading image delay is 850 ms Inference delay is 540 ms :: 6 True
+/sdcard/234-1.BIN Reading image delay is 850 ms Inference delay is 540 ms :: 1 True
+/sdcard/235-0.BIN Reading image delay is 850 ms Inference delay is 540 ms :: 0 True
+/sdcard/236-3.BIN Reading image delay is 850 ms Inference delay is 540 ms :: 3 True
+/sdcard/237-7.BIN Reading image delay is 850 ms Inference delay is 540 ms :: 7 True
+/sdcard/238-9.BIN Reading image delay is 850 ms Inference delay is 540 ms :: 9 True
+/sdcard/239-1.BIN Reading image delay is 870 ms Inference delay is 540 ms :: 1 True
+/sdcard/240-8.BIN Reading image delay is 870 ms Inference delay is 540 ms :: 8 True
+/sdcard/241-0.BIN Reading image delay is 870 ms Inference delay is 540 ms :: 0 True
+/sdcard/242-8.BIN Reading image delay is 870 ms Inference delay is 540 ms :: 8 True
+/sdcard/243-9.BIN Reading image delay is 870 ms Inference delay is 540 ms :: 9 True
+/sdcard/244-5.BIN Reading image delay is 870 ms Inference delay is 540 ms :: 5 True
+/sdcard/245-3.BIN Reading image delay is 870 ms Inference delay is 540 ms :: 3 True
+/sdcard/246-5.BIN Reading image delay is 870 ms Inference delay is 540 ms :: 5 True
+/sdcard/247-8.BIN Reading image delay is 890 ms Inference delay is 540 ms :: 8 True
+/sdcard/248-4.BIN Reading image delay is 890 ms Inference delay is 540 ms :: 4 True
+/sdcard/249-6.BIN Reading image delay is 890 ms Inference delay is 540 ms :: 6 True
+/sdcard/250-4.BIN Reading image delay is 890 ms Inference delay is 540 ms :: 4 True
+/sdcard/251-2.BIN Reading image delay is 890 ms Inference delay is 540 ms :: 2 True
+/sdcard/252-6.BIN Reading image delay is 890 ms Inference delay is 540 ms :: 6 True
+/sdcard/253-5.BIN Reading image delay is 890 ms Inference delay is 540 ms :: 5 True
+/sdcard/254-1.BIN Reading image delay is 890 ms Inference delay is 540 ms :: 1 True
+/sdcard/255-4.BIN Reading image delay is 930 ms Inference delay is 540 ms :: 4 True
+/sdcard/256-6.BIN Reading image delay is 930 ms Inference delay is 540 ms :: 6 True
+/sdcard/257-8.BIN Reading image delay is 930 ms Inference delay is 540 ms :: 8 True
+/sdcard/258-9.BIN Reading image delay is 930 ms Inference delay is 540 ms :: 9 True
+/sdcard/259-8.BIN Reading image delay is 930 ms Inference delay is 540 ms :: 8 True
+/sdcard/260-2.BIN Reading image delay is 930 ms Inference delay is 540 ms :: 2 True
+/sdcard/261-8.BIN Reading image delay is 930 ms Inference delay is 540 ms :: 8 True
+/sdcard/262-2.BIN Reading image delay is 930 ms Inference delay is 540 ms :: 2 True
+/sdcard/263-2.BIN Reading image delay is 950 ms Inference delay is 540 ms :: 2 True
+/sdcard/264-7.BIN Reading image delay is 950 ms Inference delay is 540 ms :: 7 True
+/sdcard/265-3.BIN Reading image delay is 950 ms Inference delay is 540 ms :: 3 True
+/sdcard/266-2.BIN Reading image delay is 950 ms Inference delay is 540 ms :: 2 True
+/sdcard/267-6.BIN Reading image delay is 950 ms Inference delay is 540 ms :: 6 True
+/sdcard/268-7.BIN Reading image delay is 950 ms Inference delay is 540 ms :: 7 True
+/sdcard/269-4.BIN Reading image delay is 950 ms Inference delay is 540 ms :: 4 True
+/sdcard/270-0.BIN Reading image delay is 950 ms Inference delay is 540 ms :: 0 True
+/sdcard/271-0.BIN Reading image delay is 970 ms Inference delay is 540 ms :: 0 True
+/sdcard/272-0.BIN Reading image delay is 970 ms Inference delay is 540 ms :: 0 True
+/sdcard/273-2.BIN Reading image delay is 970 ms Inference delay is 540 ms :: 2 True
+/sdcard/274-8.BIN Reading image delay is 970 ms Inference delay is 540 ms :: 8 True
+/sdcard/275-4.BIN Reading image delay is 970 ms Inference delay is 540 ms :: 4 True
+/sdcard/276-4.BIN Reading image delay is 970 ms Inference delay is 540 ms :: 4 True
+/sdcard/277-1.BIN Reading image delay is 970 ms Inference delay is 540 ms :: 1 True
+/sdcard/278-1.BIN Reading image delay is 970 ms Inference delay is 540 ms :: 1 True
+/sdcard/279-3.BIN Reading image delay is 990 ms Inference delay is 540 ms :: 3 True
+/sdcard/280-3.BIN Reading image delay is 990 ms Inference delay is 540 ms :: 3 True
+/sdcard/281-3.BIN Reading image delay is 990 ms Inference delay is 540 ms :: 3 True
+/sdcard/282-6.BIN Reading image delay is 990 ms Inference delay is 540 ms :: 6 True
+/sdcard/283-2.BIN Reading image delay is 990 ms Inference delay is 540 ms :: 2 True
+/sdcard/284-6.BIN Reading image delay is 990 ms Inference delay is 540 ms :: 6 True
+/sdcard/285-1.BIN Reading image delay is 990 ms Inference delay is 540 ms :: 1 True
+/sdcard/286-6.BIN Reading image delay is 990 ms Inference delay is 540 ms :: 6 True
+/sdcard/287-4.BIN Reading image delay is 1010 ms Inference delay is 540 ms :: 4 True
+/sdcard/288-9.BIN Reading image delay is 1010 ms Inference delay is 540 ms :: 9 True
+/sdcard/289-3.BIN Reading image delay is 1010 ms Inference delay is 540 ms :: 3 True
+/sdcard/290-3.BIN Reading image delay is 1010 ms Inference delay is 540 ms :: 3 True
+/sdcard/291-4.BIN Reading image delay is 1010 ms Inference delay is 540 ms :: 4 True
+/sdcard/292-2.BIN Reading image delay is 1010 ms Inference delay is 540 ms :: 2 True
+/sdcard/293-0.BIN Reading image delay is 1010 ms Inference delay is 540 ms :: 0 True
+/sdcard/294-8.BIN Reading image delay is 1010 ms Inference delay is 540 ms :: 8 True
+/sdcard/295-0.BIN Reading image delay is 1030 ms Inference delay is 540 ms :: 0 True
+/sdcard/296-6.BIN Reading image delay is 1030 ms Inference delay is 540 ms :: 6 True
+/sdcard/297-2.BIN Reading image delay is 1030 ms Inference delay is 540 ms :: 2 True
+/sdcard/298-7.BIN Reading image delay is 1030 ms Inference delay is 540 ms :: 7 True
+/sdcard/299-3.BIN Reading image delay is 1030 ms Inference delay is 540 ms :: 3 True
+ 4:39:40 CLI: /sdcard/300-0.BIN Reading image delay is 1030 ms Inference delay is 540 ms :: 0 True
+/sdcard/301-3.BIN Reading image delay is 1030 ms Inference delay is 540 ms :: 3 True
+/sdcard/302-1.BIN Reading image delay is 1030 ms Inference delay is 540 ms :: 1 True
+/sdcard/303-8.BIN Reading image delay is 1050 ms Inference delay is 540 ms :: 8 True
+/sdcard/304-7.BIN Reading image delay is 1060 ms Inference delay is 540 ms :: 7 True
+/sdcard/305-7.BIN Reading image delay is 1050 ms Inference delay is 540 ms :: 7 True
+/sdcard/306-0.BIN Reading image delay is 1050 ms Inference delay is 540 ms :: 0 True
+/sdcard/307-3.BIN Reading image delay is 1050 ms Inference delay is 540 ms :: 3 True
+/sdcard/308-9.BIN Reading image delay is 1050 ms Inference delay is 540 ms :: 9 True
+/sdcard/309-7.BIN Reading image delay is 1050 ms Inference delay is 540 ms :: 7 True
+/sdcard/310-9.BIN Reading image delay is 1050 ms Inference delay is 540 ms :: 9 True
+/sdcard/311-6.BIN Reading image delay is 1070 ms Inference delay is 540 ms :: 6 True
+/sdcard/312-5.BIN Reading image delay is 1070 ms Inference delay is 540 ms :: 5 True
+/sdcard/313-2.BIN Reading image delay is 1070 ms Inference delay is 540 ms :: 2 True
+/sdcard/314-5.BIN Reading image delay is 1070 ms Inference delay is 540 ms :: 5 True
+/sdcard/315-5.BIN Reading image delay is 1070 ms Inference delay is 540 ms :: 5 True
+/sdcard/316-0.BIN Reading image delay is 1070 ms Inference delay is 540 ms :: 0 True
+/sdcard/317-1.BIN Reading image delay is 1070 ms Inference delay is 540 ms :: 1 True
+/sdcard/318-3.BIN Reading image delay is 1070 ms Inference delay is 540 ms :: 3 True
+/sdcard/319-2.BIN Reading image delay is 1110 ms Inference delay is 540 ms :: 2 True
+/sdcard/320-2.BIN Reading image delay is 1110 ms Inference delay is 540 ms :: 2 True
+/sdcard/321-9.BIN Reading image delay is 1110 ms Inference delay is 540 ms :: 9 True
+/sdcard/322-7.BIN Reading image delay is 1110 ms Inference delay is 540 ms :: 7 True
+/sdcard/323-9.BIN Reading image delay is 1110 ms Inference delay is 540 ms :: 9 True
+/sdcard/324-7.BIN Reading image delay is 1110 ms Inference delay is 540 ms :: 7 True
+/sdcard/325-0.BIN Reading image delay is 1110 ms Inference delay is 540 ms :: 0 True
+/sdcard/326-6.BIN Reading image delay is 1110 ms Inference delay is 540 ms :: 6 True
+/sdcard/327-2.BIN Reading image delay is 1130 ms Inference delay is 540 ms :: 2 True
+/sdcard/328-8.BIN Reading image delay is 1130 ms Inference delay is 540 ms :: 8 True
+/sdcard/329-3.BIN Reading image delay is 1130 ms Inference delay is 540 ms :: 3 True
+/sdcard/330-3.BIN Reading image delay is 1130 ms Inference delay is 540 ms :: 3 True
+/sdcard/331-4.BIN Reading image delay is 1130 ms Inference delay is 540 ms :: 4 True
+/sdcard/332-6.BIN Reading image delay is 1130 ms Inference delay is 540 ms :: 6 True
+/sdcard/333-4.BIN Reading image delay is 1130 ms Inference delay is 540 ms :: 4 True
+/sdcard/334-0.BIN Reading image delay is 1130 ms Inference delay is 540 ms :: 0 True
+/sdcard/335-2.BIN Reading image delay is 1150 ms Inference delay is 540 ms :: 2 True
+/sdcard/336-9.BIN Reading image delay is 1150 ms Inference delay is 540 ms :: 9 True
+/sdcard/337-4.BIN Reading image delay is 1150 ms Inference delay is 540 ms :: 4 True
+/sdcard/338-2.BIN Reading image delay is 1150 ms Inference delay is 540 ms :: 2 True
+/sdcard/339-0.BIN Reading image delay is 1150 ms Inference delay is 540 ms :: 0 True
+/sdcard/340-6.BIN Reading image delay is 1150 ms Inference delay is 540 ms :: 6 True
+/sdcard/341-6.BIN Reading image delay is 1150 ms Inference delay is 540 ms :: 6 True
+/sdcard/342-2.BIN Reading image delay is 1150 ms Inference delay is 540 ms :: 2 True
+/sdcard/343-1.BIN Reading image delay is 1170 ms Inference delay is 540 ms :: 1 True
+/sdcard/344-3.BIN Reading image delay is 1170 ms Inference delay is 540 ms :: 3 True
+/sdcard/345-9.BIN Reading image delay is 1170 ms Inference delay is 540 ms :: 9 True
+/sdcard/346-9.BIN Reading image delay is 1170 ms Inference delay is 540 ms :: 9 True
+/sdcard/347-6.BIN Reading image delay is 1170 ms Inference delay is 540 ms :: 6 True
+/sdcard/348-7.BIN Reading image delay is 1170 ms Inference delay is 540 ms :: 7 True
+/sdcard/349-4.BIN Reading image delay is 1170 ms Inference delay is 540 ms :: 4 True
+/sdcard/350-8.BIN Reading image delay is 1170 ms Inference delay is 540 ms :: 8 True
+/sdcard/351-0.BIN Reading image delay is 1190 ms Inference delay is 540 ms :: 0 True
+/sdcard/352-9.BIN Reading image delay is 1190 ms Inference delay is 540 ms :: 9 True
+/sdcard/353-0.BIN Reading image delay is 1190 ms Inference delay is 540 ms :: 0 True
+/sdcard/354-8.BIN Reading image delay is 1190 ms Inference delay is 540 ms :: 8 True
+/sdcard/355-9.BIN Reading image delay is 1190 ms Inference delay is 540 ms :: 9 True
+/sdcard/356-7.BIN Reading image delay is 1190 ms Inference delay is 540 ms :: 7 True
+/sdcard/357-3.BIN Reading image delay is 1190 ms Inference delay is 540 ms :: 3 True
+/sdcard/358-5.BIN Reading image delay is 1190 ms Inference delay is 540 ms :: 5 True
+/sdcard/359-7.BIN Reading image delay is 1210 ms Inference delay is 540 ms :: 7 True
+/sdcard/360-4.BIN Reading image delay is 1210 ms Inference delay is 540 ms :: 4 True
+/sdcard/361-9.BIN Reading image delay is 1210 ms Inference delay is 540 ms :: 9 True
+/sdcard/362-1.BIN Reading image delay is 1210 ms Inference delay is 540 ms :: 1 True
+/sdcard/363-0.BIN Reading image delay is 1210 ms Inference delay is 540 ms :: 0 True
+/sdcard/364-1.BIN Reading image delay is 1210 ms Inference delay is 540 ms :: 1 True
+/sdcard/365-2.BIN Reading image delay is 1210 ms Inference delay is 540 ms :: 2 True
+/sdcard/366-0.BIN Reading image delay is 1210 ms Inference delay is 540 ms :: 0 True
+/sdcard/367-8.BIN Reading image delay is 1230 ms Inference delay is 540 ms :: 8 True
+/sdcard/368-3.BIN Reading image delay is 1230 ms Inference delay is 540 ms :: 3 True
+/sdcard/369-5.BIN Reading image delay is 1230 ms Inference delay is 540 ms :: 5 True
+/sdcard/370-7.BIN Reading image delay is 1230 ms Inference delay is 540 ms :: 7 True
+/sdcard/371-4.BIN Reading image delay is 1230 ms Inference delay is 540 ms :: 4 True
+/sdcard/372-1.BIN Reading image delay is 1230 ms Inference delay is 540 ms :: 1 True
+/sdcard/373-8.BIN Reading image delay is 1230 ms Inference delay is 540 ms :: 8 True
+/sdcard/374-6.BIN Reading image delay is 1230 ms Inference delay is 540 ms :: 6 True
+/sdcard/375-3.BIN Reading image delay is 1250 ms Inference delay is 540 ms :: 3 True
+/sdcard/376-3.BIN Reading image delay is 1250 ms Inference delay is 540 ms :: 3 True
+/sdcard/377-0.BIN Reading image delay is 1250 ms Inference delay is 540 ms :: 0 True
+/sdcard/378-0.BIN Reading image delay is 1250 ms Inference delay is 540 ms :: 0 True
+/sdcard/379-9.BIN Reading image delay is 1250 ms Inference delay is 540 ms :: 9 True
+/sdcard/380-5.BIN Reading image delay is 1250 ms Inference delay is 540 ms :: 5 True
+/sdcard/381-1.BIN Reading image delay is 1250 ms Inference delay is 540 ms :: 1 True
+/sdcard/382-6.BIN Reading image delay is 1250 ms Inference delay is 540 ms :: 6 True
+/sdcard/383-7.BIN Reading image delay is 1290 ms Inference delay is 540 ms :: 7 True
+/sdcard/384-5.BIN Reading image delay is 1290 ms Inference delay is 540 ms :: 5 True
+/sdcard/385-9.BIN Reading image delay is 1290 ms Inference delay is 540 ms :: 9 True
+/sdcard/386-4.BIN Reading image delay is 1290 ms Inference delay is 540 ms :: 4 True
+/sdcard/387-3.BIN Reading image delay is 1290 ms Inference delay is 540 ms :: 3 True
+/sdcard/388-5.BIN Reading image delay is 1290 ms Inference delay is 540 ms :: 5 True
+/sdcard/389-4.BIN Reading image delay is 1290 ms Inference delay is 540 ms :: 4 True
+/sdcard/390-6.BIN Reading image delay is 1290 ms Inference delay is 540 ms :: 6 True
+/sdcard/391-4.BIN Reading image delay is 1310 ms Inference delay is 540 ms :: 4 True
+/sdcard/392-2.BIN Reading image delay is 1310 ms Inference delay is 540 ms :: 2 True
+/sdcard/393-9.BIN Reading image delay is 1310 ms Inference delay is 540 ms :: 9 True
+/sdcard/394-7.BIN Reading image delay is 1310 ms Inference delay is 540 ms :: 7 True
+/sdcard/395-6.BIN Reading image delay is 1310 ms Inference delay is 540 ms :: 6 True
+/sdcard/396-1.BIN Reading image delay is 1310 ms Inference delay is 540 ms :: 1 True
+/sdcard/397-5.BIN Reading image delay is 1310 ms Inference delay is 540 ms :: 5 True
+/sdcard/398-9.BIN Reading image delay is 1310 ms Inference delay is 540 ms :: 9 True
+/sdcard/399-7.BIN Reading image delay is 1330 ms Inference delay is 540 ms :: 7 True
+ 4:43:13 CLI: /sdcard/400-6.BIN Reading image delay is 1330 ms Inference delay is 540 ms :: 6 True
+/sdcard/401-4.BIN Reading image delay is 1330 ms Inference delay is 540 ms :: 4 True
+/sdcard/402-2.BIN Reading image delay is 1330 ms Inference delay is 540 ms :: 2 True
+/sdcard/403-0.BIN Reading image delay is 1330 ms Inference delay is 540 ms :: 0 True
+/sdcard/404-3.BIN Reading image delay is 1330 ms Inference delay is 540 ms :: 3 True
+/sdcard/405-0.BIN Reading image delay is 1330 ms Inference delay is 540 ms :: 0 True
+/sdcard/406-1.BIN Reading image delay is 1330 ms Inference delay is 540 ms :: 1 True
+/sdcard/407-8.BIN Reading image delay is 1350 ms Inference delay is 540 ms :: 8 True
+/sdcard/408-7.BIN Reading image delay is 1350 ms Inference delay is 540 ms :: 7 True
+/sdcard/409-5.BIN Reading image delay is 1350 ms Inference delay is 540 ms :: 5 True
+/sdcard/410-4.BIN Reading image delay is 1350 ms Inference delay is 540 ms :: 4 True
+/sdcard/411-1.BIN Reading image delay is 1350 ms Inference delay is 540 ms :: 1 True
+/sdcard/412-5.BIN Reading image delay is 1350 ms Inference delay is 540 ms :: 5 True
+/sdcard/413-2.BIN Reading image delay is 1350 ms Inference delay is 540 ms :: 2 True
+/sdcard/414-0.BIN Reading image delay is 1350 ms Inference delay is 540 ms :: 0 True
+/sdcard/415-7.BIN Reading image delay is 1370 ms Inference delay is 540 ms :: 7 True
+/sdcard/416-9.BIN Reading image delay is 1370 ms Inference delay is 540 ms :: 9 True
+/sdcard/417-1.BIN Reading image delay is 1370 ms Inference delay is 540 ms :: 1 True
+/sdcard/418-5.BIN Reading image delay is 1370 ms Inference delay is 540 ms :: 5 True
+/sdcard/419-8.BIN Reading image delay is 1370 ms Inference delay is 540 ms :: 8 True
+/sdcard/420-1.BIN Reading image delay is 1370 ms Inference delay is 540 ms :: 1 True
+/sdcard/421-3.BIN Reading image delay is 1370 ms Inference delay is 540 ms :: 3 True
+/sdcard/422-8.BIN Reading image delay is 1370 ms Inference delay is 540 ms :: 8 True
+/sdcard/423-1.BIN Reading image delay is 1390 ms Inference delay is 540 ms :: 1 True
+/sdcard/424-9.BIN Reading image delay is 1390 ms Inference delay is 540 ms :: 9 True
+/sdcard/425-0.BIN Reading image delay is 1390 ms Inference delay is 540 ms :: 0 True
+/sdcard/426-0.BIN Reading image delay is 1390 ms Inference delay is 540 ms :: 0 True
+/sdcard/427-9.BIN Reading image delay is 1390 ms Inference delay is 540 ms :: 9 True
+/sdcard/428-1.BIN Reading image delay is 1390 ms Inference delay is 540 ms :: 1 True
+/sdcard/429-7.BIN Reading image delay is 1390 ms Inference delay is 540 ms :: 7 True
+/sdcard/430-5.BIN Reading image delay is 1390 ms Inference delay is 540 ms :: 5 True
+/sdcard/431-6.BIN Reading image delay is 1410 ms Inference delay is 540 ms :: 6 True
+/sdcard/432-8.BIN Reading image delay is 1420 ms Inference delay is 540 ms :: 8 True
+/sdcard/433-9.BIN Reading image delay is 1410 ms Inference delay is 540 ms :: 9 True
+/sdcard/434-0.BIN Reading image delay is 1410 ms Inference delay is 540 ms :: 0 True
+/sdcard/435-9.BIN Reading image delay is 1410 ms Inference delay is 540 ms :: 9 True
+/sdcard/436-2.BIN Reading image delay is 1410 ms Inference delay is 540 ms :: 2 True
+/sdcard/437-9.BIN Reading image delay is 1410 ms Inference delay is 540 ms :: 9 True
+/sdcard/438-9.BIN Reading image delay is 1410 ms Inference delay is 540 ms :: 9 True
+/sdcard/439-3.BIN Reading image delay is 1430 ms Inference delay is 540 ms :: 3 True
+/sdcard/440-9.BIN Reading image delay is 1430 ms Inference delay is 540 ms :: 9 True
+/sdcard/441-0.BIN Reading image delay is 1430 ms Inference delay is 540 ms :: 0 True
+/sdcard/442-3.BIN Reading image delay is 1430 ms Inference delay is 540 ms :: 3 True
+/sdcard/443-4.BIN Reading image delay is 1430 ms Inference delay is 540 ms :: 4 True
+/sdcard/444-5.BIN Reading image delay is 1430 ms Inference delay is 540 ms :: 5 True
+/sdcard/445-0.BIN Reading image delay is 1430 ms Inference delay is 540 ms :: 0 True
+/sdcard/446-6.BIN Reading image delay is 1430 ms Inference delay is 540 ms :: 6 True
+/sdcard/447-6.BIN Reading image delay is 1470 ms Inference delay is 540 ms :: 6 True
+/sdcard/448-1.BIN Reading image delay is 1470 ms Inference delay is 540 ms :: 1 True
+/sdcard/449-5.BIN Reading image delay is 1470 ms Inference delay is 540 ms :: 5 True
+/sdcard/450-8.BIN Reading image delay is 1470 ms Inference delay is 540 ms :: 8 True
+/sdcard/451-1.BIN Reading image delay is 1470 ms Inference delay is 540 ms :: 1 True
+/sdcard/452-4.BIN Reading image delay is 1470 ms Inference delay is 540 ms :: 4 True
+/sdcard/453-3.BIN Reading image delay is 1470 ms Inference delay is 540 ms :: 3 True
+/sdcard/454-1.BIN Reading image delay is 1470 ms Inference delay is 540 ms :: 1 True
+/sdcard/455-1.BIN Reading image delay is 1490 ms Inference delay is 540 ms :: 1 True
+/sdcard/456-2.BIN Reading image delay is 1490 ms Inference delay is 540 ms :: 2 True
+/sdcard/457-5.BIN Reading image delay is 1490 ms Inference delay is 540 ms :: 5 True
+/sdcard/458-1.BIN Reading image delay is 1490 ms Inference delay is 540 ms :: 1 True
+/sdcard/459-9.BIN Reading image delay is 1490 ms Inference delay is 540 ms :: 9 True
+/sdcard/460-6.BIN Reading image delay is 1490 ms Inference delay is 540 ms :: 6 True
+/sdcard/461-8.BIN Reading image delay is 1490 ms Inference delay is 540 ms :: 8 True
+/sdcard/462-3.BIN Reading image delay is 1490 ms Inference delay is 540 ms :: 3 True
+/sdcard/463-6.BIN Reading image delay is 1510 ms Inference delay is 540 ms :: 6 True
+/sdcard/464-5.BIN Reading image delay is 1510 ms Inference delay is 540 ms :: 5 True
+/sdcard/465-3.BIN Reading image delay is 1510 ms Inference delay is 540 ms :: 3 True
+/sdcard/466-7.BIN Reading image delay is 1510 ms Inference delay is 540 ms :: 7 True
+/sdcard/467-4.BIN Reading image delay is 1510 ms Inference delay is 540 ms :: 4 True
+/sdcard/468-7.BIN Reading image delay is 1510 ms Inference delay is 540 ms :: 7 True
+/sdcard/469-7.BIN Reading image delay is 1510 ms Inference delay is 540 ms :: 7 True
+/sdcard/470-9.BIN Reading image delay is 1510 ms Inference delay is 540 ms :: 9 True
+/sdcard/471-3.BIN Reading image delay is 1530 ms Inference delay is 540 ms :: 3 True
+/sdcard/472-7.BIN Reading image delay is 1530 ms Inference delay is 540 ms :: 7 True
+/sdcard/473-5.BIN Reading image delay is 1530 ms Inference delay is 540 ms :: 5 True
+/sdcard/474-8.BIN Reading image delay is 1530 ms Inference delay is 540 ms :: 8 True
+/sdcard/475-7.BIN Reading image delay is 1530 ms Inference delay is 540 ms :: 7 True
+/sdcard/476-9.BIN Reading image delay is 1530 ms Inference delay is 540 ms :: 9 True
+/sdcard/477-4.BIN Reading image delay is 1530 ms Inference delay is 540 ms :: 4 True
+/sdcard/478-0.BIN Reading image delay is 1530 ms Inference delay is 540 ms :: 0 True
+/sdcard/479-8.BIN Reading image delay is 1550 ms Inference delay is 540 ms :: 8 True
+/sdcard/480-0.BIN Reading image delay is 1550 ms Inference delay is 540 ms :: 0 True
+/sdcard/481-2.BIN Reading image delay is 1550 ms Inference delay is 540 ms :: 2 True
+/sdcard/482-8.BIN Reading image delay is 1550 ms Inference delay is 540 ms :: 8 True
+/sdcard/483-8.BIN Reading image delay is 1550 ms Inference delay is 540 ms :: 8 True
+/sdcard/484-2.BIN Reading image delay is 1550 ms Inference delay is 540 ms :: 2 True
+/sdcard/485-5.BIN Reading image delay is 1550 ms Inference delay is 540 ms :: 5 True
+/sdcard/486-3.BIN Reading image delay is 1550 ms Inference delay is 540 ms :: 3 True
+/sdcard/487-5.BIN Reading image delay is 1570 ms Inference delay is 540 ms :: 5 True
+/sdcard/488-0.BIN Reading image delay is 1570 ms Inference delay is 540 ms :: 0 True
+/sdcard/489-5.BIN Reading image delay is 1570 ms Inference delay is 540 ms :: 5 True
+/sdcard/490-1.BIN Reading image delay is 1570 ms Inference delay is 540 ms :: 1 True
+/sdcard/491-2.BIN Reading image delay is 1570 ms Inference delay is 540 ms :: 2 True
+/sdcard/492-1.BIN Reading image delay is 1570 ms Inference delay is 540 ms :: 1 True
+/sdcard/493-5.BIN Reading image delay is 1570 ms Inference delay is 540 ms :: 5 True
+/sdcard/494-4.BIN Reading image delay is 1570 ms Inference delay is 540 ms :: 4 True
+/sdcard/495-5.BIN Reading image delay is 1590 ms Inference delay is 540 ms :: 5 True
+/sdcard/496-9.BIN Reading image delay is 1590 ms Inference delay is 540 ms :: 9 True
+/sdcard/497-2.BIN Reading image delay is 1590 ms Inference delay is 540 ms :: 2 True
+/sdcard/498-5.BIN Reading image delay is 1590 ms Inference delay is 540 ms :: 5 True
+/sdcard/499-3.BIN Reading image delay is 1590 ms Inference delay is 540 ms :: 3 True
+ 4:47:15 CLI: /sdcard/500-9.BIN Reading image delay is 1590 ms Inference delay is 540 ms :: 9 True
+/sdcard/501-6.BIN Reading image delay is 1590 ms Inference delay is 540 ms :: 6 True
+/sdcard/502-2.BIN Reading image delay is 1590 ms Inference delay is 540 ms :: 2 True
+/sdcard/503-9.BIN Reading image delay is 1610 ms Inference delay is 540 ms :: 9 True
+/sdcard/504-7.BIN Reading image delay is 1610 ms Inference delay is 540 ms :: 7 True
+/sdcard/505-5.BIN Reading image delay is 1610 ms Inference delay is 540 ms :: 5 True
+/sdcard/506-7.BIN Reading image delay is 1610 ms Inference delay is 540 ms :: 7 True
+/sdcard/507-8.BIN Reading image delay is 1610 ms Inference delay is 540 ms :: 8 True
+/sdcard/508-5.BIN Reading image delay is 1610 ms Inference delay is 540 ms :: 5 True
+/sdcard/509-9.BIN Reading image delay is 1610 ms Inference delay is 540 ms :: 9 True
+/sdcard/510-8.BIN Reading image delay is 1610 ms Inference delay is 540 ms :: 8 True
+/sdcard/511-3.BIN Reading image delay is 1650 ms Inference delay is 540 ms :: 3 True
+/sdcard/512-7.BIN Reading image delay is 1650 ms Inference delay is 540 ms :: 7 True
+/sdcard/513-5.BIN Reading image delay is 1650 ms Inference delay is 540 ms :: 5 True
+/sdcard/514-4.BIN Reading image delay is 1650 ms Inference delay is 540 ms :: 4 True
+/sdcard/515-6.BIN Reading image delay is 1650 ms Inference delay is 540 ms :: 6 True
+/sdcard/516-8.BIN Reading image delay is 1650 ms Inference delay is 540 ms :: 8 True
+/sdcard/517-2.BIN Reading image delay is 1650 ms Inference delay is 540 ms :: 2 True
+/sdcard/518-1.BIN Reading image delay is 1650 ms Inference delay is 540 ms :: 1 True
+/sdcard/519-6.BIN Reading image delay is 1670 ms Inference delay is 540 ms :: 6 True
+/sdcard/520-3.BIN Reading image delay is 1670 ms Inference delay is 540 ms :: 3 True
+/sdcard/521-6.BIN Reading image delay is 1670 ms Inference delay is 540 ms :: 6 True
+/sdcard/522-7.BIN Reading image delay is 1670 ms Inference delay is 540 ms :: 7 True
+/sdcard/523-1.BIN Reading image delay is 1670 ms Inference delay is 540 ms :: 0 False
+/sdcard/524-5.BIN Reading image delay is 1670 ms Inference delay is 540 ms :: 5 True
+/sdcard/525-5.BIN Reading image delay is 1670 ms Inference delay is 540 ms :: 5 True
+/sdcard/526-7.BIN Reading image delay is 1670 ms Inference delay is 540 ms :: 7 True
+/sdcard/527-5.BIN Reading image delay is 1690 ms Inference delay is 540 ms :: 5 True
+/sdcard/528-9.BIN Reading image delay is 1690 ms Inference delay is 540 ms :: 9 True
+/sdcard/529-6.BIN Reading image delay is 1690 ms Inference delay is 540 ms :: 6 True
+/sdcard/530-1.BIN Reading image delay is 1690 ms Inference delay is 540 ms :: 1 True
+/sdcard/531-5.BIN Reading image delay is 1690 ms Inference delay is 540 ms :: 5 True
+/sdcard/532-8.BIN Reading image delay is 1690 ms Inference delay is 540 ms :: 8 True
+/sdcard/533-0.BIN Reading image delay is 1690 ms Inference delay is 540 ms :: 0 True
+/sdcard/534-9.BIN Reading image delay is 1690 ms Inference delay is 540 ms :: 9 True
+/sdcard/535-4.BIN Reading image delay is 1710 ms Inference delay is 540 ms :: 4 True
+/sdcard/536-0.BIN Reading image delay is 1710 ms Inference delay is 540 ms :: 0 True
+/sdcard/537-5.BIN Reading image delay is 1710 ms Inference delay is 540 ms :: 5 True
+/sdcard/538-1.BIN Reading image delay is 1710 ms Inference delay is 540 ms :: 1 True
+/sdcard/539-7.BIN Reading image delay is 1710 ms Inference delay is 540 ms :: 7 True
+/sdcard/540-3.BIN Reading image delay is 1710 ms Inference delay is 540 ms :: 3 True
+/sdcard/541-7.BIN Reading image delay is 1710 ms Inference delay is 540 ms :: 7 True
+/sdcard/542-0.BIN Reading image delay is 1710 ms Inference delay is 540 ms :: 0 True
+/sdcard/543-9.BIN Reading image delay is 1730 ms Inference delay is 540 ms :: 9 True
+/sdcard/544-7.BIN Reading image delay is 1730 ms Inference delay is 540 ms :: 7 True
+/sdcard/545-6.BIN Reading image delay is 1730 ms Inference delay is 540 ms :: 6 True
+/sdcard/546-8.BIN Reading image delay is 1730 ms Inference delay is 540 ms :: 8 True
+/sdcard/547-4.BIN Reading image delay is 1730 ms Inference delay is 540 ms :: 4 True
+/sdcard/548-7.BIN Reading image delay is 1730 ms Inference delay is 540 ms :: 7 True
+/sdcard/549-7.BIN Reading image delay is 1730 ms Inference delay is 540 ms :: 7 True
+/sdcard/550-9.BIN Reading image delay is 1730 ms Inference delay is 540 ms :: 9 True
+/sdcard/551-2.BIN Reading image delay is 1750 ms Inference delay is 540 ms :: 2 True
+/sdcard/552-1.BIN Reading image delay is 1750 ms Inference delay is 540 ms :: 1 True
+/sdcard/553-0.BIN Reading image delay is 1750 ms Inference delay is 540 ms :: 0 True
+/sdcard/554-5.BIN Reading image delay is 1750 ms Inference delay is 540 ms :: 5 True
+/sdcard/555-0.BIN Reading image delay is 1750 ms Inference delay is 540 ms :: 0 True
+/sdcard/556-0.BIN Reading image delay is 1750 ms Inference delay is 540 ms :: 0 True
+/sdcard/557-5.BIN Reading image delay is 1750 ms Inference delay is 540 ms :: 5 True
+/sdcard/558-9.BIN Reading image delay is 1750 ms Inference delay is 540 ms :: 9 True
+/sdcard/559-8.BIN Reading image delay is 1770 ms Inference delay is 540 ms :: 8 True
+/sdcard/560-8.BIN Reading image delay is 1780 ms Inference delay is 540 ms :: 8 True
+/sdcard/561-8.BIN Reading image delay is 1770 ms Inference delay is 540 ms :: 8 True
+/sdcard/562-7.BIN Reading image delay is 1770 ms Inference delay is 540 ms :: 7 True
+/sdcard/563-2.BIN Reading image delay is 1770 ms Inference delay is 540 ms :: 2 True
+/sdcard/564-1.BIN Reading image delay is 1770 ms Inference delay is 540 ms :: 1 True
+/sdcard/565-4.BIN Reading image delay is 1770 ms Inference delay is 540 ms :: 4 True
+/sdcard/566-4.BIN Reading image delay is 1770 ms Inference delay is 540 ms :: 4 True
+/sdcard/567-6.BIN Reading image delay is 1790 ms Inference delay is 540 ms :: 6 True
+/sdcard/568-4.BIN Reading image delay is 1790 ms Inference delay is 540 ms :: 4 True
+/sdcard/569-9.BIN Reading image delay is 1790 ms Inference delay is 540 ms :: 9 True
+/sdcard/570-2.BIN Reading image delay is 1790 ms Inference delay is 540 ms :: 2 True
+/sdcard/571-7.BIN Reading image delay is 1790 ms Inference delay is 540 ms :: 7 True
+/sdcard/572-6.BIN Reading image delay is 1790 ms Inference delay is 540 ms :: 6 True
+/sdcard/573-8.BIN Reading image delay is 1790 ms Inference delay is 540 ms :: 8 True
+/sdcard/574-1.BIN Reading image delay is 1790 ms Inference delay is 540 ms :: 1 True
+/sdcard/575-6.BIN Reading image delay is 1830 ms Inference delay is 540 ms :: 6 True
+/sdcard/576-4.BIN Reading image delay is 1830 ms Inference delay is 540 ms :: 4 True
+/sdcard/577-7.BIN Reading image delay is 1830 ms Inference delay is 540 ms :: 7 True
+/sdcard/578-7.BIN Reading image delay is 1830 ms Inference delay is 540 ms :: 7 True
+/sdcard/579-7.BIN Reading image delay is 1830 ms Inference delay is 540 ms :: 7 True
+/sdcard/580-5.BIN Reading image delay is 1830 ms Inference delay is 540 ms :: 5 True
+/sdcard/581-0.BIN Reading image delay is 1830 ms Inference delay is 540 ms :: 0 True
+/sdcard/582-8.BIN Reading image delay is 1830 ms Inference delay is 540 ms :: 8 True
+/sdcard/583-5.BIN Reading image delay is 1850 ms Inference delay is 540 ms :: 5 True
+/sdcard/584-4.BIN Reading image delay is 1850 ms Inference delay is 540 ms :: 4 True
+/sdcard/585-1.BIN Reading image delay is 1850 ms Inference delay is 540 ms :: 1 True
+/sdcard/586-7.BIN Reading image delay is 1850 ms Inference delay is 540 ms :: 7 True
+/sdcard/587-9.BIN Reading image delay is 1850 ms Inference delay is 540 ms :: 9 True
+/sdcard/588-1.BIN Reading image delay is 1850 ms Inference delay is 540 ms :: 1 True
+/sdcard/589-0.BIN Reading image delay is 1850 ms Inference delay is 540 ms :: 0 True
+/sdcard/590-5.BIN Reading image delay is 1850 ms Inference delay is 540 ms :: 5 True
+/sdcard/591-2.BIN Reading image delay is 1870 ms Inference delay is 540 ms :: 2 True
+/sdcard/592-5.BIN Reading image delay is 1870 ms Inference delay is 540 ms :: 5 True
+/sdcard/593-8.BIN Reading image delay is 1870 ms Inference delay is 540 ms :: 8 True
+/sdcard/594-3.BIN Reading image delay is 1870 ms Inference delay is 540 ms :: 3 True
+/sdcard/595-5.BIN Reading image delay is 1870 ms Inference delay is 540 ms :: 5 True
+/sdcard/596-7.BIN Reading image delay is 1870 ms Inference delay is 540 ms :: 7 True
+/sdcard/597-3.BIN Reading image delay is 1870 ms Inference delay is 540 ms :: 3 True
+/sdcard/598-7.BIN Reading image delay is 1870 ms Inference delay is 540 ms :: 7 True
+/sdcard/599-0.BIN Reading image delay is 1890 ms Inference delay is 540 ms :: 0 True
+ 4:51:46 CLI: /sdcard/600-4.BIN Reading image delay is 1890 ms Inference delay is 540 ms :: 4 True
+/sdcard/601-3.BIN Reading image delay is 1890 ms Inference delay is 540 ms :: 3 True
+/sdcard/602-8.BIN Reading image delay is 1890 ms Inference delay is 540 ms :: 8 True
+/sdcard/603-4.BIN Reading image delay is 1890 ms Inference delay is 540 ms :: 4 True
+/sdcard/604-9.BIN Reading image delay is 1890 ms Inference delay is 540 ms :: 9 True
+/sdcard/605-6.BIN Reading image delay is 1890 ms Inference delay is 540 ms :: 6 True
+/sdcard/606-7.BIN Reading image delay is 1890 ms Inference delay is 540 ms :: 7 True
+/sdcard/607-7.BIN Reading image delay is 1910 ms Inference delay is 540 ms :: 7 True
+/sdcard/608-7.BIN Reading image delay is 1910 ms Inference delay is 540 ms :: 7 True
+/sdcard/609-8.BIN Reading image delay is 1910 ms Inference delay is 540 ms :: 8 True
+/sdcard/610-6.BIN Reading image delay is 1910 ms Inference delay is 540 ms :: 6 True
+/sdcard/611-4.BIN Reading image delay is 1910 ms Inference delay is 540 ms :: 4 True
+/sdcard/612-7.BIN Reading image delay is 1910 ms Inference delay is 540 ms :: 7 True
+/sdcard/613-6.BIN Reading image delay is 1910 ms Inference delay is 540 ms :: 6 True
+/sdcard/614-2.BIN Reading image delay is 1910 ms Inference delay is 540 ms :: 2 True
+/sdcard/615-5.BIN Reading image delay is 1930 ms Inference delay is 540 ms :: 5 True
+/sdcard/616-3.BIN Reading image delay is 1930 ms Inference delay is 540 ms :: 3 True
+/sdcard/617-5.BIN Reading image delay is 1930 ms Inference delay is 540 ms :: 5 True
+/sdcard/618-2.BIN Reading image delay is 1930 ms Inference delay is 540 ms :: 2 True
+/sdcard/619-6.BIN Reading image delay is 1930 ms Inference delay is 540 ms :: 6 True
+/sdcard/620-7.BIN Reading image delay is 1930 ms Inference delay is 540 ms :: 7 True
+/sdcard/621-3.BIN Reading image delay is 1930 ms Inference delay is 540 ms :: 3 True
+/sdcard/622-0.BIN Reading image delay is 1930 ms Inference delay is 540 ms :: 0 True
+/sdcard/623-0.BIN Reading image delay is 1950 ms Inference delay is 540 ms :: 0 True
+/sdcard/624-1.BIN Reading image delay is 1950 ms Inference delay is 540 ms :: 1 True
+/sdcard/625-3.BIN Reading image delay is 1950 ms Inference delay is 540 ms :: 3 True
+/sdcard/626-4.BIN Reading image delay is 1950 ms Inference delay is 540 ms :: 4 True
+/sdcard/627-4.BIN Reading image delay is 1950 ms Inference delay is 540 ms :: 4 True
+/sdcard/628-8.BIN Reading image delay is 1950 ms Inference delay is 540 ms :: 8 True
+/sdcard/629-1.BIN Reading image delay is 1950 ms Inference delay is 540 ms :: 1 True
+/sdcard/630-8.BIN Reading image delay is 1950 ms Inference delay is 540 ms :: 8 True
+/sdcard/631-7.BIN Reading image delay is 1970 ms Inference delay is 540 ms :: 7 True
+/sdcard/632-3.BIN Reading image delay is 1970 ms Inference delay is 540 ms :: 3 True
+/sdcard/633-3.BIN Reading image delay is 1970 ms Inference delay is 540 ms :: 3 True
+/sdcard/634-6.BIN Reading image delay is 1970 ms Inference delay is 540 ms :: 6 True
+/sdcard/635-7.BIN Reading image delay is 1970 ms Inference delay is 540 ms :: 7 True
+/sdcard/636-7.BIN Reading image delay is 1970 ms Inference delay is 540 ms :: 7 True
+/sdcard/637-5.BIN Reading image delay is 1970 ms Inference delay is 540 ms :: 5 True
+/sdcard/638-2.BIN Reading image delay is 1970 ms Inference delay is 540 ms :: 2 True
+/sdcard/639-4.BIN Reading image delay is 2010 ms Inference delay is 540 ms :: 4 True
+/sdcard/640-9.BIN Reading image delay is 2010 ms Inference delay is 540 ms :: 9 True
+/sdcard/641-8.BIN Reading image delay is 2010 ms Inference delay is 540 ms :: 8 True
+/sdcard/642-0.BIN Reading image delay is 2010 ms Inference delay is 540 ms :: 0 True
+/sdcard/643-3.BIN Reading image delay is 2010 ms Inference delay is 540 ms :: 3 True
+/sdcard/644-3.BIN Reading image delay is 2010 ms Inference delay is 540 ms :: 3 True
+/sdcard/645-4.BIN Reading image delay is 2010 ms Inference delay is 540 ms :: 4 True
+/sdcard/646-2.BIN Reading image delay is 2010 ms Inference delay is 540 ms :: 2 True
+/sdcard/647-5.BIN Reading image delay is 2030 ms Inference delay is 540 ms :: 5 True
+/sdcard/648-7.BIN Reading image delay is 2030 ms Inference delay is 540 ms :: 7 True
+/sdcard/649-7.BIN Reading image delay is 2030 ms Inference delay is 540 ms :: 7 True
+/sdcard/650-2.BIN Reading image delay is 2030 ms Inference delay is 540 ms :: 2 True
+/sdcard/651-3.BIN Reading image delay is 2030 ms Inference delay is 540 ms :: 3 True
+/sdcard/652-3.BIN Reading image delay is 2030 ms Inference delay is 540 ms :: 3 True
+/sdcard/653-5.BIN Reading image delay is 2030 ms Inference delay is 540 ms :: 5 True
+/sdcard/654-9.BIN Reading image delay is 2030 ms Inference delay is 540 ms :: 9 True
+/sdcard/655-8.BIN Reading image delay is 2050 ms Inference delay is 540 ms :: 8 True
+/sdcard/656-5.BIN Reading image delay is 2050 ms Inference delay is 540 ms :: 5 True
+/sdcard/657-5.BIN Reading image delay is 2050 ms Inference delay is 540 ms :: 5 True
+/sdcard/658-6.BIN Reading image delay is 2050 ms Inference delay is 540 ms :: 6 True
+/sdcard/659-5.BIN Reading image delay is 2050 ms Inference delay is 540 ms :: 5 True
+/sdcard/660-3.BIN Reading image delay is 2050 ms Inference delay is 540 ms :: 3 True
+/sdcard/661-0.BIN Reading image delay is 2050 ms Inference delay is 540 ms :: 0 True
+/sdcard/662-0.BIN Reading image delay is 2050 ms Inference delay is 540 ms :: 0 True
+/sdcard/663-8.BIN Reading image delay is 2070 ms Inference delay is 540 ms :: 8 True
+/sdcard/664-5.BIN Reading image delay is 2070 ms Inference delay is 540 ms :: 5 True
+/sdcard/665-1.BIN Reading image delay is 2070 ms Inference delay is 540 ms :: 1 True
+/sdcard/666-2.BIN Reading image delay is 2070 ms Inference delay is 540 ms :: 2 True
+/sdcard/667-2.BIN Reading image delay is 2070 ms Inference delay is 540 ms :: 2 True
+/sdcard/668-8.BIN Reading image delay is 2070 ms Inference delay is 540 ms :: 8 True
+/sdcard/669-0.BIN Reading image delay is 2070 ms Inference delay is 540 ms :: 0 True
+/sdcard/670-6.BIN Reading image delay is 2070 ms Inference delay is 540 ms :: 6 True
+/sdcard/671-6.BIN Reading image delay is 2090 ms Inference delay is 540 ms :: 6 True
+/sdcard/672-1.BIN Reading image delay is 2090 ms Inference delay is 540 ms :: 1 True
+/sdcard/673-5.BIN Reading image delay is 2090 ms Inference delay is 540 ms :: 5 True
+/sdcard/674-4.BIN Reading image delay is 2090 ms Inference delay is 540 ms :: 4 True
+/sdcard/675-6.BIN Reading image delay is 2090 ms Inference delay is 540 ms :: 6 True
+/sdcard/676-0.BIN Reading image delay is 2090 ms Inference delay is 540 ms :: 0 True
+/sdcard/677-3.BIN Reading image delay is 2090 ms Inference delay is 540 ms :: 3 True
+/sdcard/678-0.BIN Reading image delay is 2090 ms Inference delay is 540 ms :: 0 True
+/sdcard/679-3.BIN Reading image delay is 2110 ms Inference delay is 540 ms :: 3 True
+/sdcard/680-1.BIN Reading image delay is 2110 ms Inference delay is 540 ms :: 1 True
+/sdcard/681-8.BIN Reading image delay is 2110 ms Inference delay is 540 ms :: 8 True
+/sdcard/682-5.BIN Reading image delay is 2110 ms Inference delay is 540 ms :: 5 True
+/sdcard/683-7.BIN Reading image delay is 2110 ms Inference delay is 540 ms :: 7 True
+/sdcard/684-8.BIN Reading image delay is 2110 ms Inference delay is 540 ms :: 8 True
+/sdcard/685-4.BIN Reading image delay is 2110 ms Inference delay is 540 ms :: 4 True
+/sdcard/686-3.BIN Reading image delay is 2110 ms Inference delay is 540 ms :: 3 True
+/sdcard/687-1.BIN Reading image delay is 2130 ms Inference delay is 540 ms :: 1 True
+/sdcard/688-8.BIN Reading image delay is 2140 ms Inference delay is 540 ms :: 8 True
+/sdcard/689-2.BIN Reading image delay is 2130 ms Inference delay is 540 ms :: 2 True
+/sdcard/690-3.BIN Reading image delay is 2130 ms Inference delay is 540 ms :: 3 True
+/sdcard/691-2.BIN Reading image delay is 2130 ms Inference delay is 540 ms :: 2 True
+/sdcard/692-6.BIN Reading image delay is 2130 ms Inference delay is 540 ms :: 6 True
+/sdcard/693-1.BIN Reading image delay is 2130 ms Inference delay is 540 ms :: 1 True
+/sdcard/694-2.BIN Reading image delay is 2130 ms Inference delay is 540 ms :: 2 True
+/sdcard/695-9.BIN Reading image delay is 2150 ms Inference delay is 540 ms :: 9 True
+/sdcard/696-0.BIN Reading image delay is 2150 ms Inference delay is 540 ms :: 0 True
+/sdcard/697-2.BIN Reading image delay is 2150 ms Inference delay is 540 ms :: 2 True
+/sdcard/698-1.BIN Reading image delay is 2150 ms Inference delay is 540 ms :: 1 True
+/sdcard/699-0.BIN Reading image delay is 2150 ms Inference delay is 540 ms :: 0 True
+ 4:56:44 CLI: /sdcard/700-2.BIN Reading image delay is 2150 ms Inference delay is 540 ms :: 2 True
+/sdcard/701-3.BIN Reading image delay is 2150 ms Inference delay is 540 ms :: 3 True
+/sdcard/702-2.BIN Reading image delay is 2150 ms Inference delay is 540 ms :: 2 True
+/sdcard/703-9.BIN Reading image delay is 2190 ms Inference delay is 540 ms :: 9 True
+/sdcard/704-2.BIN Reading image delay is 2190 ms Inference delay is 540 ms :: 2 True
+/sdcard/705-9.BIN Reading image delay is 2190 ms Inference delay is 540 ms :: 9 True
+/sdcard/706-7.BIN Reading image delay is 2190 ms Inference delay is 540 ms :: 7 True
+/sdcard/707-5.BIN Reading image delay is 2190 ms Inference delay is 540 ms :: 5 True
+/sdcard/708-8.BIN Reading image delay is 2190 ms Inference delay is 540 ms :: 8 True
+/sdcard/709-0.BIN Reading image delay is 2190 ms Inference delay is 540 ms :: 0 True
+/sdcard/710-7.BIN Reading image delay is 2190 ms Inference delay is 540 ms :: 7 True
+/sdcard/711-6.BIN Reading image delay is 2210 ms Inference delay is 540 ms :: 6 True
+/sdcard/712-1.BIN Reading image delay is 2210 ms Inference delay is 540 ms :: 1 True
+/sdcard/713-5.BIN Reading image delay is 2210 ms Inference delay is 540 ms :: 5 True
+/sdcard/714-4.BIN Reading image delay is 2210 ms Inference delay is 540 ms :: 4 True
+/sdcard/715-0.BIN Reading image delay is 2210 ms Inference delay is 540 ms :: 0 True
+/sdcard/716-1.BIN Reading image delay is 2210 ms Inference delay is 540 ms :: 1 True
+/sdcard/717-8.BIN Reading image delay is 2210 ms Inference delay is 540 ms :: 8 True
+/sdcard/718-3.BIN Reading image delay is 2210 ms Inference delay is 540 ms :: 3 True
+/sdcard/719-9.BIN Reading image delay is 2230 ms Inference delay is 540 ms :: 9 True
+/sdcard/720-4.BIN Reading image delay is 2230 ms Inference delay is 540 ms :: 4 True
+/sdcard/721-6.BIN Reading image delay is 2230 ms Inference delay is 540 ms :: 6 True
+/sdcard/722-6.BIN Reading image delay is 2230 ms Inference delay is 540 ms :: 6 True
+/sdcard/723-0.BIN Reading image delay is 2230 ms Inference delay is 540 ms :: 0 True
+/sdcard/724-7.BIN Reading image delay is 2230 ms Inference delay is 540 ms :: 7 True
+/sdcard/725-9.BIN Reading image delay is 2230 ms Inference delay is 540 ms :: 9 True
+/sdcard/726-9.BIN Reading image delay is 2230 ms Inference delay is 540 ms :: 9 True
+/sdcard/727-9.BIN Reading image delay is 2250 ms Inference delay is 540 ms :: 9 True
+/sdcard/728-4.BIN Reading image delay is 2250 ms Inference delay is 540 ms :: 4 True
+/sdcard/729-8.BIN Reading image delay is 2250 ms Inference delay is 540 ms :: 8 True
+/sdcard/730-8.BIN Reading image delay is 2250 ms Inference delay is 540 ms :: 8 True
+/sdcard/731-5.BIN Reading image delay is 2250 ms Inference delay is 540 ms :: 5 True
+/sdcard/732-3.BIN Reading image delay is 2250 ms Inference delay is 540 ms :: 3 True
+/sdcard/733-4.BIN Reading image delay is 2250 ms Inference delay is 540 ms :: 4 True
+/sdcard/734-4.BIN Reading image delay is 2250 ms Inference delay is 540 ms :: 4 True
+/sdcard/735-9.BIN Reading image delay is 2270 ms Inference delay is 540 ms :: 9 True
+/sdcard/736-3.BIN Reading image delay is 2270 ms Inference delay is 540 ms :: 3 True
+/sdcard/737-3.BIN Reading image delay is 2270 ms Inference delay is 540 ms :: 3 True
+/sdcard/738-3.BIN Reading image delay is 2270 ms Inference delay is 540 ms :: 3 True
+/sdcard/739-5.BIN Reading image delay is 2270 ms Inference delay is 540 ms :: 5 True
+/sdcard/740-7.BIN Reading image delay is 2270 ms Inference delay is 540 ms :: 7 True
+/sdcard/741-8.BIN Reading image delay is 2270 ms Inference delay is 540 ms :: 8 True
+/sdcard/742-4.BIN Reading image delay is 2270 ms Inference delay is 540 ms :: 4 True
+/sdcard/743-8.BIN Reading image delay is 2290 ms Inference delay is 540 ms :: 8 True
+/sdcard/744-7.BIN Reading image delay is 2290 ms Inference delay is 540 ms :: 7 True
+/sdcard/745-8.BIN Reading image delay is 2290 ms Inference delay is 540 ms :: 8 True
+/sdcard/746-2.BIN Reading image delay is 2290 ms Inference delay is 540 ms :: 2 True
+/sdcard/747-4.BIN Reading image delay is 2290 ms Inference delay is 540 ms :: 4 True
+/sdcard/748-1.BIN Reading image delay is 2290 ms Inference delay is 540 ms :: 1 True
+/sdcard/749-3.BIN Reading image delay is 2290 ms Inference delay is 540 ms :: 3 True
+/sdcard/750-3.BIN Reading image delay is 2290 ms Inference delay is 540 ms :: 3 True
+/sdcard/751-1.BIN Reading image delay is 2310 ms Inference delay is 540 ms :: 1 True
+/sdcard/752-2.BIN Reading image delay is 2310 ms Inference delay is 540 ms :: 2 True
+/sdcard/753-8.BIN Reading image delay is 2310 ms Inference delay is 540 ms :: 8 True
+/sdcard/754-3.BIN Reading image delay is 2310 ms Inference delay is 540 ms :: 3 True
+/sdcard/755-8.BIN Reading image delay is 2310 ms Inference delay is 540 ms :: 8 True
+/sdcard/756-8.BIN Reading image delay is 2310 ms Inference delay is 540 ms :: 8 True
+/sdcard/757-2.BIN Reading image delay is 2310 ms Inference delay is 540 ms :: 2 True
+/sdcard/758-9.BIN Reading image delay is 2310 ms Inference delay is 540 ms :: 9 True
+/sdcard/759-5.BIN Reading image delay is 2330 ms Inference delay is 540 ms :: 5 True
+/sdcard/760-3.BIN Reading image delay is 2330 ms Inference delay is 540 ms :: 3 True
+/sdcard/761-5.BIN Reading image delay is 2330 ms Inference delay is 540 ms :: 5 True
+/sdcard/762-1.BIN Reading image delay is 2330 ms Inference delay is 540 ms :: 1 True
+/sdcard/763-2.BIN Reading image delay is 2330 ms Inference delay is 540 ms :: 2 True
+/sdcard/764-4.BIN Reading image delay is 2330 ms Inference delay is 540 ms :: 4 True
+/sdcard/765-5.BIN Reading image delay is 2330 ms Inference delay is 540 ms :: 5 True
+/sdcard/766-5.BIN Reading image delay is 2330 ms Inference delay is 540 ms :: 5 True
+/sdcard/767-8.BIN Reading image delay is 2370 ms Inference delay is 540 ms :: 8 True
+/sdcard/768-8.BIN Reading image delay is 2370 ms Inference delay is 540 ms :: 8 True
+/sdcard/769-6.BIN Reading image delay is 2370 ms Inference delay is 540 ms :: 6 True
+/sdcard/770-6.BIN Reading image delay is 2370 ms Inference delay is 540 ms :: 6 True
+/sdcard/771-2.BIN Reading image delay is 2370 ms Inference delay is 540 ms :: 2 True
+/sdcard/772-5.BIN Reading image delay is 2370 ms Inference delay is 540 ms :: 5 True
+/sdcard/773-3.BIN Reading image delay is 2370 ms Inference delay is 540 ms :: 3 True
+/sdcard/774-6.BIN Reading image delay is 2370 ms Inference delay is 540 ms :: 6 True
+/sdcard/775-5.BIN Reading image delay is 2390 ms Inference delay is 540 ms :: 5 True
+/sdcard/776-3.BIN Reading image delay is 2390 ms Inference delay is 540 ms :: 3 True
+/sdcard/777-7.BIN Reading image delay is 2390 ms Inference delay is 540 ms :: 7 True
+/sdcard/778-6.BIN Reading image delay is 2390 ms Inference delay is 540 ms :: 6 True
+/sdcard/779-3.BIN Reading image delay is 2390 ms Inference delay is 540 ms :: 3 True
+/sdcard/780-1.BIN Reading image delay is 2390 ms Inference delay is 540 ms :: 1 True
+/sdcard/781-6.BIN Reading image delay is 2390 ms Inference delay is 540 ms :: 6 True
+/sdcard/782-3.BIN Reading image delay is 2390 ms Inference delay is 540 ms :: 3 True
+/sdcard/783-5.BIN Reading image delay is 2410 ms Inference delay is 540 ms :: 5 True
+/sdcard/784-6.BIN Reading image delay is 2410 ms Inference delay is 540 ms :: 6 True
+/sdcard/785-0.BIN Reading image delay is 2410 ms Inference delay is 540 ms :: 0 True
+/sdcard/786-4.BIN Reading image delay is 2410 ms Inference delay is 540 ms :: 4 True
+/sdcard/787-7.BIN Reading image delay is 2410 ms Inference delay is 540 ms :: 7 True
+/sdcard/788-9.BIN Reading image delay is 2410 ms Inference delay is 540 ms :: 9 True
+/sdcard/789-5.BIN Reading image delay is 2410 ms Inference delay is 540 ms :: 5 True
+/sdcard/790-9.BIN Reading image delay is 2410 ms Inference delay is 540 ms :: 9 True
+/sdcard/791-5.BIN Reading image delay is 2430 ms Inference delay is 540 ms :: 5 True
+/sdcard/792-7.BIN Reading image delay is 2430 ms Inference delay is 540 ms :: 7 True
+/sdcard/793-5.BIN Reading image delay is 2430 ms Inference delay is 540 ms :: 5 True
+/sdcard/794-6.BIN Reading image delay is 2430 ms Inference delay is 540 ms :: 6 True
+/sdcard/795-7.BIN Reading image delay is 2430 ms Inference delay is 540 ms :: 7 True
+/sdcard/796-6.BIN Reading image delay is 2430 ms Inference delay is 540 ms :: 6 True
+/sdcard/797-8.BIN Reading image delay is 2430 ms Inference delay is 540 ms :: 8 True
+/sdcard/798-7.BIN Reading image delay is 2430 ms Inference delay is 540 ms :: 7 True
+/sdcard/799-0.BIN Reading image delay is 2450 ms Inference delay is 540 ms :: 0 True
+ 5:02:12 CLI: /sdcard/800-5.BIN Reading image delay is 2450 ms Inference delay is 540 ms :: 5 True
+/sdcard/801-1.BIN Reading image delay is 2450 ms Inference delay is 540 ms :: 1 True
+/sdcard/802-2.BIN Reading image delay is 2450 ms Inference delay is 540 ms :: 2 True
+/sdcard/803-6.BIN Reading image delay is 2450 ms Inference delay is 540 ms :: 6 True
+/sdcard/804-5.BIN Reading image delay is 2450 ms Inference delay is 540 ms :: 5 True
+/sdcard/805-4.BIN Reading image delay is 2450 ms Inference delay is 540 ms :: 4 True
+/sdcard/806-4.BIN Reading image delay is 2450 ms Inference delay is 540 ms :: 4 True
+/sdcard/807-6.BIN Reading image delay is 2470 ms Inference delay is 540 ms :: 6 True
+/sdcard/808-1.BIN Reading image delay is 2470 ms Inference delay is 540 ms :: 1 True
+/sdcard/809-8.BIN Reading image delay is 2470 ms Inference delay is 540 ms :: 8 True
+/sdcard/810-6.BIN Reading image delay is 2470 ms Inference delay is 540 ms :: 6 True
+/sdcard/811-0.BIN Reading image delay is 2470 ms Inference delay is 540 ms :: 0 True
+/sdcard/812-4.BIN Reading image delay is 2470 ms Inference delay is 540 ms :: 4 True
+/sdcard/813-6.BIN Reading image delay is 2470 ms Inference delay is 540 ms :: 6 True
+/sdcard/814-1.BIN Reading image delay is 2470 ms Inference delay is 540 ms :: 1 True
+/sdcard/815-9.BIN Reading image delay is 2490 ms Inference delay is 540 ms :: 9 True
+/sdcard/816-6.BIN Reading image delay is 2500 ms Inference delay is 540 ms :: 6 True
+/sdcard/817-4.BIN Reading image delay is 2490 ms Inference delay is 540 ms :: 4 True
+/sdcard/818-5.BIN Reading image delay is 2490 ms Inference delay is 540 ms :: 5 True
+/sdcard/819-1.BIN Reading image delay is 2490 ms Inference delay is 540 ms :: 1 True
+/sdcard/820-2.BIN Reading image delay is 2490 ms Inference delay is 540 ms :: 2 True
+/sdcard/821-6.BIN Reading image delay is 2490 ms Inference delay is 540 ms :: 6 True
+/sdcard/822-1.BIN Reading image delay is 2490 ms Inference delay is 540 ms :: 1 True
+/sdcard/823-8.BIN Reading image delay is 2510 ms Inference delay is 540 ms :: 8 True
+/sdcard/824-6.BIN Reading image delay is 2510 ms Inference delay is 540 ms :: 6 True
+/sdcard/825-7.BIN Reading image delay is 2510 ms Inference delay is 540 ms :: 7 True
+/sdcard/826-0.BIN Reading image delay is 2510 ms Inference delay is 540 ms :: 0 True
+/sdcard/827-2.BIN Reading image delay is 2510 ms Inference delay is 540 ms :: 2 True
+/sdcard/828-6.BIN Reading image delay is 2510 ms Inference delay is 540 ms :: 6 True
+/sdcard/829-4.BIN Reading image delay is 2510 ms Inference delay is 540 ms :: 4 True
+/sdcard/830-9.BIN Reading image delay is 2510 ms Inference delay is 540 ms :: 9 True
+/sdcard/831-3.BIN Reading image delay is 2550 ms Inference delay is 540 ms :: 3 True
+/sdcard/832-4.BIN Reading image delay is 2550 ms Inference delay is 540 ms :: 4 True
+/sdcard/833-6.BIN Reading image delay is 2550 ms Inference delay is 540 ms :: 6 True
+/sdcard/834-2.BIN Reading image delay is 2550 ms Inference delay is 540 ms :: 2 True
+/sdcard/835-1.BIN Reading image delay is 2550 ms Inference delay is 540 ms :: 1 True
+/sdcard/836-3.BIN Reading image delay is 2550 ms Inference delay is 540 ms :: 3 True
+/sdcard/837-3.BIN Reading image delay is 2550 ms Inference delay is 540 ms :: 3 True
+/sdcard/838-1.BIN Reading image delay is 2550 ms Inference delay is 540 ms :: 1 True
+/sdcard/839-9.BIN Reading image delay is 2570 ms Inference delay is 540 ms :: 9 True
+/sdcard/840-5.BIN Reading image delay is 2570 ms Inference delay is 540 ms :: 5 True
+/sdcard/841-4.BIN Reading image delay is 2570 ms Inference delay is 540 ms :: 4 True
+/sdcard/842-1.BIN Reading image delay is 2570 ms Inference delay is 540 ms :: 1 True
+/sdcard/843-3.BIN Reading image delay is 2570 ms Inference delay is 540 ms :: 3 True
+/sdcard/844-6.BIN Reading image delay is 2570 ms Inference delay is 540 ms :: 6 True
+/sdcard/845-6.BIN Reading image delay is 2570 ms Inference delay is 540 ms :: 6 True
+/sdcard/846-8.BIN Reading image delay is 2570 ms Inference delay is 540 ms :: 8 True
+/sdcard/847-7.BIN Reading image delay is 2590 ms Inference delay is 540 ms :: 7 True
+/sdcard/848-2.BIN Reading image delay is 2590 ms Inference delay is 540 ms :: 2 True
+/sdcard/849-7.BIN Reading image delay is 2590 ms Inference delay is 540 ms :: 7 True
+/sdcard/850-4.BIN Reading image delay is 2590 ms Inference delay is 540 ms :: 4 True
+/sdcard/851-9.BIN Reading image delay is 2590 ms Inference delay is 540 ms :: 9 True
+/sdcard/852-7.BIN Reading image delay is 2590 ms Inference delay is 540 ms :: 7 True
+/sdcard/853-3.BIN Reading image delay is 2590 ms Inference delay is 540 ms :: 3 True
+/sdcard/854-1.BIN Reading image delay is 2590 ms Inference delay is 540 ms :: 1 True
+/sdcard/855-5.BIN Reading image delay is 2610 ms Inference delay is 540 ms :: 5 True
+/sdcard/856-1.BIN Reading image delay is 2610 ms Inference delay is 540 ms :: 1 True
+/sdcard/857-4.BIN Reading image delay is 2610 ms Inference delay is 540 ms :: 4 True
+/sdcard/858-8.BIN Reading image delay is 2610 ms Inference delay is 540 ms :: 8 True
+/sdcard/859-1.BIN Reading image delay is 2610 ms Inference delay is 540 ms :: 1 True
+/sdcard/860-8.BIN Reading image delay is 2610 ms Inference delay is 540 ms :: 8 True
+/sdcard/861-0.BIN Reading image delay is 2610 ms Inference delay is 540 ms :: 0 True
+/sdcard/862-3.BIN Reading image delay is 2610 ms Inference delay is 540 ms :: 3 True
+/sdcard/863-8.BIN Reading image delay is 2630 ms Inference delay is 540 ms :: 8 True
+/sdcard/864-8.BIN Reading image delay is 2630 ms Inference delay is 540 ms :: 8 True
+/sdcard/865-5.BIN Reading image delay is 2630 ms Inference delay is 540 ms :: 5 True
+/sdcard/866-0.BIN Reading image delay is 2630 ms Inference delay is 540 ms :: 0 True
+/sdcard/867-8.BIN Reading image delay is 2630 ms Inference delay is 540 ms :: 8 True
+/sdcard/868-3.BIN Reading image delay is 2630 ms Inference delay is 540 ms :: 3 True
+/sdcard/869-2.BIN Reading image delay is 2630 ms Inference delay is 540 ms :: 2 True
+/sdcard/870-2.BIN Reading image delay is 2630 ms Inference delay is 540 ms :: 2 True
+/sdcard/871-4.BIN Reading image delay is 2650 ms Inference delay is 540 ms :: 4 True
+/sdcard/872-2.BIN Reading image delay is 2650 ms Inference delay is 540 ms :: 2 True
+/sdcard/873-9.BIN Reading image delay is 2650 ms Inference delay is 540 ms :: 9 True
+/sdcard/874-7.BIN Reading image delay is 2650 ms Inference delay is 540 ms :: 7 True
+/sdcard/875-2.BIN Reading image delay is 2650 ms Inference delay is 540 ms :: 2 True
+/sdcard/876-7.BIN Reading image delay is 2650 ms Inference delay is 540 ms :: 7 True
+/sdcard/877-6.BIN Reading image delay is 2650 ms Inference delay is 540 ms :: 6 True
+/sdcard/878-3.BIN Reading image delay is 2650 ms Inference delay is 540 ms :: 3 True
+/sdcard/879-9.BIN Reading image delay is 2670 ms Inference delay is 540 ms :: 9 True
+/sdcard/880-6.BIN Reading image delay is 2670 ms Inference delay is 540 ms :: 6 True
+/sdcard/881-3.BIN Reading image delay is 2670 ms Inference delay is 540 ms :: 3 True
+/sdcard/882-6.BIN Reading image delay is 2670 ms Inference delay is 540 ms :: 6 True
+/sdcard/883-6.BIN Reading image delay is 2670 ms Inference delay is 540 ms :: 6 True
+/sdcard/884-7.BIN Reading image delay is 2670 ms Inference delay is 540 ms :: 7 True
+/sdcard/885-5.BIN Reading image delay is 2670 ms Inference delay is 540 ms :: 5 True
+/sdcard/886-9.BIN Reading image delay is 2670 ms Inference delay is 540 ms :: 9 True
+/sdcard/887-7.BIN Reading image delay is 2690 ms Inference delay is 540 ms :: 7 True
+/sdcard/888-9.BIN Reading image delay is 2690 ms Inference delay is 540 ms :: 9 True
+/sdcard/889-6.BIN Reading image delay is 2690 ms Inference delay is 540 ms :: 6 True
+/sdcard/890-9.BIN Reading image delay is 2690 ms Inference delay is 540 ms :: 9 True
+/sdcard/891-4.BIN Reading image delay is 2690 ms Inference delay is 540 ms :: 4 True
+/sdcard/892-7.BIN Reading image delay is 2690 ms Inference delay is 540 ms :: 7 True
+/sdcard/893-2.BIN Reading image delay is 2690 ms Inference delay is 540 ms :: 2 True
+/sdcard/894-4.BIN Reading image delay is 2690 ms Inference delay is 540 ms :: 4 True
+/sdcard/895-2.BIN Reading image delay is 2730 ms Inference delay is 540 ms :: 2 True
+/sdcard/896-0.BIN Reading image delay is 2730 ms Inference delay is 540 ms :: 0 True
+/sdcard/897-3.BIN Reading image delay is 2730 ms Inference delay is 540 ms :: 3 True
+/sdcard/898-4.BIN Reading image delay is 2730 ms Inference delay is 540 ms :: 4 True
+/sdcard/899-2.BIN Reading image delay is 2730 ms Inference delay is 540 ms :: 2 True
+ 5:08:06 CLI: /sdcard/900-1.BIN Reading image delay is 2730 ms Inference delay is 540 ms :: 1 True
+/sdcard/901-7.BIN Reading image delay is 2730 ms Inference delay is 540 ms :: 7 True
+/sdcard/902-7.BIN Reading image delay is 2730 ms Inference delay is 540 ms :: 7 True
+/sdcard/903-7.BIN Reading image delay is 2750 ms Inference delay is 540 ms :: 7 True
+/sdcard/904-3.BIN Reading image delay is 2750 ms Inference delay is 540 ms :: 3 True
+/sdcard/905-6.BIN Reading image delay is 2750 ms Inference delay is 540 ms :: 6 True
+/sdcard/906-7.BIN Reading image delay is 2750 ms Inference delay is 540 ms :: 7 True
+/sdcard/907-7.BIN Reading image delay is 2750 ms Inference delay is 540 ms :: 7 True
+/sdcard/908-4.BIN Reading image delay is 2750 ms Inference delay is 540 ms :: 4 True
+/sdcard/909-2.BIN Reading image delay is 2750 ms Inference delay is 540 ms :: 2 True
+/sdcard/910-0.BIN Reading image delay is 2750 ms Inference delay is 540 ms :: 0 True
+/sdcard/911-2.BIN Reading image delay is 2770 ms Inference delay is 540 ms :: 2 True
+/sdcard/912-0.BIN Reading image delay is 2770 ms Inference delay is 540 ms :: 0 True
+/sdcard/913-8.BIN Reading image delay is 2770 ms Inference delay is 540 ms :: 8 True
+/sdcard/914-8.BIN Reading image delay is 2770 ms Inference delay is 540 ms :: 8 True
+/sdcard/915-1.BIN Reading image delay is 2770 ms Inference delay is 540 ms :: 1 True
+/sdcard/916-7.BIN Reading image delay is 2770 ms Inference delay is 540 ms :: 7 True
+/sdcard/917-8.BIN Reading image delay is 2770 ms Inference delay is 540 ms :: 8 True
+/sdcard/918-5.BIN Reading image delay is 2770 ms Inference delay is 540 ms :: 5 True
+/sdcard/919-3.BIN Reading image delay is 2790 ms Inference delay is 540 ms :: 3 True
+/sdcard/920-9.BIN Reading image delay is 2790 ms Inference delay is 540 ms :: 9 True
+/sdcard/921-9.BIN Reading image delay is 2790 ms Inference delay is 540 ms :: 9 True
+/sdcard/922-3.BIN Reading image delay is 2790 ms Inference delay is 540 ms :: 3 True
+/sdcard/923-3.BIN Reading image delay is 2790 ms Inference delay is 540 ms :: 3 True
+/sdcard/924-4.BIN Reading image delay is 2790 ms Inference delay is 540 ms :: 4 True
+/sdcard/925-4.BIN Reading image delay is 2790 ms Inference delay is 540 ms :: 4 True
+/sdcard/926-4.BIN Reading image delay is 2790 ms Inference delay is 540 ms :: 4 True
+/sdcard/927-4.BIN Reading image delay is 2810 ms Inference delay is 540 ms :: 4 True
+/sdcard/928-3.BIN Reading image delay is 2810 ms Inference delay is 540 ms :: 3 True
+/sdcard/929-5.BIN Reading image delay is 2810 ms Inference delay is 540 ms :: 5 True
+/sdcard/930-4.BIN Reading image delay is 2810 ms Inference delay is 540 ms :: 4 True
+/sdcard/931-9.BIN Reading image delay is 2810 ms Inference delay is 540 ms :: 9 True
+/sdcard/932-7.BIN Reading image delay is 2810 ms Inference delay is 540 ms :: 7 True
+/sdcard/933-3.BIN Reading image delay is 2810 ms Inference delay is 540 ms :: 3 True
+/sdcard/934-2.BIN Reading image delay is 2810 ms Inference delay is 540 ms :: 2 True
+/sdcard/935-6.BIN Reading image delay is 2830 ms Inference delay is 540 ms :: 6 True
+/sdcard/936-3.BIN Reading image delay is 2830 ms Inference delay is 540 ms :: 3 True
+/sdcard/937-1.BIN Reading image delay is 2830 ms Inference delay is 540 ms :: 1 True
+/sdcard/938-1.BIN Reading image delay is 2830 ms Inference delay is 540 ms :: 1 True
+/sdcard/939-6.BIN Reading image delay is 2830 ms Inference delay is 540 ms :: 6 True
+/sdcard/940-0.BIN Reading image delay is 2830 ms Inference delay is 540 ms :: 0 True
+/sdcard/941-4.BIN Reading image delay is 2830 ms Inference delay is 540 ms :: 4 True
+/sdcard/942-1.BIN Reading image delay is 2830 ms Inference delay is 540 ms :: 1 True
+/sdcard/943-4.BIN Reading image delay is 2850 ms Inference delay is 540 ms :: 4 True
+/sdcard/944-5.BIN Reading image delay is 2860 ms Inference delay is 540 ms :: 5 True
+/sdcard/945-4.BIN Reading image delay is 2850 ms Inference delay is 540 ms :: 4 True
+/sdcard/946-2.BIN Reading image delay is 2850 ms Inference delay is 540 ms :: 2 True
+/sdcard/947-3.BIN Reading image delay is 2850 ms Inference delay is 540 ms :: 3 True
+/sdcard/948-7.BIN Reading image delay is 2850 ms Inference delay is 540 ms :: 7 True
+/sdcard/949-6.BIN Reading image delay is 2850 ms Inference delay is 540 ms :: 6 True
+/sdcard/950-3.BIN Reading image delay is 2850 ms Inference delay is 540 ms :: 3 True
+/sdcard/951-9.BIN Reading image delay is 2870 ms Inference delay is 540 ms :: 9 True
+/sdcard/952-8.BIN Reading image delay is 2870 ms Inference delay is 540 ms :: 8 True
+/sdcard/953-1.BIN Reading image delay is 2870 ms Inference delay is 540 ms :: 1 True
+/sdcard/954-8.BIN Reading image delay is 2870 ms Inference delay is 540 ms :: 8 True
+/sdcard/955-8.BIN Reading image delay is 2870 ms Inference delay is 540 ms :: 8 True
+/sdcard/956-3.BIN Reading image delay is 2870 ms Inference delay is 540 ms :: 3 True
+/sdcard/957-2.BIN Reading image delay is 2870 ms Inference delay is 540 ms :: 2 True
+/sdcard/958-4.BIN Reading image delay is 2870 ms Inference delay is 540 ms :: 4 True
+/sdcard/959-6.BIN Reading image delay is 2910 ms Inference delay is 540 ms :: 6 True
+/sdcard/960-5.BIN Reading image delay is 2910 ms Inference delay is 540 ms :: 5 True
+/sdcard/961-2.BIN Reading image delay is 2910 ms Inference delay is 540 ms :: 2 True
+/sdcard/962-3.BIN Reading image delay is 2910 ms Inference delay is 540 ms :: 3 True
+/sdcard/963-1.BIN Reading image delay is 2910 ms Inference delay is 540 ms :: 1 True
+/sdcard/964-4.BIN Reading image delay is 2910 ms Inference delay is 540 ms :: 4 True
+/sdcard/965-1.BIN Reading image delay is 2910 ms Inference delay is 540 ms :: 1 True
+/sdcard/966-7.BIN Reading image delay is 2910 ms Inference delay is 540 ms :: 7 True
+/sdcard/967-8.BIN Reading image delay is 2930 ms Inference delay is 540 ms :: 8 True
+/sdcard/968-2.BIN Reading image delay is 2930 ms Inference delay is 540 ms :: 2 True
+/sdcard/969-9.BIN Reading image delay is 2930 ms Inference delay is 540 ms :: 9 True
+/sdcard/970-4.BIN Reading image delay is 2930 ms Inference delay is 540 ms :: 4 True
+/sdcard/971-8.BIN Reading image delay is 2930 ms Inference delay is 540 ms :: 8 True
+/sdcard/972-1.BIN Reading image delay is 2930 ms Inference delay is 540 ms :: 1 True
+/sdcard/973-2.BIN Reading image delay is 2930 ms Inference delay is 540 ms :: 2 True
+/sdcard/974-0.BIN Reading image delay is 2930 ms Inference delay is 540 ms :: 0 True
+/sdcard/975-9.BIN Reading image delay is 2950 ms Inference delay is 540 ms :: 9 True
+/sdcard/976-7.BIN Reading image delay is 2950 ms Inference delay is 540 ms :: 7 True
+/sdcard/977-9.BIN Reading image delay is 2950 ms Inference delay is 540 ms :: 9 True
+/sdcard/978-2.BIN Reading image delay is 2950 ms Inference delay is 540 ms :: 2 True
+/sdcard/979-2.BIN Reading image delay is 2950 ms Inference delay is 540 ms :: 2 True
+/sdcard/980-8.BIN Reading image delay is 2950 ms Inference delay is 540 ms :: 8 True
+/sdcard/981-8.BIN Reading image delay is 2950 ms Inference delay is 540 ms :: 8 True
+/sdcard/982-9.BIN Reading image delay is 2950 ms Inference delay is 540 ms :: 9 True
+/sdcard/983-5.BIN Reading image delay is 2970 ms Inference delay is 540 ms :: 5 True
+/sdcard/984-7.BIN Reading image delay is 2970 ms Inference delay is 540 ms :: 7 True
+/sdcard/985-0.BIN Reading image delay is 2970 ms Inference delay is 540 ms :: 0 True
+/sdcard/986-5.BIN Reading image delay is 2970 ms Inference delay is 540 ms :: 5 True
+/sdcard/987-2.BIN Reading image delay is 2970 ms Inference delay is 540 ms :: 2 True
+/sdcard/988-3.BIN Reading image delay is 2970 ms Inference delay is 540 ms :: 3 True
+/sdcard/989-7.BIN Reading image delay is 2970 ms Inference delay is 540 ms :: 7 True
+/sdcard/990-0.BIN Reading image delay is 2970 ms Inference delay is 540 ms :: 0 True
+/sdcard/991-1.BIN Reading image delay is 2990 ms Inference delay is 540 ms :: 1 True
+/sdcard/992-1.BIN Reading image delay is 2990 ms Inference delay is 540 ms :: 1 True
+/sdcard/993-8.BIN Reading image delay is 2990 ms Inference delay is 540 ms :: 8 True
+/sdcard/994-1.BIN Reading image delay is 2990 ms Inference delay is 540 ms :: 1 True
+/sdcard/995-9.BIN Reading image delay is 2990 ms Inference delay is 540 ms :: 9 True
+/sdcard/996-3.BIN Reading image delay is 2990 ms Inference delay is 540 ms :: 3 True
+/sdcard/997-2.BIN Reading image delay is 2990 ms Inference delay is 540 ms :: 2 True
+/sdcard/998-8.BIN Reading image delay is 2990 ms Inference delay is 540 ms :: 8 True
+/sdcard/999-8.BIN Reading image delay is 3010 ms Inference delay is 540 ms :: 8 True
+ 5:14:30 CLI: /sdcard/1000-9.BIN Reading image delay is 3010 ms Inference delay is 540 ms :: 9 True
+/sdcard/1001-8.BIN Reading image delay is 3010 ms Inference delay is 540 ms :: 8 True
+/sdcard/1002-9.BIN Reading image delay is 3010 ms Inference delay is 540 ms :: 9 True
+/sdcard/1003-5.BIN Reading image delay is 3010 ms Inference delay is 540 ms :: 5 True
+/sdcard/1004-9.BIN Reading image delay is 3010 ms Inference delay is 540 ms :: 9 True
+/sdcard/1005-4.BIN Reading image delay is 3010 ms Inference delay is 540 ms :: 4 True
+/sdcard/1006-7.BIN Reading image delay is 3010 ms Inference delay is 540 ms :: 7 True
+/sdcard/1007-4.BIN Reading image delay is 3030 ms Inference delay is 540 ms :: 4 True
+/sdcard/1008-2.BIN Reading image delay is 3030 ms Inference delay is 540 ms :: 2 True
+/sdcard/1009-4.BIN Reading image delay is 3030 ms Inference delay is 540 ms :: 4 True
+/sdcard/1010-6.BIN Reading image delay is 3030 ms Inference delay is 540 ms :: 6 True
+/sdcard/1011-8.BIN Reading image delay is 3030 ms Inference delay is 540 ms :: 8 True
+/sdcard/1012-3.BIN Reading image delay is 3030 ms Inference delay is 540 ms :: 3 True
+/sdcard/1013-6.BIN Reading image delay is 3030 ms Inference delay is 540 ms :: 6 True
+/sdcard/1014-3.BIN Reading image delay is 3030 ms Inference delay is 540 ms :: 3 True
+/sdcard/1015-0.BIN Reading image delay is 3050 ms Inference delay is 540 ms :: 0 True
+/sdcard/1016-5.BIN Reading image delay is 3050 ms Inference delay is 540 ms :: 5 True
+/sdcard/1017-8.BIN Reading image delay is 3050 ms Inference delay is 540 ms :: 8 True
+/sdcard/1018-3.BIN Reading image delay is 3050 ms Inference delay is 540 ms :: 3 True
+/sdcard/1019-0.BIN Reading image delay is 3050 ms Inference delay is 540 ms :: 0 True
+/sdcard/1020-4.BIN Reading image delay is 3050 ms Inference delay is 540 ms :: 4 True
+/sdcard/1021-4.BIN Reading image delay is 3050 ms Inference delay is 540 ms :: 4 True
+/sdcard/1022-0.BIN Reading image delay is 3050 ms Inference delay is 540 ms :: 0 True
+/sdcard/1023-4.BIN Reading image delay is 3090 ms Inference delay is 540 ms :: 4 True
+/sdcard/1024-1.BIN Reading image delay is 3090 ms Inference delay is 540 ms :: 1 True
+/sdcard/1025-2.BIN Reading image delay is 3090 ms Inference delay is 540 ms :: 2 True
+/sdcard/1026-5.BIN Reading image delay is 3090 ms Inference delay is 540 ms :: 5 True
+/sdcard/1027-9.BIN Reading image delay is 3090 ms Inference delay is 540 ms :: 9 True
+/sdcard/1028-1.BIN Reading image delay is 3090 ms Inference delay is 540 ms :: 1 True
+/sdcard/1029-5.BIN Reading image delay is 3090 ms Inference delay is 540 ms :: 5 True
+/sdcard/1030-0.BIN Reading image delay is 3090 ms Inference delay is 540 ms :: 0 True
+/sdcard/1031-4.BIN Reading image delay is 3110 ms Inference delay is 540 ms :: 4 True
+/sdcard/1032-0.BIN Reading image delay is 3110 ms Inference delay is 540 ms :: 0 True
+/sdcard/1033-9.BIN Reading image delay is 3110 ms Inference delay is 540 ms :: 9 True
+/sdcard/1034-7.BIN Reading image delay is 3110 ms Inference delay is 540 ms :: 7 True
+/sdcard/1035-1.BIN Reading image delay is 3110 ms Inference delay is 540 ms :: 1 True
+/sdcard/1036-5.BIN Reading image delay is 3110 ms Inference delay is 540 ms :: 5 True
+/sdcard/1037-2.BIN Reading image delay is 3110 ms Inference delay is 540 ms :: 2 True
+/sdcard/1038-2.BIN Reading image delay is 3110 ms Inference delay is 540 ms :: 2 True
+/sdcard/1039-1.BIN Reading image delay is 3130 ms Inference delay is 540 ms :: 1 True
+/sdcard/1040-0.BIN Reading image delay is 3130 ms Inference delay is 540 ms :: 0 True
+/sdcard/1041-9.BIN Reading image delay is 3130 ms Inference delay is 540 ms :: 9 True
+/sdcard/1042-4.BIN Reading image delay is 3130 ms Inference delay is 540 ms :: 4 True
+/sdcard/1043-4.BIN Reading image delay is 3130 ms Inference delay is 540 ms :: 4 True
+/sdcard/1044-6.BIN Reading image delay is 3130 ms Inference delay is 540 ms :: 6 True
+/sdcard/1045-9.BIN Reading image delay is 3130 ms Inference delay is 540 ms :: 9 True
+/sdcard/1046-7.BIN Reading image delay is 3130 ms Inference delay is 540 ms :: 7 True
+/sdcard/1047-3.BIN Reading image delay is 3150 ms Inference delay is 540 ms :: 3 True
+/sdcard/1048-9.BIN Reading image delay is 3150 ms Inference delay is 540 ms :: 9 True
+/sdcard/1049-2.BIN Reading image delay is 3150 ms Inference delay is 540 ms :: 2 True
+/sdcard/1050-6.BIN Reading image delay is 3150 ms Inference delay is 540 ms :: 6 True
+/sdcard/1051-6.BIN Reading image delay is 3150 ms Inference delay is 540 ms :: 6 True
+/sdcard/1052-6.BIN Reading image delay is 3150 ms Inference delay is 540 ms :: 6 True
+/sdcard/1053-2.BIN Reading image delay is 3150 ms Inference delay is 540 ms :: 2 True
+/sdcard/1054-5.BIN Reading image delay is 3150 ms Inference delay is 540 ms :: 5 True
+/sdcard/1055-4.BIN Reading image delay is 3170 ms Inference delay is 540 ms :: 4 True
+/sdcard/1056-0.BIN Reading image delay is 3170 ms Inference delay is 540 ms :: 0 True
+/sdcard/1057-4.BIN Reading image delay is 3170 ms Inference delay is 540 ms :: 4 True
+/sdcard/1058-6.BIN Reading image delay is 3170 ms Inference delay is 540 ms :: 6 True
+/sdcard/1059-7.BIN Reading image delay is 3170 ms Inference delay is 540 ms :: 7 True
+/sdcard/1060-1.BIN Reading image delay is 3170 ms Inference delay is 540 ms :: 1 True
+/sdcard/1061-1.BIN Reading image delay is 3170 ms Inference delay is 540 ms :: 1 True
+/sdcard/1062-8.BIN Reading image delay is 3170 ms Inference delay is 540 ms :: 8 True
+/sdcard/1063-3.BIN Reading image delay is 3190 ms Inference delay is 540 ms :: 3 True
+/sdcard/1064-8.BIN Reading image delay is 3190 ms Inference delay is 540 ms :: 8 True
+/sdcard/1065-3.BIN Reading image delay is 3190 ms Inference delay is 540 ms :: 3 True
+/sdcard/1066-0.BIN Reading image delay is 3190 ms Inference delay is 540 ms :: 0 True
+/sdcard/1067-2.BIN Reading image delay is 3190 ms Inference delay is 540 ms :: 2 True
+/sdcard/1068-4.BIN Reading image delay is 3190 ms Inference delay is 540 ms :: 4 True
+/sdcard/1069-0.BIN Reading image delay is 3190 ms Inference delay is 540 ms :: 0 True
+/sdcard/1070-2.BIN Reading image delay is 3190 ms Inference delay is 540 ms :: 2 True
+/sdcard/1071-3.BIN Reading image delay is 3210 ms Inference delay is 540 ms :: 3 True
+/sdcard/1072-8.BIN Reading image delay is 3220 ms Inference delay is 540 ms :: 8 True
+/sdcard/1073-5.BIN Reading image delay is 3210 ms Inference delay is 540 ms :: 5 True
+/sdcard/1074-6.BIN Reading image delay is 3210 ms Inference delay is 540 ms :: 6 True
+/sdcard/1075-5.BIN Reading image delay is 3210 ms Inference delay is 540 ms :: 5 True
+/sdcard/1076-5.BIN Reading image delay is 3210 ms Inference delay is 540 ms :: 5 True
+/sdcard/1077-6.BIN Reading image delay is 3210 ms Inference delay is 540 ms :: 6 True
+/sdcard/1078-9.BIN Reading image delay is 3210 ms Inference delay is 540 ms :: 9 True
+/sdcard/1079-3.BIN Reading image delay is 3230 ms Inference delay is 540 ms :: 3 True
+/sdcard/1080-4.BIN Reading image delay is 3230 ms Inference delay is 540 ms :: 4 True
+/sdcard/1081-6.BIN Reading image delay is 3230 ms Inference delay is 540 ms :: 6 True
+/sdcard/1082-1.BIN Reading image delay is 3230 ms Inference delay is 540 ms :: 1 True
+/sdcard/1083-1.BIN Reading image delay is 3230 ms Inference delay is 540 ms :: 1 True
+/sdcard/1084-7.BIN Reading image delay is 3230 ms Inference delay is 540 ms :: 7 True
+/sdcard/1085-1.BIN Reading image delay is 3230 ms Inference delay is 540 ms :: 1 True
+/sdcard/1086-4.BIN Reading image delay is 3230 ms Inference delay is 540 ms :: 4 True
+/sdcard/1087-8.BIN Reading image delay is 3270 ms Inference delay is 540 ms :: 8 True
+/sdcard/1088-9.BIN Reading image delay is 3270 ms Inference delay is 540 ms :: 9 True
+/sdcard/1089-9.BIN Reading image delay is 3270 ms Inference delay is 540 ms :: 9 True
+/sdcard/1090-9.BIN Reading image delay is 3270 ms Inference delay is 540 ms :: 9 True
+/sdcard/1091-1.BIN Reading image delay is 3270 ms Inference delay is 540 ms :: 1 True
+/sdcard/1092-4.BIN Reading image delay is 3270 ms Inference delay is 540 ms :: 4 True
+/sdcard/1093-9.BIN Reading image delay is 3270 ms Inference delay is 540 ms :: 9 True
+/sdcard/1094-9.BIN Reading image delay is 3270 ms Inference delay is 540 ms :: 9 True
+/sdcard/1095-8.BIN Reading image delay is 3290 ms Inference delay is 540 ms :: 8 True
+/sdcard/1096-1.BIN Reading image delay is 3290 ms Inference delay is 540 ms :: 1 True
+/sdcard/1097-2.BIN Reading image delay is 3290 ms Inference delay is 540 ms :: 2 True
+/sdcard/1098-3.BIN Reading image delay is 3290 ms Inference delay is 540 ms :: 3 True
+/sdcard/1099-9.BIN Reading image delay is 3290 ms Inference delay is 540 ms :: 9 True
+ 5:21:20 CLI: /sdcard/1100-0.BIN Reading image delay is 3290 ms Inference delay is 540 ms :: 0 True
+/sdcard/1101-1.BIN Reading image delay is 3290 ms Inference delay is 540 ms :: 1 True
+/sdcard/1102-9.BIN Reading image delay is 3290 ms Inference delay is 540 ms :: 9 True
+/sdcard/1103-9.BIN Reading image delay is 3310 ms Inference delay is 540 ms :: 9 True
+/sdcard/1104-4.BIN Reading image delay is 3310 ms Inference delay is 540 ms :: 4 True
+/sdcard/1105-7.BIN Reading image delay is 3310 ms Inference delay is 540 ms :: 7 True
+/sdcard/1106-1.BIN Reading image delay is 3310 ms Inference delay is 540 ms :: 1 True
+/sdcard/1107-7.BIN Reading image delay is 3310 ms Inference delay is 540 ms :: 7 True
+/sdcard/1108-1.BIN Reading image delay is 3310 ms Inference delay is 540 ms :: 1 True
+/sdcard/1109-1.BIN Reading image delay is 3310 ms Inference delay is 540 ms :: 1 True
+/sdcard/1110-9.BIN Reading image delay is 3310 ms Inference delay is 540 ms :: 9 True
+/sdcard/1111-5.BIN Reading image delay is 3330 ms Inference delay is 540 ms :: 5 True
+/sdcard/1112-3.BIN Reading image delay is 3330 ms Inference delay is 540 ms :: 3 True
+/sdcard/1113-1.BIN Reading image delay is 3330 ms Inference delay is 540 ms :: 1 True
+/sdcard/1114-6.BIN Reading image delay is 3330 ms Inference delay is 540 ms :: 6 True
+/sdcard/1115-8.BIN Reading image delay is 3330 ms Inference delay is 540 ms :: 8 True
+/sdcard/1116-2.BIN Reading image delay is 3330 ms Inference delay is 540 ms :: 2 True
+/sdcard/1117-4.BIN Reading image delay is 3330 ms Inference delay is 540 ms :: 4 True
+/sdcard/1118-2.BIN Reading image delay is 3330 ms Inference delay is 540 ms :: 2 True
+/sdcard/1119-7.BIN Reading image delay is 3350 ms Inference delay is 540 ms :: 7 True
+/sdcard/1120-3.BIN Reading image delay is 3350 ms Inference delay is 540 ms :: 3 True
+/sdcard/1121-2.BIN Reading image delay is 3350 ms Inference delay is 540 ms :: 2 True
+/sdcard/1122-7.BIN Reading image delay is 3350 ms Inference delay is 540 ms :: 7 True
+/sdcard/1123-4.BIN Reading image delay is 3350 ms Inference delay is 540 ms :: 4 True
+/sdcard/1124-4.BIN Reading image delay is 3350 ms Inference delay is 540 ms :: 4 True
+/sdcard/1125-5.BIN Reading image delay is 3350 ms Inference delay is 540 ms :: 5 True
+/sdcard/1126-7.BIN Reading image delay is 3350 ms Inference delay is 540 ms :: 7 True
+/sdcard/1127-8.BIN Reading image delay is 3370 ms Inference delay is 540 ms :: 8 True
+/sdcard/1128-6.BIN Reading image delay is 3370 ms Inference delay is 540 ms :: 6 True
+/sdcard/1129-6.BIN Reading image delay is 3370 ms Inference delay is 540 ms :: 6 True
+/sdcard/1130-5.BIN Reading image delay is 3370 ms Inference delay is 540 ms :: 5 True
+/sdcard/1131-8.BIN Reading image delay is 3370 ms Inference delay is 540 ms :: 8 True
+/sdcard/1132-9.BIN Reading image delay is 3370 ms Inference delay is 540 ms :: 9 True
+/sdcard/1133-9.BIN Reading image delay is 3370 ms Inference delay is 540 ms :: 9 True
+/sdcard/1134-8.BIN Reading image delay is 3370 ms Inference delay is 540 ms :: 8 True
+/sdcard/1135-1.BIN Reading image delay is 3390 ms Inference delay is 540 ms :: 1 True
+/sdcard/1136-5.BIN Reading image delay is 3390 ms Inference delay is 540 ms :: 5 True
+/sdcard/1137-0.BIN Reading image delay is 3390 ms Inference delay is 540 ms :: 0 True
+/sdcard/1138-5.BIN Reading image delay is 3390 ms Inference delay is 540 ms :: 5 True
+/sdcard/1139-9.BIN Reading image delay is 3390 ms Inference delay is 540 ms :: 9 True
+/sdcard/1140-0.BIN Reading image delay is 3390 ms Inference delay is 540 ms :: 0 True
+/sdcard/1141-3.BIN Reading image delay is 3390 ms Inference delay is 540 ms :: 3 True
+/sdcard/1142-8.BIN Reading image delay is 3390 ms Inference delay is 540 ms :: 8 True
+/sdcard/1143-2.BIN Reading image delay is 3410 ms Inference delay is 540 ms :: 2 True
+/sdcard/1144-8.BIN Reading image delay is 3410 ms Inference delay is 540 ms :: 8 True
+/sdcard/1145-9.BIN Reading image delay is 3410 ms Inference delay is 540 ms :: 9 True
+/sdcard/1146-8.BIN Reading image delay is 3410 ms Inference delay is 540 ms :: 8 True
+/sdcard/1147-2.BIN Reading image delay is 3410 ms Inference delay is 540 ms :: 2 True
+/sdcard/1148-9.BIN Reading image delay is 3410 ms Inference delay is 540 ms :: 9 True
+/sdcard/1149-1.BIN Reading image delay is 3410 ms Inference delay is 540 ms :: 1 True
+/sdcard/1150-5.BIN Reading image delay is 3410 ms Inference delay is 540 ms :: 5 True
+/sdcard/1151-5.BIN Reading image delay is 3450 ms Inference delay is 540 ms :: 5 True
+/sdcard/1152-9.BIN Reading image delay is 3450 ms Inference delay is 540 ms :: 9 True
+/sdcard/1153-7.BIN Reading image delay is 3450 ms Inference delay is 540 ms :: 7 True
+/sdcard/1154-8.BIN Reading image delay is 3450 ms Inference delay is 540 ms :: 8 True
+/sdcard/1155-1.BIN Reading image delay is 3450 ms Inference delay is 540 ms :: 1 True
+/sdcard/1156-7.BIN Reading image delay is 3450 ms Inference delay is 540 ms :: 7 True
+/sdcard/1157-4.BIN Reading image delay is 3450 ms Inference delay is 540 ms :: 4 True
+/sdcard/1158-6.BIN Reading image delay is 3450 ms Inference delay is 540 ms :: 6 True
+/sdcard/1159-6.BIN Reading image delay is 3470 ms Inference delay is 540 ms :: 6 True
+/sdcard/1160-5.BIN Reading image delay is 3470 ms Inference delay is 540 ms :: 5 True
+/sdcard/1161-8.BIN Reading image delay is 3470 ms Inference delay is 540 ms :: 8 True
+/sdcard/1162-9.BIN Reading image delay is 3470 ms Inference delay is 540 ms :: 9 True
+/sdcard/1163-6.BIN Reading image delay is 3470 ms Inference delay is 540 ms :: 6 True
+/sdcard/1164-7.BIN Reading image delay is 3470 ms Inference delay is 540 ms :: 7 True
+/sdcard/1165-8.BIN Reading image delay is 3470 ms Inference delay is 540 ms :: 8 True
+/sdcard/1166-5.BIN Reading image delay is 3470 ms Inference delay is 540 ms :: 5 True
+/sdcard/1167-0.BIN Reading image delay is 3490 ms Inference delay is 540 ms :: 0 True
+/sdcard/1168-0.BIN Reading image delay is 3490 ms Inference delay is 540 ms :: 0 True
+/sdcard/1169-2.BIN Reading image delay is 3490 ms Inference delay is 540 ms :: 2 True
+/sdcard/1170-9.BIN Reading image delay is 3490 ms Inference delay is 540 ms :: 9 True
+/sdcard/1171-0.BIN Reading image delay is 3490 ms Inference delay is 540 ms :: 0 True
+/sdcard/1172-9.BIN Reading image delay is 3490 ms Inference delay is 540 ms :: 9 True
+/sdcard/1173-2.BIN Reading image delay is 3490 ms Inference delay is 540 ms :: 2 True
+/sdcard/1174-8.BIN Reading image delay is 3490 ms Inference delay is 540 ms :: 8 True
+/sdcard/1175-5.BIN Reading image delay is 3510 ms Inference delay is 540 ms :: 5 True
+/sdcard/1176-3.BIN Reading image delay is 3510 ms Inference delay is 540 ms :: 3 True
+/sdcard/1177-5.BIN Reading image delay is 3510 ms Inference delay is 540 ms :: 5 True
+/sdcard/1178-4.BIN Reading image delay is 3510 ms Inference delay is 540 ms :: 4 True
+/sdcard/1179-9.BIN Reading image delay is 3510 ms Inference delay is 540 ms :: 9 True
+/sdcard/1180-0.BIN Reading image delay is 3510 ms Inference delay is 540 ms :: 0 True
+/sdcard/1181-8.BIN Reading image delay is 3510 ms Inference delay is 540 ms :: 8 True
+/sdcard/1182-5.BIN Reading image delay is 3510 ms Inference delay is 540 ms :: 5 True
+/sdcard/1183-1.BIN Reading image delay is 3530 ms Inference delay is 540 ms :: 1 True
+/sdcard/1184-0.BIN Reading image delay is 3530 ms Inference delay is 540 ms :: 0 True
+/sdcard/1185-5.BIN Reading image delay is 3530 ms Inference delay is 540 ms :: 5 True
+/sdcard/1186-4.BIN Reading image delay is 3530 ms Inference delay is 540 ms :: 4 True
+/sdcard/1187-9.BIN Reading image delay is 3530 ms Inference delay is 540 ms :: 9 True
+/sdcard/1188-3.BIN Reading image delay is 3530 ms Inference delay is 540 ms :: 3 True
+/sdcard/1189-7.BIN Reading image delay is 3530 ms Inference delay is 540 ms :: 7 True
+/sdcard/1190-6.BIN Reading image delay is 3530 ms Inference delay is 540 ms :: 6 True
+/sdcard/1191-4.BIN Reading image delay is 3550 ms Inference delay is 540 ms :: 4 True
+/sdcard/1192-1.BIN Reading image delay is 3550 ms Inference delay is 540 ms :: 1 True
+/sdcard/1193-0.BIN Reading image delay is 3550 ms Inference delay is 540 ms :: 0 True
+/sdcard/1194-2.BIN Reading image delay is 3550 ms Inference delay is 540 ms :: 2 True
+/sdcard/1195-2.BIN Reading image delay is 3550 ms Inference delay is 540 ms :: 2 True
+/sdcard/1196-2.BIN Reading image delay is 3550 ms Inference delay is 540 ms :: 2 True
+/sdcard/1197-8.BIN Reading image delay is 3550 ms Inference delay is 540 ms :: 8 True
+/sdcard/1198-9.BIN Reading image delay is 3550 ms Inference delay is 540 ms :: 9 True
+/sdcard/1199-0.BIN Reading image delay is 3570 ms Inference delay is 540 ms :: 0 True

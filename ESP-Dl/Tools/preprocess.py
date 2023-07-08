@@ -4,10 +4,7 @@ def decrese_dimention(images,size,val):
     return images.reshape((images.shape[0],images.shape[1],images.shape[2]))
 
 def expand_dimention(images,size,val):
-    if not val:
-        return images[:, :, :, None]
-    else:
-        return images[:,:, :,None]
+    return images[:, :, :, None]
 
 def normalise_image(images,size,val):
     return images / 255.0

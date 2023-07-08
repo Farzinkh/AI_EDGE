@@ -373,13 +373,6 @@ if __name__ == "__main__":
         os.makedirs(destination)
     count=0
     for img in tqdm(X):
-        #img=preprocess(img)
-        if(Format=="int8"):
-            img=img.astype(np.uint8)
-            #img = np.array(img, dtype=np.uint8)
-        else:
-            img=img.astype(np.uint16)
-            #img = np.array(img, dtype=np.uint16)
         img=np.reshape(img, -1)
         img.tofile(destination+"/"+str(count)+'-'+str(Y[count])+'.bin')
         count=count+1

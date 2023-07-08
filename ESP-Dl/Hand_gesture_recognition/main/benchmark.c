@@ -65,7 +65,7 @@ static int inference_benchmark_handler(int argc,char *argv[])
     char partialtext[81];
     //char text[sizeof(partialtext)*verbose];
     char * text;
-    text= (char*)malloc(sizeof(partialtext)*(verbose+5));
+    text= (char*)malloc(sizeof(partialtext)*(verbose+7));
     memset(text,0,strlen(text));
     int nStatus;
     struct stat sFileStatus;
@@ -116,7 +116,7 @@ static int inference_benchmark_handler(int argc,char *argv[])
                 }
                 bufferlocated=true;
             }
-            else if(0 == (f = fopen(address, "rb")))
+            if(0 == (f = fopen(address, "rb")))
             {
                 ESP_LOGE(SDTAG, "Failed to open file for reading");
                 continue;
@@ -159,8 +159,9 @@ static int inference_benchmark_handler(int argc,char *argv[])
                 counter -=1;
             }
             vTaskDelay(xDelay);
+            free(pBuffer);
+            bufferlocated=false;
         }
-        free(pBuffer);
         closedir(d);
     }
     const char *src = FLASH_MOUNT_POINT"/report.txt";
