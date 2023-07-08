@@ -1,6 +1,6 @@
 # Deploy a Model Step by Step
 
-This tutorial shows how to deploy a model with the [my Toolkit](../tools/model_builder.py) and run benchmark using SD Card.
+This tutorial shows how to deploy a model with the [my Toolkit](../Tools/model_builder.py) and run benchmark using SD Card.
 
 Note: For a model quantized on other platforms:
 - If the quantization scheme (e.g. TFLite int8 model) is different from that of ESP-DL then the model cannot be deployed with ESP-DL.

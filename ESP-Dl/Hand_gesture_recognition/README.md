@@ -1,6 +1,6 @@
 # Deploy a Model Step by Step
 
-This tutorial shows how to deploy a model with the [my Toolkit](../tools/model_builder.py) and run benchmark using SD Card.
+This tutorial shows how to deploy a model with the [my Toolkit](../Tools/model_builder.py) and run benchmark using SD Card.
 
 Note: For a model quantized on other platforms:
 - If the quantization scheme (e.g. TFLite int8 model) is different from that of ESP-DL then the model cannot be deployed with ESP-DL.
@@ -41,14 +41,19 @@ And you will see the following log which includes the quantized coefficients for
 ```python
 
 Quantized model info:
-model input name: input, exponent: -15
-Reshape layer name: sequential/flatten/Reshape, output_exponent: -15
-Gemm layer name: fused_gemm_0, output_exponent: -11
-Gemm layer name: fused_gemm_1, output_exponent: -11
-Gemm layer name: fused_gemm_2, output_exponent: -9
+model input name: conv2d_input, exponent: 1
+Reshape layer name: StatefulPartitionedCall/sequential/conv2d/BiasAdd__6, output_exponent: 1
+Conv layer name: StatefulPartitionedCall/sequential/conv2d/BiasAdd, output_exponent: 1
+MaxPool layer name: StatefulPartitionedCall/sequential/max_pooling2d/MaxPool, output_exponent: 1
+Transpose layer name: StatefulPartitionedCall/sequential/max_pooling2d/MaxPool__12, output_exponent: 1
+Reshape layer name: StatefulPartitionedCall/sequential/flatten/Reshape, output_exponent: 1
+Gemm layer name: fused_gemm_0, output_exponent: 1
+Gemm layer name: fused_gemm_1, output_exponent: 0
+Softmax layer name: StatefulPartitionedCall/sequential/dense_1/Softmax, output_exponent: -6
+
 ```
 
-Now you will asked to enter `-15,-11,-11,-9` as desired exponents. note that you dont need to enter reshape layer exponent value.
+Now you will asked to enter `1,1,1,0,-6` as desired exponents. note that you dont need to enter reshape,transpose and maxpool layers exponent values.
 
 For more information about quantization toolkit API, please refer to [Quantization Toolkit API](https://github.com/espressif/esp-dl/blob/master/tools/quantization_tool/quantization_tool_api.md).
 
