@@ -68,10 +68,11 @@ For more information about quantization toolkit API, please refer to [Quantizati
 
 # Step 3: Run Your Model
 
-In terminal after ESP booted enter `run_benchmark` command or enter `help` to receive more information.
+In terminal after ESP booted enter `run_benchmark` command or enter `help` to receive more information. After the benchmark is finished, all the records are automatically copied to the sdcard as `report.txt` file so that you can extract it on a PC.
 
 
 # Results
+Finally, to evaluate result run [analysis script](../Tools/analysis.py) and provide actual path of record file.
 
 <center>
 

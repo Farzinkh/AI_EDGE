@@ -40,14 +40,14 @@ And you will see the following log which includes the quantized coefficients for
 ```python
 
 Quantized model info:
-model input name: input, exponent: -15
-Reshape layer name: sequential/flatten/Reshape, output_exponent: -15
-Gemm layer name: fused_gemm_0, output_exponent: -11
-Gemm layer name: fused_gemm_1, output_exponent: -11
-Gemm layer name: fused_gemm_2, output_exponent: -9
+model input name: input, exponent: 1
+Reshape layer name: sequential/flatten/Reshape, output_exponent: 1
+Gemm layer name: fused_gemm_0, output_exponent: 5
+Gemm layer name: fused_gemm_1, output_exponent: 6
+Gemm layer name: fused_gemm_2, output_exponent: 7
 ```
 
-Now you will asked to enter `-15,-11,-11,-9` as desired exponents. note that you dont need to enter reshape layer exponent value.
+Now you will asked to enter `1,5,6,7` as desired exponents. note that you dont need to enter reshape layer exponent value.
 
 For more information about quantization toolkit API, please refer to [Quantization Toolkit API](https://github.com/espressif/esp-dl/blob/master/tools/quantization_tool/quantization_tool_api.md).
 
@@ -62,18 +62,20 @@ For more information about quantization toolkit API, please refer to [Quantizati
 
 # Step 3: Run Your Model
 
-In terminal after ESP booted enter `run_benchmark` command or enter `help` to receive more information.
+In terminal after ESP booted enter `run_benchmark` command or enter `help` to receive more information. After the benchmark is finished, all the records are automatically copied to the sdcard as `report.txt` file so that you can extract it on a PC.
 
 
 # Results
-
+Finally, to evaluate result run [analysis script](../Tools/analysis.py) and provide actual path of record file.
 
 <center>
 
 | SoC      | description         | delay  | accuracy |
 |----------|:-------------------:|:------:|---------:|
-| ESP32    |INT8 & 2 dense layers| 20ms   | 40.58    |
-| ESP32    |INT8 & 3 dense layers| 21ms   | 74.58    |
+| ESP32    |INT8 & 2 dense layers as Conv2| 19.89 ms   | 70.41    |
+| ESP32    |INT8 & 3 dense layers as Conv2| 20.55 ms   | 74.75    |
+| ESP32    |INT8 & 2 dense layers as Fully connected| 20.05 ms   | 70.41    |
+| ESP32    |INT8 & 3 dense layers as Fully connected| 21.06 ms   | 74.75    |
 
 </center>
 

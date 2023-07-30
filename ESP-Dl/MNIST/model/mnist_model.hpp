@@ -6,6 +6,7 @@
 #include "dl_layer_max_pool2d.hpp"
 #include "dl_layer_softmax.hpp"
 #include "dl_layer_transpose.hpp"
+#include "dl_layer_fullyconnected.hpp"
 #include "mnist_coefficient.hpp"
 #include <stdint.h>
 
@@ -17,15 +18,15 @@ class MNIST : public Model<int8_t>
 {
 private:
 	Reshape<int8_t> l1;
-	Conv2D<int8_t> l2;
+	FullyConnected<int8_t> l2;
 
 public:
-	Conv2D<int8_t> l3;
+	FullyConnected<int8_t> l3;
 
 	MNIST () :
 				l1(Reshape<int8_t>({1,1,784},"l1_reshape")),
-				l2(Conv2D<int8_t>(5, get_fused_gemm_0_filter(), get_fused_gemm_0_bias(), NULL, PADDING_VALID, {}, 1, 1, "l2")),
-				l3(Conv2D<int8_t>(8, get_fused_gemm_1_filter(), get_fused_gemm_1_bias(), NULL, PADDING_VALID, {}, 1, 1, "l3")){}
+				l2(FullyConnected<int8_t>(6, get_fused_gemm_0_filter(), get_fused_gemm_0_bias(), get_fused_gemm_0_activation(),true, "l2")),
+				l3(FullyConnected<int8_t>(8, get_fused_gemm_1_filter(), get_fused_gemm_1_bias(), NULL,true, "l3")){}
 				void build(Tensor<int8_t> &input)
 	{
 		this->l1.build(input,true);

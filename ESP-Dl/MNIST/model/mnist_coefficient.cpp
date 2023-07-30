@@ -210,7 +210,7 @@ namespace mnist_coefficient
     const static __attribute__((aligned(16))) int8_t fused_gemm_0_bias_element[] = {
              0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0};
 
-    const static Bias<int8_t> fused_gemm_0_bias(fused_gemm_0_bias_element, 5, {128,});
+    const static Bias<int8_t> fused_gemm_0_bias(fused_gemm_0_bias_element, 6, {128,});
     const Bias<int8_t> *get_fused_gemm_0_bias()
     {
     	return &fused_gemm_0_bias;

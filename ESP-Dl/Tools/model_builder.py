@@ -87,7 +87,10 @@ if __name__ == "__main__":
         with open(pickle_calibration_data_path, 'rb') as f:
             (calib_images,calib_labels)= pickle.load(f)
     except:
-        calib_images = test_images[0:len(test_images):int(len(test_images)/100)]
+        if len(test_images)<=1200:
+            calib_images=test_images
+        else:
+            calib_images = test_images[0:len(test_images):int(len(test_images)/100)]
 
     #Pre-process----------------------------
     print("Original shape:",test_images.shape)
@@ -103,7 +106,7 @@ if __name__ == "__main__":
     onnx.checker.check_model(model_proto)
 
     print('Generating the quantization table:')
-    calib = Calibrator(Format, 'per-tensor', 'minmax') #'per-channel'  'per-tensor'   'entropy' 'minmax'
+    calib = Calibrator(Format, 'per-tensor', 'minmax') # Granularity: 'per-channel'  'per-tensor'   Method: 'entropy' 'minmax'
     calib.set_providers(['CPUExecutionProvider'])
     calib.generate_quantization_table(model_proto, calib_images, pickle_file_path)
     calib.export_coefficient_to_cpp(model_proto, pickle_file_path, SoC, '.', '{}_coefficient'.format(model_name.lower()), True)
@@ -130,18 +133,22 @@ if __name__ == "__main__":
     reshape_info=[]
     conv_dense_info=[]
     transpose_info=[]
+    activation_flag=False
     for node,info in itertools.zip_longest(model_proto.graph.node,model_proto.graph.value_info):
+        print('L{}:{} {}'.format('?',node.op_type,node.name))    
         if node.op_type=="Transpose" or node.op_type=="Relu":
+            if node.op_type=="Relu":
+                s,_=conv_dense_info[-1]
+                conv_dense_info[-1]=[s,True]
             continue
         else:
-            print('{} {}'.format(node.op_type,node.name))    
             if node.op_type=='Conv':
                 s=node.name.replace('/','_').lower()
-                conv_dense_info.append(s)
+                conv_dense_info.append([s,activation_flag])
                 layers_name.append('Conv2D')
             elif node.op_type=='Gemm':
-                conv_dense_info.append("fused_gemm_"+str(gemcount))
-                layers_name.append('Conv2D')
+                conv_dense_info.append(["fused_gemm_"+str(gemcount),activation_flag])
+                layers_name.append('FullyConnected')
                 gemcount+=1
             elif node.op_type=='MaxPool':
                 maxpols_info.append([node.attribute[0].ints,node.attribute[1].ints])
@@ -162,7 +169,6 @@ if __name__ == "__main__":
                 layers_name.append("Transpose")
             print('L{}:{} {} ok'.format(layer,node.op_type,node.name))
             layer+=1
-
     batch_size = 100
     batch_num = int(len(test_images) / batch_size)
     res = 0
@@ -184,7 +190,7 @@ if __name__ == "__main__":
 
     print('Creating {}_model.hpp'.format(model_name.lower()))
     s="#pragma once\n"
-    s=s+"#include \"dl_layer_model.hpp\"\n#include \"dl_layer_relu.hpp\"\n#include \"dl_layer_reshape.hpp\"\n#include \"dl_layer_conv2d.hpp\"\n#include \"dl_layer_max_pool2d.hpp\"\n#include \"dl_layer_softmax.hpp\"\n#include \"dl_layer_transpose.hpp\"\n#include \"{}_coefficient.hpp\"\n#include <stdint.h>\n".format(model_name.lower())
+    s=s+"#include \"dl_layer_model.hpp\"\n#include \"dl_layer_relu.hpp\"\n#include \"dl_layer_reshape.hpp\"\n#include \"dl_layer_conv2d.hpp\"\n#include \"dl_layer_max_pool2d.hpp\"\n#include \"dl_layer_softmax.hpp\"\n#include \"dl_layer_transpose.hpp\"\n#include \"dl_layer_fullyconnected.hpp\"\n#include \"{}_coefficient.hpp\"\n#include <stdint.h>\n".format(model_name.lower())
     s=s+"\nusing namespace dl;\nusing namespace layer;\nusing namespace {}_coefficient;\n\n".format(model_name.lower())
     s=s+"class {} : public Model{}".format(model_name,Format_type)+'\n{\n'
     s=s+"private:\n"
@@ -205,16 +211,25 @@ if __name__ == "__main__":
             else:
                 s=s+"l{}(Reshape{}({{1,1,{}}},\"l{}_reshape\")),".format(k,Format_type,reshape_info[count2][0],k)+'\n\t\t\t\t'
             count2+=1
-        elif v=='Conv2D' and k==(len(layers_name)-1):
-            s=s+"l{}(Conv2D{}({}, get_{}_filter(), get_{}_bias(), NULL, PADDING_VALID, {{}}, 1, 1, \"l{}\")),".format(k,Format_type,exponents[exponent_index],conv_dense_info[count3],conv_dense_info[count3],k)+'\n\t\t\t\t' 
+        elif (v=='Conv2D' or v=='FullyConnected') and not conv_dense_info[count3][1] and not k==(len(layers_name)):
+            if v=='Conv2D':
+                s=s+"l{}(Conv2D{}({}, get_{}_filter(), get_{}_bias(), NULL, PADDING_VALID, {{}}, 1, 1, \"l{}\")),".format(k,Format_type,exponents[exponent_index],conv_dense_info[count3][0],conv_dense_info[count3][0],k)+'\n\t\t\t\t' 
+            else:
+                s=s+"l{}(FullyConnected{}({}, get_{}_filter(), get_{}_bias(), NULL,true, \"l{}\")),".format(k,Format_type,exponents[exponent_index],conv_dense_info[count3][0],conv_dense_info[count3][0],k)+'\n\t\t\t\t' 
             exponent_index+=1
             count3+=1
-        elif v=='Conv2D' and k==(len(layers_name)):
-            s=s+"l{}(Conv2D{}({}, get_{}_filter(), get_{}_bias(), NULL, PADDING_VALID, {{}}, 1, 1, \"l{}\")){{}}".format(k,Format_type,exponents[exponent_index],conv_dense_info[count3],conv_dense_info[count3],k)+'\n\t\t\t\t' 
+        elif (v=='Conv2D' or v=='FullyConnected')  and k==(len(layers_name)):
+            if v=='Conv2D':
+                s=s+"l{}(Conv2D{}({}, get_{}_filter(), get_{}_bias(), NULL, PADDING_VALID, {{}}, 1, 1, \"l{}\")){{}}".format(k,Format_type,exponents[exponent_index],conv_dense_info[count3][0],conv_dense_info[count3][0],k)+'\n\t\t\t\t' 
+            else:
+                s=s+"l{}(FullyConnected{}({}, get_{}_filter(), get_{}_bias(), NULL,true, \"l{}\")){{}}".format(k,Format_type,exponents[exponent_index],conv_dense_info[count3][0],conv_dense_info[count3][0],k)+'\n\t\t\t\t' 
             exponent_index+=1
             count3+=1
-        elif v=='Conv2D':    
-            s=s+"l{}(Conv2D{}({}, get_{}_filter(), get_{}_bias(), get_{}_activation(), PADDING_VALID, {{}}, 1, 1, \"l{}\")),".format(k,Format_type,exponents[exponent_index],conv_dense_info[count3],conv_dense_info[count3],conv_dense_info[count3],k)+'\n\t\t\t\t'
+        elif v=='Conv2D' or v=='FullyConnected':    
+            if v=='Conv2D':
+                s=s+"l{}(Conv2D{}({}, get_{}_filter(), get_{}_bias(), get_{}_activation(), PADDING_VALID, {{}}, 1, 1, \"l{}\")),".format(k,Format_type,exponents[exponent_index],conv_dense_info[count3][0],conv_dense_info[count3][0],conv_dense_info[count3][0],k)+'\n\t\t\t\t'
+            else:
+                s=s+"l{}(FullyConnected{}({}, get_{}_filter(), get_{}_bias(), get_{}_activation(),true, \"l{}\")),".format(k,Format_type,exponents[exponent_index],conv_dense_info[count3][0],conv_dense_info[count3][0],conv_dense_info[count3][0],k)+'\n\t\t\t\t' 
             exponent_index+=1
             count3+=1
         elif v=="MaxPool2D":
