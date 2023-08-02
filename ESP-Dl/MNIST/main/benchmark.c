@@ -16,6 +16,7 @@
 #include <dirent.h>
 
 #include <sys/stat.h>
+#include <inttypes.h>
 
 static int stop;
 static const char *TAG = "CLI";
@@ -135,10 +136,10 @@ static int inference_benchmark_handler(int argc,char *argv[])
             write_time = esp_timer_get_time();
             if (detect==type)
             {
-                sprintf(partialtext,"%s Reading image delay is %hu ms Inference delay is %hu ms :: %d True",address,read_image_time, detect_time,detect);
+                sprintf(partialtext,"%s Reading image delay is %" PRIu32 " ms Inference delay is %" PRIu32 " ms :: %d True",address,read_image_time, detect_time,detect);
                 
             } else {
-                sprintf(partialtext,"%s Reading image delay is %hu ms Inference delay is %hu ms :: %d False",address,read_image_time, detect_time,detect);
+                sprintf(partialtext,"%s Reading image delay is %" PRIu32 " ms Inference delay is %" PRIu32 " ms :: %d False",address,read_image_time, detect_time,detect);
             }
             v-=1;
             if (v==0){
@@ -147,11 +148,11 @@ static int inference_benchmark_handler(int argc,char *argv[])
                 memset(text,0,strlen(text));
                 v=verbose;
                 write_time = (esp_timer_get_time() - write_time )/1000;
-                ESP_LOGI(SDTAG,"%hu ms %hu ms",read_image_time,write_time);
+                ESP_LOGI(SDTAG,"%" PRIu32" ms %" PRIu32" ms",read_image_time,write_time);
             } else {
                 strcat(text,partialtext);
                 strcat(text,"\n");
-                ESP_LOGI(SDTAG,"%hu ms",read_image_time);
+                ESP_LOGI(SDTAG,"%" PRIu32" ms",read_image_time);
             }
             if (counter==0){
                 break;
@@ -225,7 +226,7 @@ static void esp_cli_task(void *arg)
         memset(linebuf, 0, sizeof(linebuf));
         i = 0;
         do {
-            ret = xQueueReceive(uart_queue, (void * )&event, (portTickType)portMAX_DELAY);
+            ret = xQueueReceive(uart_queue, (void * )&event, (TickType_t)portMAX_DELAY);
             if (ret != pdPASS) {
                 if(stop == 1) {
                     break;

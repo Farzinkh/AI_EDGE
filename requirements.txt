@@ -13,3 +13,7 @@ tf2onnx==1.13.0
 tqdm==4.64.0
 
 tomli==1.2.2
+
+matplotlib
+
+scikit-learn

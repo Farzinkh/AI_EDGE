@@ -8,9 +8,9 @@ This repository created for experimental study for deploying Deep neural network
 
 ## Software requirements
 
-[ESP-IDF V4.4.x](https://github.com/espressif/esp-idf).
+[ESP-IDF V5.x](https://github.com/espressif/esp-idf).
 
-Python 3.8 or later.
+Python 3.7.
 
 ## Instalation steps
 

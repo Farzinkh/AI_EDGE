@@ -389,6 +389,9 @@ if __name__ == "__main__":
     count=0
     for img in tqdm(X):
         img=np.reshape(img, -1)
+        if(Format=="int16") and np.max(img)<=255:
+            img=(img/255)*65535
+            img=img.astype(np.uint16)
         img.tofile(destination+"/"+str(count)+'-'+str(Y[count])+'.bin')
         count=count+1
         
