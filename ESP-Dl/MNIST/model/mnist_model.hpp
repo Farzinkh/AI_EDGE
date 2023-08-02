@@ -19,19 +19,22 @@ class MNIST : public Model<int8_t>
 private:
 	Reshape<int8_t> l1;
 	FullyConnected<int8_t> l2;
+	FullyConnected<int8_t> l3;
 
 public:
-	FullyConnected<int8_t> l3;
+	FullyConnected<int8_t> l4;
 
 	MNIST () :
 				l1(Reshape<int8_t>({1,1,784},"l1_reshape")),
-				l2(FullyConnected<int8_t>(6, get_fused_gemm_0_filter(), get_fused_gemm_0_bias(), get_fused_gemm_0_activation(),true, "l2")),
-				l3(FullyConnected<int8_t>(8, get_fused_gemm_1_filter(), get_fused_gemm_1_bias(), NULL,true, "l3")){}
+				l2(FullyConnected<int8_t>(5, get_fused_gemm_0_filter(), get_fused_gemm_0_bias(), get_fused_gemm_0_activation(),true, "l2")),
+				l3(FullyConnected<int8_t>(6, get_fused_gemm_1_filter(), get_fused_gemm_1_bias(), get_fused_gemm_1_activation(),true, "l3")),
+				l4(FullyConnected<int8_t>(7, get_fused_gemm_2_filter(), get_fused_gemm_2_bias(), NULL,true, "l4")){}
 				void build(Tensor<int8_t> &input)
 	{
 		this->l1.build(input,true);
 		this->l2.build(this->l1.get_output(),true);
 		this->l3.build(this->l2.get_output(),true);
+		this->l4.build(this->l3.get_output(),true);
 	}
 	void call(Tensor<int8_t> &input)
 	{
@@ -43,6 +46,9 @@ public:
 
 		this->l3.call(this->l2.get_output());
 		this->l2.get_output().free_element();
+
+		this->l4.call(this->l3.get_output());
+		this->l3.get_output().free_element();
 	}
 
 };

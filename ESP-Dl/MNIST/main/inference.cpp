@@ -74,7 +74,7 @@ int run_inference(void *image)
 	#endif
 
 	//parse
-	auto *score = model.l3.get_output().get_element_ptr();
+	auto *score = model.l4.get_output().get_element_ptr();
 	auto max_score = score[0];
 	int max_index = 0;
 

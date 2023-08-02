@@ -76,7 +76,8 @@ Finally, to evaluate result run [analysis script](../Tools/analysis.py) and prov
 | ESP32    |INT8 & 3 dense layers as Conv2| 20.55 ms   | 74.75    |
 | ESP32    |INT8 & 2 dense layers as Fully connected| 20.05 ms   | 70.41    |
 | ESP32    |INT8 & 3 dense layers as Fully connected| 21.06 ms   | 74.75    |
-
+| ESP32s3    |INT8 & 2 dense layers as Fully connected| 4.03 ms   | 70.35    |
+| ESP32s3    |INT8 & 3 dense layers as Fully connected| 4.15 ms   | 74.68    |
 </center>
 
 <p align="center">

@@ -1,6 +1,6 @@
 [model]
 model_name = "MNIST"
-model_path = "mnist_model_2dense_layers.onnx"
+model_path = "mnist_model_3dense_layers.onnx"
 pickle_test_data_path= "Test.pkl"
 pickle_calibration_data_path=""
 class_names=['0','1','2','3','4','5','6','7','8','9']
@@ -10,7 +10,7 @@ preprocess_required=false
 preprocess_list=[]
 
 [deploy]
-SoC= "esp32"
+SoC= "esp32s3"
 Format= "int8"
 
 
