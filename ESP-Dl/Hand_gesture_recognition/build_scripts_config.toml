@@ -10,7 +10,7 @@ preprocess_required=true
 preprocess_list=['expand_dimention']
 
 [deploy]
-SoC= "esp32"
+SoC= "esp32s3"
 Format= "int8"
 
 

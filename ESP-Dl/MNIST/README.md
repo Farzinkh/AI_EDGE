@@ -79,7 +79,9 @@ Finally, to evaluate result run [analysis script](../Tools/analysis.py) and prov
 | ESP32s3    |INT8 & 2 dense layers as Fully connected| 4.03 ms   | 70.35    |
 | ESP32s3    |INT8 & 3 dense layers as Fully connected| 4.15 ms   | 74.68    |
 </center>
-
+<p align="center">
+    <img width="%" src="./logs/Quantization.png">
+</p>
 <p align="center">
     <img width="%" src="./logs/REPORT_1200_INT8_3Dense.png"> 
 </p>

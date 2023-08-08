@@ -380,7 +380,16 @@ if __name__ == "__main__":
     data=pickle.load(f)
     f.close()
     X,Y=data
-    print("Number of instances:",len(Y),'shape:',X[0].shape)
+    # X=X[0]
+    # Y=Y[0]
+    # count=0
+    # destination=args.project+"/put_my_content_on_sdcard"
+    # img=np.reshape(X, -1)
+    # img.tofile(destination+"/"+str(count)+'-'+str(Y)+'.bin')
+    # count=count+1
+    X=X[0:1200]
+    Y=Y[0:1200]
+    print("Number of instances:",len(Y),'shape:',X[0].shape,'type:',X.dtype)
     destination=args.project+"/put_my_content_on_sdcard"
     if os.path.exists(destination):
         pass
@@ -389,9 +398,10 @@ if __name__ == "__main__":
     count=0
     for img in tqdm(X):
         img=np.reshape(img, -1)
-        if(Format=="int16") and np.max(img)<=255:
-            img=(img/255)*65535
-            img=img.astype(np.uint16)
+        # img=bytearray(img.tolist())
+        # binary_file = open(destination+"/"+str(count)+'-'+str(Y[count])+'.bin', "wb")
+        # binary_file.write(img)
+        # binary_file.close()
         img.tofile(destination+"/"+str(count)+'-'+str(Y[count])+'.bin')
         count=count+1
         
@@ -399,4 +409,4 @@ if __name__ == "__main__":
         limg=np.fromfile(destination+"/"+str(count-1)+'-'+str(Y[count-1])+'.bin', dtype=np.int8)
     else:
         limg=np.fromfile(destination+"/"+str(count-1)+'-'+str(Y[count-1])+'.bin', dtype=np.int16)
-    print("Final shape: {}".format(limg.shape))
+    print("Final shape:",limg.shape,limg.dtype,np.max(limg),np.min(limg))

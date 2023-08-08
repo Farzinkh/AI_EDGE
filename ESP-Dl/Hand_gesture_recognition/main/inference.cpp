@@ -13,7 +13,7 @@
 int input_height = 96;
 int input_width = 96;
 int input_channel = 1;
-int input_exponent = 1;
+int input_exponent = 0;
 int size=input_height*input_width*input_channel;
 static const char *TAG = "INF";
 

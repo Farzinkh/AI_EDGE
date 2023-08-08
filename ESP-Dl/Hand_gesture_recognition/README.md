@@ -78,12 +78,16 @@ Finally, to evaluate result run [analysis script](../Tools/analysis.py) and prov
 
 | SoC      | description         | delay  | accuracy |
 |----------|:-------------------:|:------:|---------:|
-| ESP32    | INT8 | 540ms   | 99.91    |
+| ESP32    | INT8 | 527ms   | 99.83    |
+| ESP32S3  | INT8 | 403ms   | 99.75
 
 </center>
 
 </center>
 
+<p align="center">
+    <img width="%" src="./logs/Quantization.png">
+</p>
 <p align="center">
     <img width="%" src="./logs/REPORT_1200_INT8.png"> 
 </p>

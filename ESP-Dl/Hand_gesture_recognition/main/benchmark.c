@@ -116,6 +116,7 @@ static int inference_benchmark_handler(int argc,char *argv[])
                     continue;
                 }
                 bufferlocated=true;
+                ESP_LOGI(SDTAG, "buffer in size of %d allocated.",nBufferSize);
             }
             if(0 == (f = fopen(address, "rb")))
             {

@@ -29,8 +29,8 @@ public:
 				l1(Conv2D<int8_t>(1, get_statefulpartitionedcall_sequential_conv2d_biasadd_filter(), get_statefulpartitionedcall_sequential_conv2d_biasadd_bias(), get_statefulpartitionedcall_sequential_conv2d_biasadd_activation(), PADDING_VALID, {}, 1, 1, "l1")),
 				l2(MaxPool2D<int8_t>({5,5},PADDING_VALID,{}, 5, 5, "l2")),
 				l3(Reshape<int8_t>({1,1,2592},"l3_reshape")),
-				l4(Conv2D<int8_t>(1, get_fused_gemm_0_filter(), get_fused_gemm_0_bias(), get_fused_gemm_0_activation(), PADDING_VALID, {}, 1, 1, "l4")),
-				l5(Conv2D<int8_t>(0, get_fused_gemm_1_filter(), get_fused_gemm_1_bias(), NULL, PADDING_VALID, {}, 1, 1, "l5")),
+				l4(Conv2D<int8_t>(2, get_fused_gemm_0_filter(), get_fused_gemm_0_bias(), get_fused_gemm_0_activation(), PADDING_VALID, {}, 1, 1, "l4")),
+				l5(Conv2D<int8_t>(1, get_fused_gemm_1_filter(), get_fused_gemm_1_bias(), NULL, PADDING_VALID, {}, 1, 1, "l5")),
 				l6(Softmax<int8_t>(-6,"l6")){}
 	void build(Tensor<int8_t> &input)
 	{
