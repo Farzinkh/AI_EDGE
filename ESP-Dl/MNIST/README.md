@@ -25,6 +25,8 @@ In order to be deployed, the trained floating-point model must be converted to a
 
 To faciliate next steps a config file is provided which is required by model_builder script.
 
+For example chnage "Format" to "int16" if you trained model by int16 dataset or change "SoC" to "ESP32" if you want to deploy model on ESP32.
+
 ## Step 1.3: Convert to ESP-DL Format and Quantize
 
 The calibrator in the quantization toolkit can quantize a floating-point model to an integer model which is compatible with ESP-DL. For post-training quantization, please prepare the calibration dataset (can be the subset of training dataset or validation dataset).
@@ -67,6 +69,9 @@ In terminal after ESP booted enter `run_benchmark` command or enter `help` to re
 
 # Results
 Finally, to evaluate result run [analysis script](../Tools/analysis.py) and provide actual path of record file.
+```python
+ python analysis.py -l <Path to REPORT.TXT>
+```
 
 <center>
 
